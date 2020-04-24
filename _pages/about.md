@@ -24,6 +24,7 @@ Teaching Experience
 
 Publication
 ======
+* Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo, Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus, Under Review In Diabetes/Metabolism Research and Reviews.
 * **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang, [CANZSL: Cycle-Consistent Adversarial Networks for Zero-Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822), WACV 2020
 * Jie Wen, Zheng Zhang, **Zhi Chen**, Li Liu, Zi Huang, Lunke Fei, Generalized IncompleteMulti-view Clustering with Flexible Locality Structure Diffusion, Under Review In IEEE Transaction on Multimedia
 * **Zhi Chen**, Yadan Luo, [Cycle-Consistent Diverse Image Synthesis from Natural Language](https://ieeexplore.ieee.org/iel7/8777006/8794861/08795022.pdf), ICMEW 2019
