@@ -24,7 +24,7 @@ Teaching Experience
 
 Publication
 ======
-* **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang, Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches, ACM Multimedia 2020.
+* **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang, [Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf), ACM Multimedia 2020.
 * Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo, Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus, Under Review In Diabetes/Metabolism Research and Reviews.
 * **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang, [CANZSL: Cycle-Consistent Adversarial Networks for Zero-Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822), The IEEE Winter Conference on Applications of Computer Vision (WACV) 2020
 * **Zhi Chen**, Yadan Luo, [Cycle-Consistent Diverse Image Synthesis from Natural Language](https://ieeexplore.ieee.org/iel7/8777006/8794861/08795022.pdf), IEEE International Conference on Multimedia & Expo Workshops 2019
