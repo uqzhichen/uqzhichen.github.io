@@ -25,6 +25,7 @@ Teaching Experience
 
 Publication
 ======
+* **Zhi Chen**, Zi Huang, Jingjing Li, Zheng Zhang, [Entropy-Based Uncertainty Calibration for Generalized Zero-Shot Learning](https://arxiv.org/pdf/2101.03292.pdf), 2021 Australasian Database Conference.
 * **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang, [Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf), ACM Multimedia 2020.
 * Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo, [Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427), Diabetes/Metabolism Research and Reviews. (accepted)
 * **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang, [CANZSL: Cycle-Consistent Adversarial Networks for Zero-Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822), The IEEE Winter Conference on Applications of Computer Vision (WACV) 2020
