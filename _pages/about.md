@@ -25,13 +25,12 @@ Teaching Experience
 
 Publication
 ======
-* Weihao Wang<sup>\*</sup>, **Zhi Chen**<sup>\*</sup>, Sen Wang, Qi Pan, Lixin Guo, [Application of novel subgroups of Chinese inpatients with diabetes based on machine learning paradigm], Submitted to Diabetes, Obesity and Metabolism. 
+* Weihao Wang<sup>\*</sup>, **Zhi Chen**<sup>\*</sup>, Sen Wang, Qi Pan, Lixin Guo, [Application of novel subgroups of Chinese inpatients with diabetes based on machine learning paradigm], Submitted to Diabetes, Obesity and Metabolism. (Co-first author) #These authors contributed equally to the manuscript
 * **Zhi Chen**, Zi Huang, Jingjing Li, Zheng Zhang, [Entropy-Based Uncertainty Calibration for Generalized Zero-Shot Learning](https://arxiv.org/pdf/2101.03292.pdf), 2021 Australasian Database Conference. (Best student paper – Highly Commended)
 * **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang, [Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf), ACM Multimedia 2020. (Core A*)
-* Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo, [Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427), Diabetes/Metabolism Research and Reviews. (accepted) 
+* Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo, [Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427), Diabetes/Metabolism Research and Reviews. (Impact facotr: 3.3)
 * **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang, [CANZSL: Cycle-Consistent Adversarial Networks for Zero-Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822), The IEEE Winter Conference on Applications of Computer Vision (WACV) 2020. (Core A)
 * **Zhi Chen**, Yadan Luo, [Cycle-Consistent Diverse Image Synthesis from Natural Language](https://ieeexplore.ieee.org/iel7/8777006/8794861/08795022.pdf), IEEE International Conference on Multimedia & Expo Workshops 2019
-
 
 Project Experience
 ------
