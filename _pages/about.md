@@ -32,6 +32,12 @@ Publication
 * **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang, [CANZSL: Cycle-Consistent Adversarial Networks for Zero-Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822), The IEEE Winter Conference on Applications of Computer Vision (WACV) 2020. (Core A)
 * **Zhi Chen**, Yadan Luo, [Cycle-Consistent Diverse Image Synthesis from Natural Language](https://ieeexplore.ieee.org/iel7/8777006/8794861/08795022.pdf), IEEE International Conference on Multimedia & Expo Workshops 2019
 
+Services
+======
+
+1. Serving as the invited conference reviewer for **ACM Multimedia**, **Australasian Database Conference**; the external reviewer for **KDD**, **CIKM**.
+2. Serving as the invited journal reviewer for **IEEE Journal of Biomedical and Health Informatics**, **Diabetes, Obesity and Metabolism**.
+
 Project Experience
 ------
 * **GovHack Website 2019**
