@@ -35,8 +35,8 @@ Publication
 Services
 ======
 
-1. Serving as the invited conference reviewer for **ACM Multimedia**, **Australasian Database Conference (ADC)**; the external reviewer for **CVPR**, **KDD**, **SIGIR**, **CIKM**, **VLDB**.
-2. Serving as the invited journal reviewer for **IEEE Journal of Biomedical and Health Informatics (JBHI)**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**.
+1. Serving as the invited conference reviewer for **ACM MM**, **ADC**; the external reviewer for **CVPR**, **KDD**, **SIGIR**, **CIKM**, **VLDB**.
+2. Serving as the invited journal reviewer for **JBHI**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**.
 
 Project Experience
 ------
