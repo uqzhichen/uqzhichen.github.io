@@ -36,7 +36,7 @@ Services
 ======
 
 1. Serving as the invited conference reviewer for **ACM MM**, **ADC**; the external reviewer for **CVPR**, **KDD**, **SIGIR**, **CIKM**, **VLDB**.
-2. Serving as the invited journal reviewer for **JBHI**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**.
+2. Serving as the invited journal reviewer for **JBHI**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**, **CIM**.
 
 Project Experience
 ------
