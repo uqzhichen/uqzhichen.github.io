@@ -16,7 +16,7 @@ His research interests mainly include zero-shot learning, image generation, medi
 
 Publication
 ======
-* **Zhi Chen**, Yadan Luo, Sen Wang, Ruihong Qiu, Jingjing Li, Zi Wang, [Mitigating Generation Shifts for Generalized Zero-Shot Learning](https://arxiv.org/abs/2107.03163), ACM Multimedia 2021. (Core A*)
+* **Zhi Chen**, Yadan Luo, Sen Wang, Ruihong Qiu, Jingjing Li, Zi Huang, [Mitigating Generation Shifts for Generalized Zero-Shot Learning](https://arxiv.org/abs/2107.03163), ACM Multimedia 2021. (Core A*)
 * Ruihong Qiu, Sen Wang, **Zhi Chen**, Hongzhi Yin, Zi Huang, CausalRec: Causal Inference for Visual Debiasing in Visually-Aware Recommendation, ACM Multimedia 2021. (Core A*)
 * Yudong Chen, Sen Wang, Jianlin Lu, **Zhi Chen**, Zheng Zhang, Zi Huang, Local Graph Convolutional Networks for Cross-Modal Hashing, ACM Multimedia 2021. (Core A*)
 * Fuming You, Jingjing Li, Lei Zhu, **Zhi Chen**, Zi Wang, Domain Adaptive Semantic Segmentation without Source Data, ACM Multimedia 2021. (Core A*)
