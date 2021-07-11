@@ -12,13 +12,6 @@ Zhi Chen is a currently a PhD Candidate in School of ITEE, The University of Que
 His research interests mainly include zero-shot learning, image generation, medical data analysis, computer vision & deep learning.
 
 
-Teaching Experience
-======
-* Semester 1&2, 2020 - Supervision for Master Thesis Project 
-* Semester 2, 2020 - INFS3208/7208 Cloud Computing 
-* Semester 1, 2020 - INFS3202/7202 Web information systems
-* Semester 2, 2019 - INFS3208/7208 Cloud Computing
-* Semester 1, 2019 - INFS3202/7202 Web information systems
 
 
 Publication
@@ -37,5 +30,14 @@ Publication
 Services
 ======
 
-1. Serving as the PC member for **ACM MM**, **CIKM**, **ADC**; the external reviewer for **CVPR**, **KDD**, **SIGIR**, **VLDB**.
+1. Serving as the PC member for **ACM MM**, **CIKM**, **ADC**; the external reviewer for **CVPR**, **ICCV**, **KDD**, **SIGIR**, **VLDB**.
 2. Serving as the invited journal reviewer for **JBHI**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**, **CIM**.
+
+Teaching Experience
+======
+* Semester 1&2, 2020 - Supervision for Master Thesis Project 
+* Semester 2, 2020 - INFS3208/7208 Cloud Computing 
+* Semester 1, 2020 - INFS3202/7202 Web information systems
+* Semester 2, 2019 - INFS3208/7208 Cloud Computing
+* Semester 1, 2019 - INFS3202/7202 Web information systems
+
