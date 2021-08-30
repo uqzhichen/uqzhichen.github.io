@@ -31,11 +31,13 @@ Publication
 Services
 ======
 
-1. Serving as the PC member for **ACM MM**, **CIKM**, **ADC**; the external reviewer for **CVPR**, **ICCV**, **KDD**, **SIGIR**, **VLDB**.
+1. Serving as the PC member for **AAAI**, **ACM MM**, **CIKM**, **ADC**; the external reviewer for **CVPR**, **ICCV**, **KDD**, **SIGIR**, **VLDB**.
 2. Serving as the invited journal reviewer for **JBHI**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**, **CIM**.
 
 Teaching Experience
 ======
+* Semester 2, 2021 - DATA7901 Data Science Capstone Project 1
+* Semester 2, 2021 - INFS3208 Cloud Computing (Head Tutor)
 * Semester 1&2, 2020 - Supervision for Master Thesis Project 
 * Semester 2, 2020 - INFS3208/7208 Cloud Computing 
 * Semester 1, 2020 - INFS3202/7202 Web information systems
