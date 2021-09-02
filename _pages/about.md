@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Zhi Chen is a currently a PhD Candidate in School of ITEE, The University of Queensland, supervised by [Prof. Zi (Helen) Huang](http://staff.itee.uq.edu.au/huang/). He also received his Master degree from the University of Queensland.
+Zhi Chen is a currently a PhD Student in School of ITEE, The University of Queensland, supervised by [Prof. Zi (Helen) Huang](http://staff.itee.uq.edu.au/huang/). He also received his Master degree from the University of Queensland.
 
 His research interests mainly include zero-shot learning, image generation, medical data analysis, computer vision & deep learning.
 
