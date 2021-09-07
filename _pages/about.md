@@ -20,7 +20,7 @@ Publication
 * **Zhi Chen**, Yadan Luo, Sen Wang, Ruihong Qiu, Jingjing Li, Zi Huang, [Mitigating Generation Shifts for Generalized Zero-Shot Learning](https://arxiv.org/abs/2107.03163), ACM Multimedia 2021. (Core A*)
 * Ruihong Qiu, Sen Wang, **Zhi Chen**, Hongzhi Yin, Zi Huang, [CausalRec: Causal Inference for Visual Debiasing in Visually-Aware Recommendation](https://arxiv.org/abs/2107.02390), ACM Multimedia 2021. (Core A*)
 * Yudong Chen, Sen Wang, Jianlin Lu, **Zhi Chen**, Zheng Zhang, Zi Huang, Local Graph Convolutional Networks for Cross-Modal Hashing, ACM Multimedia 2021. (Core A*)
-* Fuming You, Jingjing Li, Lei Zhu, **Zhi Chen**, Zi Wang, Domain Adaptive Semantic Segmentation without Source Data, ACM Multimedia 2021. (Core A*)
+* Fuming You, Jingjing Li, Lei Zhu, **Zhi Chen**, Zi Huang, Domain Adaptive Semantic Segmentation without Source Data, ACM Multimedia 2021. (Core A*)
 * Weihao Wang<sup>\*</sup>, **Zhi Chen**<sup>\*</sup>, Sen Wang, Qi Pan, Lixin Guo, Application of novel subgroups of Chinese inpatients with diabetes based on machine learning paradigm, Submitted to Diabetes, Obesity and Metabolism. \*These authors contributed equally to the manuscript
 * **Zhi Chen**, Zi Huang, Jingjing Li, Zheng Zhang, [Entropy-Based Uncertainty Calibration for Generalized Zero-Shot Learning](https://arxiv.org/pdf/2101.03292.pdf), 2021 Australasian Database Conference. (Best student paper – Highly Commended)
 * **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang, [Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf), ACM Multimedia 2020. (Core A*)
