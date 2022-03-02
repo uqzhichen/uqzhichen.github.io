@@ -16,7 +16,7 @@ His research interests mainly include zero-shot learning, image generation, medi
 
 Publication
 ======
-* Hongzu Su, Jingjing Li, **Zhi Chen**, Lei Zhu, Ke Lu, [Distinguishing Unseen from Seen for Generalized Zero-shot Learning], Conference on Computer Vision and Pattern Recognition (CVPR) 2022. (Core A*)
+* Hongzu Su, Jingjing Li, **Zhi Chen**, Lei Zhu, Ke Lu, Distinguishing Unseen from Seen for Generalized Zero-shot Learning, Conference on Computer Vision and Pattern Recognition (CVPR) 2022. (Core A*)
 * **Zhi Chen**, Yadan Luo, Ruihong Qiu, Sen Wang, Zi Huang, Jingjing Li, Zheng Zhang, [Semantics Disentangling for Generalized Zero-Shot Learning](https://arxiv.org/pdf/2101.07978.pdf), International Conference on Computer Vision (ICCV) 2021. (Core A*)
 * **Zhi Chen**, Yadan Luo, Sen Wang, Ruihong Qiu, Jingjing Li, Zi Huang, [Mitigating Generation Shifts for Generalized Zero-Shot Learning](https://arxiv.org/abs/2107.03163), ACM Multimedia 2021. (Core A*)
 * Ruihong Qiu, Sen Wang, **Zhi Chen**, Hongzhi Yin, Zi Huang, [CausalRec: Causal Inference for Visual Debiasing in Visually-Aware Recommendation](https://arxiv.org/abs/2107.02390), ACM Multimedia 2021. (Core A*)
