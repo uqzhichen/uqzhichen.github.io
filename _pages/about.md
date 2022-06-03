@@ -32,7 +32,7 @@ Publication
 Services
 ======
 
-1. Serving as the PC member for **CVPR**, **AAAI**, **ACM MM**, **CIKM**, **ICME**, **ICMR**, **ADC**; the external reviewer for **ICCV**, **KDD**, **SIGIR**, **VLDB**.
+1. Serving as the PC member for **CVPR**, **ECCV**, **AAAI**, **ACM MM**, **CIKM**, **ICME**, **ICMR**, **ADC**; the external reviewer for **ICCV**, **KDD**, **SIGIR**, **VLDB**.
 2. Serving as the invited journal reviewer for **JBHI**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**, **CIM**.
 
 Teaching Experience
