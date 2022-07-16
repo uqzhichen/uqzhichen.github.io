@@ -19,7 +19,7 @@ Publication
 
 * Fuming You, Jingjing Li, **Zhi Chen**, Lei Zhu, Pixel Exclusion: Uncertainty-aware Boundary Discovery for Active Cross-Domain Semantic Segmentation, ACM Multimedia 2022. (Core A*)
 * Weihao Wang, **Zhi Chen**,  Sen Wang, Fei Chen, Mingqun Deng, Qi Pan, Lixin Guo, [Application of novel subgroups of Chinese inpatients with diabetes based on machine learning paradigm](https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709), Diabetes & Metabolic Syndrome: Clinical Research & Reviews. 2022.
-* **Zhi Chen**, Yadan Luo, Sen Wang, Jingjing Li, Zi Huang, GSMFlow: Generation Shifts Mitigating Flow for Generalized Zero-Shot Learning, IEEE Transactions on Multimedia. (Core A*) (IF: 8.182)
+* **Zhi Chen**, Yadan Luo, Sen Wang, Jingjing Li, Zi Huang, [GSMFlow: Generation Shifts Mitigating Flow for Generalized Zero-Shot Learning, IEEE Transactions on Multimedia](https://arxiv.org/abs/2207.01798). (Core A*) (IF: 8.182)
 * Hongzu Su, Jingjing Li, **Zhi Chen**, Lei Zhu, Ke Lu, [Distinguishing Unseen from Seen for Generalized Zero-shot Learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Su_Distinguishing_Unseen_From_Seen_for_Generalized_Zero-Shot_Learning_CVPR_2022_paper.pdf), Conference on Computer Vision and Pattern Recognition (CVPR) 2022. (Core A*)
 * **Zhi Chen**, Yadan Luo, Ruihong Qiu, Sen Wang, Zi Huang, Jingjing Li, Zheng Zhang, [Semantics Disentangling for Generalized Zero-Shot Learning](https://arxiv.org/pdf/2101.07978.pdf), International Conference on Computer Vision (ICCV) 2021. (Core A*)
 * **Zhi Chen**, Yadan Luo, Sen Wang, Ruihong Qiu, Jingjing Li, Zi Huang, [Mitigating Generation Shifts for Generalized Zero-Shot Learning](https://arxiv.org/abs/2107.03163), ACM Multimedia 2021. (Core A*)
