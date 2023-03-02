@@ -34,9 +34,14 @@ Publication
 
 Services
 ======
+Conference Reviewers
 
-1. Serving as the PC member for **CVPR**, **ECCV**, **WACV**, **AAAI**, **ACM MM**, **CIKM**, **ICME**, **ICMR**, **ADC**; the external reviewer for **ICCV**, **KDD**, **SIGIR**, **VLDB**.
-2. Serving as the invited journal reviewer for **JBHI**, **Diabetes, Obesity and Metabolism**; the external reviewer for **TCYB**, **TIP**, **TMM**, **VLDBJ**, **TKDE**, **CIM**.
+* IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2023
+* IEEE/CVF International Conference on Computer Vision (ICCV) 2023
+* European Conference on Computer Vision (ECCV) 2022
+* ACM Multimedia (MM) 2021-2022
+* AAAI Conf. on Artificial Intelligence (AAAI) 2022-2023
+* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023
 
 Teaching Experience
 ======
