@@ -17,6 +17,7 @@ His research interests mainly include zero-shot learning, generative modelling, 
 Publication
 ======
 * **Zhi Chen**, Pengfei Zhang, Jingjing Li, Sen Wang, Zi Huang, [Zero-Shot Learning by Harnessing Adversarial Samples](https://arxiv.org/pdf/2308.00313.pdf), ACM International Conference on Multimedia (MM) 2023. (Core A*)
+* Zixin Wang, Yadan Luo, **Zhi Chen**, Sen Wang, Zi Huang, [Cal-SFDA: Source-Free Domain-adaptive Semantic Segmentation with Differentiable Expected Calibration Error](), ACM International Conference on Multimedia (MM) 2023. (Core A*)
 * Fuming You, Jingjing Li, **Zhi Chen**, Lei Zhu, [Pixel Exclusion: Uncertainty-aware Boundary Discovery for Active Cross-Domain Semantic Segmentation](https://dl.acm.org/doi/abs/10.1145/3503161.3548079), ACM International Conference on Multimedia (MM) 2022. (Core A*)
 * Weihao Wang, **Zhi Chen**,  Sen Wang, Fei Chen, Mingqun Deng, Qi Pan, Lixin Guo, [Application of novel subgroups of Chinese inpatients with diabetes based on machine learning paradigm](https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709), Diabetes & Metabolic Syndrome: Clinical Research & Reviews. 2022.
 * **Zhi Chen**, Yadan Luo, Sen Wang, Jingjing Li, Zi Huang, [GSMFlow: Generation Shifts Mitigating Flow for Generalized Zero-Shot Learning](https://arxiv.org/abs/2207.01798), IEEE Transactions on Multimedia (TMM). (Core A*) (IF: 8.182)
