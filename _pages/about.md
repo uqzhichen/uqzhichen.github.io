@@ -35,17 +35,21 @@ Publication
 
 Services
 ======
-Conference Reviewers
+Reviewer
 
-* IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2023
+* IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2024
 * IEEE/CVF International Conference on Computer Vision (ICCV) 2023
 * European Conference on Computer Vision (ECCV) 2022
 * ACM Multimedia (MM) 2021-2023
 * AAAI Conf. on Artificial Intelligence (AAAI) 2022-2023
 * IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023
-
+* International Journal of Computer Vision 2024
+* IEEE Transactions on Multimedia 2022-2023
+* IEEE Transactions on Cognitive and Developmental Systems 2023
+  
 Teaching Experience
 ======
+* Semester 2, 2023 - DATA7002 Responsible Data Science (co-lecturer)
 * Semester 2, 2021 - DATA7901 Data Science Capstone Project 1
 * Semester 2, 2021 - INFS3208 Cloud Computing (Head Tutor)
 * Semester 1&2, 2020 - Supervision for Master Thesis Project 
