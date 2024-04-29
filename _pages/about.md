@@ -45,6 +45,7 @@ Reviewer
 * IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023
 * International Journal of Computer Vision 2024
 * IEEE Transactions on Multimedia 2022-2023
+* IEEE Transactions on Circuits and Systems for Video Technology 2023-2024
 * IEEE Transactions on Cognitive and Developmental Systems 2023
   
 Teaching Experience
