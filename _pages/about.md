@@ -24,6 +24,9 @@ Publication
 * **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang, [Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf), ACM International Conference on Multimedia 2020. (Core A*)
 * **Zhi Chen**, Zi Huang, Jingjing Li, Zheng Zhang, [Entropy-Based Uncertainty Calibration for Generalized Zero-Shot Learning](https://arxiv.org/pdf/2101.03292.pdf), 2021 Australasian Database Conference. (Best student paper – Highly Commended)
 * **Zhi Chen**, Yadan Luo, [Cycle-Consistent Diverse Image Synthesis from Natural Language](https://ieeexplore.ieee.org/iel7/8777006/8794861/08795022.pdf), IEEE International Conference on Multimedia & Expo Workshops 2019
+* **Zhi Chen**, Yadan Luo, Sen Wang, Jingjing Li, Zi Huang, [Federated Zero-Shot Learning for Visual Recognition](https://arxiv.org/pdf/2209.01994), preprint, 2022.
+* **Zhi Chen**, Xin Yu, Zi Huang, [Don't Paint Everyone with the Same Brush: Adaptive Prompt Prototype Learning for Vision-Language Models](https://openreview.net/pdf?id=YG01CZDpCq), preprint, 2024.
+* **Zhi Chen**, [Generalising to the unseen-zero-shot learning via generative modelling for visual recognition](https://espace.library.uq.edu.au/data/UQ_9d168dd/s4412890_phd_thesis.pdf?Expires=1714630173&Key-Pair-Id=APKAJKNBJ4MJBJNC6NLQ&Signature=hdiFtFWq5WVNA4E1942E7kbN3oXJtO8hwZ9fF8gG4WzMKx~r6bgoAgxIKDw5ZOe5IHDn78Ddt02suS~m-LSo2Ag8BNHyNypqUnL~o7nBtpKvz0LfuEBl9KcYl7A0-W-UosYUj3MvqwdMoV0Nr3XtsVAac3MEUlYUvD7GpjmGeVlUhwAiQTXH06nx22s8YqmK7g68V8U1JWQvohdjEsiLEXIrkene-NMxc0IoDrUHi-wyu-vSl3l0cAi~kwEQnC4YGnnYvwRdXiHDT6VPRjKbvbKaamzDrcPHWqcI7ibcxKyHvbNNdOzryxOT6JW3gl-dL3OZYXdVKgaHSc3-Rq7jLg__), PhD thesis, 2023.
 * Hongzu Su, Jingjing Li, **Zhi Chen**, Lei Zhu, Ke Lu, [Distinguishing Unseen from Seen for Generalized Zero-shot Learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Su_Distinguishing_Unseen_From_Seen_for_Generalized_Zero-Shot_Learning_CVPR_2022_paper.pdf), The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022. (Core A*)
 * Zixin Wang, Yadan Luo, **Zhi Chen**, Sen Wang, Zi Huang, [Cal-SFDA: Source-Free Domain-adaptive Semantic Segmentation with Differentiable Expected Calibration Error](), ACM International Conference on Multimedia (MM) 2023. (Core A*)
 * Fuming You, Jingjing Li, **Zhi Chen**, Lei Zhu, [Pixel Exclusion: Uncertainty-aware Boundary Discovery for Active Cross-Domain Semantic Segmentation](https://dl.acm.org/doi/abs/10.1145/3503161.3548079), ACM International Conference on Multimedia (MM) 2022. (Core A*)
@@ -33,7 +36,8 @@ Publication
 * Yudong Chen, Sen Wang, Jianlin Lu, **Zhi Chen**, Zheng Zhang, Zi Huang, [Local Graph Convolutional Networks for Cross-Modal Hashing](https://dl.acm.org/doi/10.1145/3474085.3475346), ACM International Conference on Multimedia (MM) 2021. (Core A*)
 * Fuming You, Jingjing Li, Lei Zhu, **Zhi Chen**, Zi Huang, [Domain Adaptive Semantic Segmentation without Source Data](https://dl.acm.org/doi/10.1145/3474085.3475482), ACM International Conference on Multimedia (MM) 2021. (Core A*)
 * Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo, [Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427), Diabetes/Metabolism Research and Reviews. (IF: 8.02) 
-
+* Xinyi Yang, **Zhi Chen**, Yadan Luo, [Optimizing Taxi Route Planning Based on Taxi Trajectory Data Analysis](https://link.springer.com/chapter/10.1007/978-3-031-47843-7_4), Australasian Database Conference (ADC) 2023.
+* Xi Chen, **Zhi Chen**, Zijian Wang, Ruihong Qiu, Yadan Luo, [FluMA: An Intelligent Platform for Influenza Monitoring and Analysis](https://link.springer.com/chapter/10.1007/978-3-031-15512-3_12), Australasian Database Conference (ADC) 2022.
 
 
 Services
