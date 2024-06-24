@@ -51,6 +51,7 @@ Reviewer
 * ACM International Conference on Multimedia (MM) 2021-2023
 * AAAI Conf. on Artificial Intelligence (AAAI) 2022-2023
 * IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023
+* IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2024
 * International Journal of Computer Vision (IJCV) 2024
 * IEEE Transactions on Multimedia (TMM) 2022-2023
 * IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2023-2024
