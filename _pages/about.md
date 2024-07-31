@@ -14,7 +14,7 @@ His research interests mainly include zero-shot learning, generative modelling, 
 
 Publication
 ======
-* Tianqi Wei, **Zhi Chen**, Zi Huang, Xin Yu, [Benchmarking In-the-wild Multimodal Disease Recognition and A Versatile Baseline](https://openreview.net/forum?id=nycUC9g6IO&referrer=%5Bthe%20profile%20of%20Xin%20Yu%5D(%2Fprofile%3Fid%3D~Xin_Yu1 ), ACM International Conference on Multimedia (MM) 2024. (Core A*)
+* Tianqi Wei, **Zhi Chen**, Zi Huang, Xin Yu, [Benchmarking In-the-wild Multimodal Disease Recognition and A Versatile Baseline](https://openreview.net/forum?id=nycUC9g6IO&referrer=%5Bthe%20profile%20of%20Xin%20Yu%5D), ACM International Conference on Multimedia (MM) 2024. (Core A*)
 * Yi Zhang, Sen Wang, Zhi Chen, Xuwei Xu, Stano Funiak, Frank de Hoog, Jiajun Liu, [Towards Cost-Efficient Federated Multi-Agent Reinforcement Learning with Learnable Aggregation](https://openreview.net/pdf?id=nbN8Ilbg8c), The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) 2024.
 * **Zhi Chen**, Xin Yu, Zi Huang, [Don't Paint Everyone with the Same Brush: Adaptive Prompt Prototype Learning for Vision-Language Models](https://openreview.net/pdf?id=YG01CZDpCq), preprint, 2024.
 * Weihao Wang, Xiaobei Li, Fei Chen, Ran Wei, **Zhi Chen**, Jingjing Li, Jingtao Qiao, Qi Pan, Wenjing Yang, Lixin Guo [Secondary analysis of newly diagnosed type 2 diabetes subgroups and treatment responses in the MARCH cohort](https://www.sciencedirect.com/science/article/pii/S1871402123002321), Diabetes & Metabolic Syndrome: Clinical Research & Reviews. 2024. (IF:10.0)
