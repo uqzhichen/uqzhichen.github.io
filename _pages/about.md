@@ -46,9 +46,9 @@ Reviewer
 
 * IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2024
 * IEEE/CVF International Conference on Computer Vision (ICCV) 2023
-* European Conference on Computer Vision (ECCV) 2022
+* European Conference on Computer Vision (ECCV) 2022, 2024
 * ACM International Conference on Multimedia (MM) 2021-2023
-* AAAI Conf. on Artificial Intelligence (AAAI) 2022-2023
+* AAAI Conf. on Artificial Intelligence (AAAI) 2022-2024
 * IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023
 * IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2024
 * International Journal of Computer Vision (IJCV) 2024
@@ -58,6 +58,9 @@ Reviewer
   
 Teaching Experience
 ======
+* Semester 2, 2024 - INFS3208 Cloud Computing (lecturer)
+* Semester 2, 2024 - INFS3200 Advanced Database Systems (lecturer)
+* Semester 2, 2024 - DATA7002 Responsible Data Science (lecturer)
 * Semester 1, 2024 - INFS7901 Database Principles (lecturer)
 * Semester 2, 2023 - DATA7002 Responsible Data Science (lecturer)
 * Semester 2, 2021 - DATA7901 Data Science Capstone Project 1
