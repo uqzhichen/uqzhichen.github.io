@@ -14,6 +14,9 @@ His research interests mainly include zero-shot learning, generative modelling, 
 
 Publication
 ======
+* **Zhi Chen**, Tianqi Wei, Zecheng Zhao, Jia Syuen Lim, Yadan Luo, Hu Zhang, Xin Yu, Scott Chapman, Zi Huang [CF-PRNet: Coarse-to-Fine Prototype Refining Network for Point Cloud Completion and Reconstruction](https://arxiv.org/pdf/2409.08443), 1st Place solution to CVPPA@ECCV2024: Shape Completion and Reconstruction of Sweet Peppers Challenge.
+* Tianqi Wei, **Zhi Chen**, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang [PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/pdf/2409.04038), preprint 2024.
+* **Zhi Chen**, Zecheng Zhao, Yadan Luo, Zi Huang [FastEdit: Fast Text-Guided Single-Image Editing via Semantic-Aware Diffusion Fine-Tuning](https://arxiv.org/pdf/2408.03355), preprint 2024.
 * Tianqi Wei, **Zhi Chen**, Zi Huang, Xin Yu, [Benchmarking In-the-wild Multimodal Disease Recognition and A Versatile Baseline](https://openreview.net/forum?id=nycUC9g6IO&referrer=%5Bthe%20profile%20of%20Xin%20Yu%5D), ACM International Conference on Multimedia (MM) 2024. (Core A*)
 * Yi Zhang, Sen Wang, Zhi Chen, Xuwei Xu, Stano Funiak, Frank de Hoog, Jiajun Liu, [Towards Cost-Efficient Federated Multi-Agent Reinforcement Learning with Learnable Aggregation](https://openreview.net/pdf?id=nbN8Ilbg8c), The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) 2024.
 * **Zhi Chen**, Xin Yu, Zi Huang, [Don't Paint Everyone with the Same Brush: Adaptive Prompt Prototype Learning for Vision-Language Models](https://openreview.net/pdf?id=YG01CZDpCq), preprint, 2024.
