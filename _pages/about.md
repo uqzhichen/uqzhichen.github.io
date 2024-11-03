@@ -51,7 +51,7 @@ Reviewer
 * IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2024
 * IEEE/CVF International Conference on Computer Vision (ICCV) 2023
 * European Conference on Computer Vision (ECCV) 2022, 2024
-* ACM International Conference on Multimedia (MM) 2021-2023
+* ACM International Conference on Multimedia (MM) 2021-2024 (Outstanding Reviewer @ 2024)
 * AAAI Conf. on Artificial Intelligence (AAAI) 2022-2024
 * IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023
 * IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2024
