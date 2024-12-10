@@ -38,6 +38,37 @@ author_profile: true
   [Entropy-Based Uncertainty Calibration for Generalized Zero-Shot Learning](https://arxiv.org/pdf/2101.03292.pdf) <br>
   *2021 Australasian Database Conference.* (Best student paper – Highly Commended)
 
+- **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang <br>
+  [CANZSL: Cycle-Consistent Adversarial Networks for Zero-Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822) <br>
+  *The IEEE Winter Conference on Applications of Computer Vision (WACV)* 2020. (Core A)
+
+- **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang <br>
+  [Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf) <br>
+  *ACM International Conference on Multimedia 2020.* (Core A*)
+
+## General Computer Vision and Machine Learning
+
+- Jia Syuen Lim, Zhuoxiao Chen, **Zhi Chen**, Mahsa Baktashmotlagh, Xin Yu, Zi Huang, Yadan Luo <br>
+  [DiPEx: Dispersing Prompt Expansion for Class-Agnostic Object Detection](https://arxiv.org/pdf/2406.14924) <br>
+  *NeurIPS* 2024. (Core A*)
+
+
+## Digital Agriculture
+- Tianqi Wei, **Zhi Chen**, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang
+  [PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/pdf/2409.04038)
+  preprint 2024.
+  
+- **Zhi Chen**, Tianqi Wei, Zecheng Zhao, Jia Syuen Lim, Yadan Luo, Hu Zhang, Xin Yu, Scott Chapman, Zi Huang <br>
+  [CF-PRNet: Coarse-to-Fine Prototype Refining Network for Point Cloud Completion and Reconstruction](https://arxiv.org/pdf/2409.08443) <br>
+  *1st Place solution to CVPPA@ECCV2024: Shape Completion and Reconstruction of Sweet Peppers Challenge.*
+
+- Jia Syuen Lim, Yadan Luo, **Zhi Chen**, Tianqi Wei, Scott Chapman, Zi Huang <br>
+  [Track Any Peppers: Weakly Supervised Sweet Pepper Tracking Using VLMs](https://arxiv.org/pdf/2411.06702) <br>
+  *2st Place solution to CVPPA@ECCV2024: Detection and Multi-Object Tracking of Sweet Peppers Challenge.*
+
+
+
+  
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
