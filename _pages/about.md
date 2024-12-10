@@ -15,3 +15,4 @@ My research centers around developing generalizable and applicable machine learn
 I'm a huge fan of plant phenotyping-related research. No matter you're a Crop Physiologist or Plant Pathologist, I'm happy to collaborate and explore the potential machine learning applications on your projects. Please see my publications on digital agriculture.
 
 I am now looking for highly motivated Ph.D. students working on computer vision and related areas. The University of Queensland ranks in the top 50 as measured by the Performance Ranking of Scientific Papers for World Universities. The University also ranks 40 in the QS World University Rankings and 41 in the US News Best Global Universities Rankings. The University of Queensland is the best in Australia according to the Australian Financial Review (AFR), which has now ranked UQ in the #1 position for 2 consecutive years.
+
