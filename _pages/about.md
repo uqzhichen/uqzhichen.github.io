@@ -1,15 +1,16 @@
 ---
 permalink: /
-title: "Zhi Chen's Page"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Zhi Chen is a Postdoctoral Research Fellow in School of EECS, The University of Queensland, working with [Prof. Zi (Helen) Huang](http://staff.itee.uq.edu.au/huang/). 
-He obtained his PhD degree in 2022 from UQ, advised by [Prof. Zi (Helen) Huang](http://staff.itee.uq.edu.au/huang/).
-His research interests mainly include zero-shot learning, generative modelling, multimedia understanding, and digital agriculture.
+I'm an Associate Lecturer and Postdoctoral Research Fellow in School of EECS, [The University of Queensland](https://www.uq.edu.au/), working with [Prof. Zi (Helen) Huang](http://staff.itee.uq.edu.au/huang/). 
+I obtained his PhD degree in 2022 from UQ, advised by Prof. Zi (Helen).
+
+My research centers around developing generalizable and applicable machine learning/deep learning approaches. For fundemental research, I mainly explore the field of computer vision and zero-shot learning. For applicable research, I collaborate with researchers from various sectors, including smart farming, health care and transport.
 
 
 Publication
