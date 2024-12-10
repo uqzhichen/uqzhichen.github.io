@@ -48,6 +48,10 @@ author_profile: true
 
 ## General Computer Vision and Machine Learning
 
+- Zhiqi Yu, Zhichao Liao, Jingjing Li, Zhi Chen, Lei Zhu <br>
+  [Dynamic Target Distribution Estimation for Source-free Open-Set Domain Adaptation]() <br>
+  *The 39th Annual AAAI Conference on Artificial Intelligence* AAAI 2024 (Core A*)
+
 - Jia Syuen Lim, Zhuoxiao Chen, **Zhi Chen**, Mahsa Baktashmotlagh, Xin Yu, Zi Huang, Yadan Luo <br>
   [DiPEx: Dispersing Prompt Expansion for Class-Agnostic Object Detection](https://arxiv.org/pdf/2406.14924) <br>
   *NeurIPS* 2024. (Core A*)
