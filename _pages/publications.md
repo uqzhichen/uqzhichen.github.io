@@ -123,13 +123,3 @@ author_profile: true
   [FluMA: An Intelligent Platform for Influenza Monitoring and Analysis](https://link.springer.com/chapter/10.1007/978-3-031-15512-3_12) <br>
   *Australasian Database Conference* 2022.
 
-  
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
