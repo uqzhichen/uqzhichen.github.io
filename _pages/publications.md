@@ -60,10 +60,6 @@ author_profile: true
   [Towards Cost-Efficient Federated Multi-Agent Reinforcement Learning with Learnable Aggregation](https://openreview.net/pdf?id=nbN8Ilbg8c) <br>
   *The Pacific-Asia Conference on Knowledge Discovery and Data Mining* (PAKDD) 2024. (Best Student Paper Award)
 
-- Jia Syuen Lim, Zhuoxiao Chen, **Zhi Chen**, Mahsa Baktashmotlagh, Xin Yu, Zi Huang, Yadan Luo <br>
-  [DiPEx: Dispersing Prompt Expansion for Class-Agnostic Object Detection](https://arxiv.org/pdf/2406.14924) <br>
-  *NeurIPS* 2024. (Core A*)
-
 - **Zhi Chen**, Xin Yu, Zi Huang <br>
   [Don't Paint Everyone with the Same Brush: Adaptive Prompt Prototype Learning for Vision-Language Models](https://openreview.net/pdf?id=YG01CZDpCq) <br>
   *Pre-print* 2024.
