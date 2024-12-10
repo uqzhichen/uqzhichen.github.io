@@ -89,12 +89,12 @@ author_profile: true
   *ACM International Conference on Multimedia* (MM) 2021. (Core A*)
   
 ## Digital Agriculture
-- Tianqi Wei, **Zhi Chen**, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang
-  [PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/pdf/2409.04038)
+- Tianqi Wei, **Zhi Chen**, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang <br>
+  [PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/pdf/2409.04038) <br>
   preprint 2024.
   
-- Tianqi Wei, **Zhi Chen**, Zi Huang, Xin Yu
-  [Benchmarking In-the-wild Multimodal Disease Recognition and A Versatile Baseline](https://openreview.net/forum?id=nycUC9g6IO&referrer=%5Bthe%20profile%20of%20Xin%20Yu%5D)
+- Tianqi Wei, **Zhi Chen**, Zi Huang, Xin Yu <br>
+  [Benchmarking In-the-wild Multimodal Disease Recognition and A Versatile Baseline](https://openreview.net/forum?id=nycUC9g6IO&referrer=%5Bthe%20profile%20of%20Xin%20Yu%5D) <br>
   *ACM International Conference on Multimedia (MM)* 2024. (Core A*)
   
 - **Zhi Chen**, Tianqi Wei, Zecheng Zhao, Jia Syuen Lim, Yadan Luo, Hu Zhang, Xin Yu, Scott Chapman, Zi Huang <br>
@@ -107,16 +107,16 @@ author_profile: true
 
 ## HealthCare
 
-- Weihao Wang, Xiaobei Li, Fei Chen, Ran Wei, **Zhi Chen**, Jingjing Li, Jingtao Qiao, Qi Pan, Wenjing Yang, Lixin Guo
-  [Secondary analysis of newly diagnosed type 2 diabetes subgroups and treatment responses in the MARCH cohort](https://www.sciencedirect.com/science/article/pii/S1871402123002321)
+- Weihao Wang, Xiaobei Li, Fei Chen, Ran Wei, **Zhi Chen**, Jingjing Li, Jingtao Qiao, Qi Pan, Wenjing Yang, Lixin Guo <br>
+  [Secondary analysis of newly diagnosed type 2 diabetes subgroups and treatment responses in the MARCH cohort](https://www.sciencedirect.com/science/article/pii/S1871402123002321) <br>
   *Diabetes & Metabolic Syndrome: Clinical Research & Reviews.* 2024. (IF:10.0)
   
-- Weihao Wang\*, **Zhi Chen**\*,  Sen Wang, Fei Chen, Mingqun Deng, Qi Pan, Lixin Guo
-  [Application of novel subgroups of Chinese inpatients with diabetes based on machine learning paradigm](https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709)
+- Weihao Wang\*, **Zhi Chen**\*,  Sen Wang, Fei Chen, Mingqun Deng, Qi Pan, Lixin Guo <br>
+  [Application of novel subgroups of Chinese inpatients with diabetes based on machine learning paradigm](https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709) <br>
   *Diabetes & Metabolic Syndrome: Clinical Research & Reviews*. 2022. (JCR Q1) (IF:10.0) (Co-first Author)
 
-- Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo
-  [Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427)
+- Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo <br>
+  [Application of new international classification of adult-onset diabetes in Chinese inpatients with diabetes mellitus](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427) <br>
   *Diabetes/Metabolism Research and Reviews. 2021.* (IF: 8.02)
 
 - Xi Chen, **Zhi Chen**, Zijian Wang, Ruihong Qiu, Yadan Luo <br>
