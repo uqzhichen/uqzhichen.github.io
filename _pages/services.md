@@ -8,7 +8,7 @@ redirect_from:
 
 &nbsp;
 
-I serve as reviewers for the following journals and conference:
+I serve as a reviewer for the following journals and conference:
 ======
 
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2024 <br>
