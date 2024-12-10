@@ -1,9 +1,7 @@
 ---
-permalink: /services/
 title: "Services"
-redirect_from: 
-  - /services/
-  - /services.html
+permalink: /services/
+author_profile: true
 ---
 
 &nbsp;
