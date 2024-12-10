@@ -1,7 +1,6 @@
 ---
-permalink: /
-title: "Overview"
-author_profile: true
+permalink: /services/
+title: "Services"
 redirect_from: 
   - /services/
   - /services.html
