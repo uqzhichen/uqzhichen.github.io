@@ -7,11 +7,11 @@ author_profile: true
 
 ## Zero-Shot Learning
 
-- **Zhi Chen**, Zecheng Zhao, Jingcai Guo, Jingjing Li, Zi Huang  <br>
-  [SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning](https://arxiv.org/pdf/2503.10252). <br>
-  *Pre-Print*.
-  ![image info](./image.png)
-  
+<div style="text-align: left;">
+
+| <img src="./image.png" width="180"/> | [**SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning**](https://arxiv.org/pdf/2503.10252) <br> **Zhi Chen**, Zecheng Zhao, Jingcai Guo, Jingjing Li, Zi Huang <br>  *Pre-Print* <br> [arXiv](https://arxiv.org/pdf/2503.10252) |
+| --- | --- |
+
 - Jingcai Guo, Zhijie Rao, **Zhi Chen**, Song Guo, Jingren Zhou, Dacheng Tao <br>
   [On the Element-Wise Representation and Reasoning in Zero-Shot Image Recognition: A Systematic Survey](https://arxiv.org/pdf/2408.04879). <br>
   *Pre-Print*.
