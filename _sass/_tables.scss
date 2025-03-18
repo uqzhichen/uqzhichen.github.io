@@ -8,7 +8,8 @@ table {
   font-family: $global-font-family;
   font-size: $type-size-6;
   border-collapse: collapse;
-  border: 1px solid $light-gray;
+  border: 0px solid $light-gray;
+  // border: 1px solid $light-gray;
 
   & + table {
     margin-top: 1em;
