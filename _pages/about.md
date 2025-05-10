@@ -24,8 +24,6 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 🚀 I am now looking for highly motivated Ph.D. students, Master Students, Research Assistants, and Visiting Scholars working on computer vision and related areas. 
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
 <span class='anchor' id='news'></span>
 # 🔥 News
 
@@ -42,13 +40,16 @@ My research interest includes neural machine translation and computer vision. I 
 - *2024.09*: &nbsp; Our [Coarse-to-Fine Prototype Refining Network for Point Cloud Completion and Reconstruction](https://arxiv.org/pdf/2409.08443) for CVPPA@ECCV 2025 challenge won the first place solution! 
 
 - *2024.07*: &nbsp; One paper on [In-the-wild Multimodal Disease Recognition](https://dl.acm.org/doi/10.1145/3664647.3680599) has been accepted to ACM MM 2024!
-- 
-# 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-### 2025
+  
+<span class='anchor' id='selected-publications'></span>
+# 📚 Selected Publications 
+
+
+***<font size=5>--2025--</font>***
+
+***
 
 - ![SVIP image](https://uqzhichen.github.io/images/image.png)  
   **[SVIP – Semantically Contextualized Visual Patches for Zero‑Shot Learning](https://arxiv.org/pdf/2503.10252)**  
@@ -81,7 +82,9 @@ My research interest includes neural machine translation and computer vision. I 
   (paper link TBA)
 
 
-### 2024
+***<font size=5>--2024--</font>***
+
+***
 
 - ![DiPEx image](https://uqzhichen.github.io/images/dipex.png)  
   **[DiPEx: Dispersing Prompt Expansion for Class‑Agnostic Object Detection](https://arxiv.org/pdf/2406.14924)**  
@@ -144,22 +147,186 @@ My research interest includes neural machine translation and computer vision. I 
   [paper](https://www.sciencedirect.com/science/article/pii/S1871402123002321)
 
 
-### 2023
+***<font size=5>--2023--</font>***
+
+***
+
+- ![HASZSL image](https://uqzhichen.github.io/images/haszsl.png)  
+  **[Zero‑Shot Learning by Harnessing Adversarial Samples](https://arxiv.org/pdf/2308.00313.pdf)**  
+  **Zhi Chen**, Pengfei Zhang, Jingjing Li, Sen Wang, Zi Huang  
+  *ACM International Conference on Multimedia 2023* — **ZSL**  
+  [arXiv](https://arxiv.org/pdf/2308.00313.pdf) / [code](https://github.com/uqzhichen/HASZSL)
+
+- ![FedZSL image](https://uqzhichen.github.io/images/fedzsl.png)  
+  **[Federated Zero‑Shot Learning for Visual Recognition](https://arxiv.org/pdf/2209.01994)**  
+  **Zhi Chen**, Yan Luo, Sen Wang, Jingjing Li, Zi Huang  
+  *pre‑print* — **ZSL**  
+  [arXiv](https://arxiv.org/pdf/2209.01994)
+
+- ![Cal‑SFDA image](https://uqzhichen.github.io/images/calsfda.png)  
+  **[Cal‑SFDA: Source‑Free Domain‑Adaptive Semantic Segmentation with Differentiable Expected Calibration Error](https://arxiv.org/pdf/2308.03003)**  
+  Zixin Wang, Yadan Luo, **Zhi Chen**, Sen Wang, Zi Huang  
+  *ACM International Conference on Multimedia 2023* — **DA**  
+  [arXiv](https://arxiv.org/pdf/2308.03003) / [code](https://github.com/Jo-wang/Cal-SFDA)
+
+- ![APPL image](https://uqzhichen.github.io/images/apple.png)  
+  **[Don’t Paint Everyone with the Same Brush: Adaptive Prompt Prototype Learning for Vision‑Language Models](https://openreview.net/pdf?id=YG01CZDpCq)**  
+  **Zhi Chen**, Xin Yu, Zi Huang  
+  *pre‑print*  
+  [arXiv](https://openreview.net/pdf?id=YG01CZDpCq)
+
+- ![Taxi image](https://uqzhichen.github.io/images/taxi.png)  
+  **[Optimizing Taxi Route Planning Based on Taxi Trajectory Data Analysis](https://link.springer.com/chapter/10.1007/978-3-031-47843-7_4)**  
+  Xinyi Yang, **Zhi Chen**, Yadan Luo  
+  *Australasian Database Conference 2023* — **AI for Transport**  
+  [paper](https://link.springer.com/chapter/10.1007/978-3-031-47843-7_4)
 
 
+***<font size=5>--2022--</font>***
+
+***
+
+- ![GSMFlow image](https://uqzhichen.github.io/images/gsmflow.png)  
+  **[GSMFlow: Generation Shifts Mitigating Flow for Generalized Zero‑Shot Learning](https://arxiv.org/abs/2207.01798)**  
+  **Zhi Chen**, Yadan Luo, Sen Wang, Jingjing Li, Zi Huang  
+  *IEEE Transactions on Multimedia* — **ZSL**  
+  [paper](https://arxiv.org/abs/2207.01798) / [code](https://github.com/uqzhichen/GSMFlow_TMM)
+
+- ![DistinguishZSL image](https://uqzhichen.github.io/images/distinguish.png)  
+  **[Distinguishing Unseen from Seen for Generalized Zero‑Shot Learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Su_Distinguishing_Unseen_From_Seen_for_Generalized_Zero-Shot_Learning_CVPR_2022_paper.pdf)**  
+  Hongzu Su, Jingjing Li, **Zhi Chen**, Lei Zhu, Ke Lu  
+  *CVPR 2022* — **ZSL**  
+  [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Su_Distinguishing_Unseen_From_Seen_for_Generalized_Zero-Shot_Learning_CVPR_2022_paper.pdf) / [code](https://github.com/TL-UESTC/OOD_Paddle)
+
+- ![PixelExclusion image](https://uqzhichen.github.io/images/pixel1.png)  
+  **[Pixel Exclusion: Uncertainty‑Aware Boundary Discovery for Active Cross‑Domain Semantic Segmentation](https://dl.acm.org/doi/abs/10.1145/3503161.3548079)**  
+  Fuming You, Jingjing Li, **Zhi Chen**, Lei Zhu  
+  *ACM Multimedia 2022* — **DA**  
+  [paper](https://dl.acm.org/doi/abs/10.1145/3503161.3548079)
+
+- ![Diabetes 2022 image](https://uqzhichen.github.io/images/diabetes2022.png)  
+  **[Application of Novel Subgroups of Chinese Inpatients with Diabetes Based on a Machine‑Learning Paradigm](https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709)**  
+  Weihao Wang, **Zhi Chen**, Sen Wang, Fei Chen, Mingqun Deng, Qi Pan, Lixin Guo  
+  *Diabetes & Metabolic Syndrome: Clinical Research & Reviews 2022* — **AI for Science**  
+  [paper](https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709)
+
+- ![FluMA image](https://uqzhichen.github.io/images/flu.png)  
+  **[FluMA: An Intelligent Platform for Influenza Monitoring and Analysis](https://link.springer.com/chapter/10.1007/978-3-031-15512-3_12)**  
+  Xi Chen, **Zhi Chen**, Zijian Wang, Ruihong Qiu, Yadan Luo  
+  *Australasian Database Conference 2022* — **AI for Science**  
+  [paper](https://link.springer.com/chapter/10.1007/978-3-031-15512-3_12)
 
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+***<font size=5>--2021--</font>***
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+***
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- ![SDGZSL image](https://uqzhichen.github.io/images/sdgzsl.png)  
+  **[Semantics Disentangling for Generalized Zero‑Shot Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Semantics_Disentangling_for_Generalized_Zero-Shot_Learning_ICCV_2021_paper.pdf)**  
+  **Zhi Chen**, Yadan Luo, Ruihong Qiu, Sen Wang, Zi Huang, Jingjing Li, Zheng Zhang  
+  *ICCV 2021* — **ZSL**  
+  [paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Semantics_Disentangling_for_Generalized_Zero-Shot_Learning_ICCV_2021_paper.pdf) / [code](https://github.com/uqzhichen/SDGZSL)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- ![MitigatingGS image](https://uqzhichen.github.io/images/mitigating.png)  
+  **[Mitigating Generation Shifts for Generalized Zero‑Shot Learning](https://arxiv.org/abs/2107.03163)**  
+  **Zhi Chen**, Yadan Luo, Sen Wang, Ruihong Qiu, Jingjing Li, Zi Huang  
+  *ACM Multimedia 2021* — **ZSL**  
+  [paper](https://arxiv.org/abs/2107.03163) / [code](https://github.com/uqzhichen/GSMFlow)
+
+- ![EntropyZSL image](https://uqzhichen.github.io/images/entropyzsl.png)  
+  **[Entropy‑Based Uncertainty Calibration for Generalized Zero‑Shot Learning](https://arxiv.org/pdf/2101.03292.pdf)**  
+  **Zhi Chen**, Zi Huang, Jingjing Li, Zheng Zhang  
+  *Australasian Database Conference 2021* (Highly Commended) — **ZSL**  
+  [arXiv](https://arxiv.org/pdf/2101.03292.pdf)
+
+- ![DASSSD image](https://uqzhichen.github.io/images/dasssd.png)  
+  **[Domain Adaptive Semantic Segmentation without Source Data](https://dl.acm.org/doi/10.1145/3474085.3475482)**  
+  Fuming You, Jingjing Li, Lei Zhu, **Zhi Chen**, Zi Huang  
+  *ACM Multimedia 2021* — **DA**  
+  [paper](https://dl.acm.org/doi/10.1145/3474085.3475482) / [code](https://github.com/fumyou13/LDBE)
+
+- ![LGCNH image](https://uqzhichen.github.io/images/hash1.png)  
+  **[Local Graph Convolutional Networks for Cross‑Modal Hashing](https://dl.acm.org/doi/10.1145/3474085.3475346)**  
+  Yudong Chen, Sen Wang, Jianlin Lu, **Zhi Chen**, Zheng Zhang, Zi Huang  
+  *ACM Multimedia 2021* — **Hashing**  
+  [paper](https://dl.acm.org/doi/10.1145/3474085.3475346) / [code](https://github.com/chenyd7/LGCNH)
+
+- ![CausalRec image](https://uqzhichen.github.io/images/casualrec.png)  
+  **[CausalRec: Causal Inference for Visual Debiasing in Visually‑Aware Recommendation](https://arxiv.org/abs/2107.02390)**  
+  Ruihong Qiu, Sen Wang, **Zhi Chen**, Hongzhi Yin, Zi Huang  
+  *ACM Multimedia 2021* — **Rec**  
+  [paper](https://arxiv.org/abs/2107.02390) / [code](https://github.com/RuihongQiu/CausalRec?tab=readme-ov-file)
+
+- ![Diabetes 2021 image](https://uqzhichen.github.io/images/diabetes2021.png)  
+  **[Application of New International Classification of Adult‑Onset Diabetes in Chinese Inpatients](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427)**  
+  Weihao Wang, Xiaobei Pei, Lina Zhang, **Zhi Chen**, Dong Lin, Xiaoye Duan, Jingwen Fan, Qi Pan, Lixin Guo  
+  *Diabetes/Metabolism Research and Reviews 2021* — **AI for Science**  
+  [paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427)
+
+
+***<font size=5>--2020--</font>***
+
+***
+
+- ![CANZSL image](https://uqzhichen.github.io/images/canzsl.png)  
+  **[CANZSL: Cycle‑Consistent Adversarial Networks for Zero‑Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822)**  
+  **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang  
+  *WACV 2020* — **ZSL**  
+  [arXiv](https://arxiv.org/pdf/1909.09822) / [code](https://github.com/uqzhichen/CANZSL)
+
+- ![MPGAN image](https://uqzhichen.github.io/images/mpgan.png)  
+  **[Rethinking Generative Zero‑Shot Learning: An Ensemble‑Learning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf)**  
+  **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang  
+  *ACM International Conference on Multimedia 2020* — **ZSL**  
+  [paper](https://arxiv.org/pdf/2007.13314.pdf) / [code](https://github.com/uqzhichen/MPGAN)
+
+
+<span class='anchor' id='teachings'></span>
+# 🧑🏻‍🏫 Teachings
+##  As Instructor
+### DATA7002 Responsible Data Science (Co-Instructor with Dr. Michael Vincent, Dr. Hamish MacDonald, Dr. Slava Vaisman) (SECaT: 4.28/5.0)
+*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2024
+<ul style="margin-top:-14px;">
+  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/DATA7002-63216-7460#course-overview">Course webpage</a></li>
+  <li>Topics Covered: Responsible Machine Learning, Fairness-Aware Machine Learning</li>
+</ul>
+
+### Cloud Computing (Co-Instructor with A/Prof. Sen Wang) (SECaT: 4.53/5.0)
+*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2024
+<ul style="margin-top:-14px;">
+  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/INFS3208-62044-7460#course-overview">Course webpage </a></li>
+  <li>Topics Covered: Vector Databases, NoSQL Databases, RDD Computing, Spark Framework</li>
+</ul>
+
+### Advanced Database Systems (Co-Instructor with Prof. Shazia Sadiq and A/Prof. Sen Wang) (SECaT: 4.63/5.0)
+*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2024
+<ul style="margin-top:-14px;">
+  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/INFS3208-62044-7460#course-overview">Course webpage</a> </li>
+  <li>Topics Covered: Column-Oriented Databases, Data Lakes, Data Lakehouses</li>
+</ul>
+
+### DATA7002 Responsible Data Science (Co-Instructor with Dr. Michael Vincent, Dr. Hamish MacDonald, Dr. Slava Vaisman) (SECaT: 4.21/5.0)
+*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2023
+<ul style="margin-top:-14px;">
+  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/DATA7002-63216-7460#course-overview">Course webpage</a></li>
+  <li>Topics Covered: Responsible Machine Learning, Fairness-Aware Machine Learning</li>
+</ul>
+
+<span class='anchor' id='services'></span>
+# 👔 Services
+
+##  Conference Service
+
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2024 <br>
+- IEEE/CVF International Conference on Computer Vision (ICCV) 2023 <br>
+- European Conference on Computer Vision (ECCV) 2022, 2024 <br>
+- ACM International Conference on Multimedia (MM) 2021-2024 (Outstanding Reviewer @ 2024) <br>
+- AAAI Conf. on Artificial Intelligence (AAAI) 2022-2024 <br>
+- IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023 <br>
+
+##  Journal Editorship
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2024 <br>
+- International Journal of Computer Vision (IJCV) 2024 <br>
+- IEEE Transactions on Multimedia (TMM) 2022-2023 <br> 
+- IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2023-2024<br>
+- IEEE Transactions on Cognitive and Developmental Systems (TCDS) 2023<br>
