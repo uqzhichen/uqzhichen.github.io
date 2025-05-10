@@ -50,6 +50,21 @@ My research centers around developing generalizable and applicable ML/AI approac
 ***<font size=5>--2025--</font>***
 
 ***
+<div style="margin-bottom:1.2em;">
+
+<img src="https://uqzhichen.github.io/images/image.png"
+     alt="SVIP figure"
+     width="110"
+     style="float:left; margin:0 14px 4px 0;" />
+
+**[SVIP – Semantically Contextualized Visual Patches for Zero‑Shot Learning](https://arxiv.org/pdf/2503.10252)**  
+**Zhi Chen**, Zecheng Zhao, Jingcai Guo, Jingjing Li, Zi Huang  
+*pre‑print* — **ZSL**  
+[arXiv](https://arxiv.org/abs/2503.10252)
+
+<br clear="both">
+</div>
+
 
 - <img src="https://uqzhichen.github.io/images/image.png" width="20%" alt="SVIP figure" /> 
   **[SVIP – Semantically Contextualized Visual Patches for Zero‑Shot Learning](https://arxiv.org/pdf/2503.10252)**  
