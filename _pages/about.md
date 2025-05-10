@@ -50,7 +50,8 @@ My research centers around developing generalizable and applicable ML/AI approac
 <h3>2025</h3> 
 
 <!-- <table  border="0" style="border: none; border-collapse: collapse; width: 100%; text-align: left;"> -->
-<table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
      <tr>
      <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
      <img src="https://uqzhichen.github.io/images/image.png" width="180" height="100" alt="Paper 1 figure"/>
@@ -136,6 +137,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <p></p>
      </td>
      </tr>
+  </tbody>
 </table>
 <h3>2024</h3> 
 <!-- <table  border="0" style="border: none; border-collapse: collapse; width: 100%; text-align: left;"> -->
@@ -308,7 +310,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <a href="https://www.sciencedirect.com/science/article/pii/S1871402123002321">paper</a>
     <p></p>
     </td>
-    </tr>
+    </tr></tbody>
 </table>
 <h3>2023</h3> 
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -395,7 +397,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-47843-7_4">paper</a>
     <p></p>
     </td>
-    </tr>
+    </tr></tbody>
 </table>
 <h3>2022</h3> 
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -483,7 +485,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-15512-3_12">paper</a>
     <p></p>
     </td>
-    </tr>
+    </tr></tbody>
 </table>
 <h3>2021</h3> 
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -602,7 +604,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427">arXiv</a>
     <p></p>
     </td>
-    </tr>
+    </tr></tbody>
 </table>
 <h3>2020</h3> 
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -628,7 +630,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     </td>
     <td style="width:75%;vertical-align: middle;">
     <a href="https://arxiv.org/pdf/2007.13314.pdf">
-    <papertitle>Rethinking Generative Zero-Shot Learning: An EnsembleLearning Perspective for Recognising Visual Patches</papertitle>
+    <papertitle>Rethinking Generative Zero-Shot Learning: An Ensemble Learning Perspective for Recognising Visual Patches</papertitle>
     </a>
     <br>
     <strong>Zhi Chen</strong>, Sen Wang, Jingjing Li, Zi Huang <br>
@@ -637,11 +639,10 @@ My research centers around developing generalizable and applicable ML/AI approac
     <a href="https://arxiv.org/pdf/2007.13314.pdf">paper</a> /  <a href="https://github.com/uqzhichen/MPGAN">code</a>
     <p></p><p></p><p></p>
     </td>
-    </tr>
+    </tr></tbody></table>
 
 
 <span class='anchor' id='teaching'></span>
-
 # 🧑🏻‍🏫 Teachings
 ##  As Instructor
 ### DATA7002 Responsible Data Science (Co-Instructor with Dr. Michael Vincent, Dr. Hamish MacDonald, Dr. Slava Vaisman) (SECaT: 4.28/5.0)
