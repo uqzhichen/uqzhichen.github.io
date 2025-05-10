@@ -641,21 +641,6 @@ My research centers around developing generalizable and applicable ML/AI approac
 </table>
 
 
-***
-
-- ![CANZSL image](https://uqzhichen.github.io/images/canzsl.png)  
-  **[CANZSL: Cycle‑Consistent Adversarial Networks for Zero‑Shot Learning from Natural Language](https://arxiv.org/pdf/1909.09822)**  
-  **Zhi Chen**, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang  
-  *WACV 2020* — **ZSL**  
-  [arXiv](https://arxiv.org/pdf/1909.09822) / [code](https://github.com/uqzhichen/CANZSL)
-
-- ![MPGAN image](https://uqzhichen.github.io/images/mpgan.png)  
-  **[Rethinking Generative Zero‑Shot Learning: An Ensemble‑Learning Perspective for Recognising Visual Patches](https://arxiv.org/pdf/2007.13314.pdf)**  
-  **Zhi Chen**, Sen Wang, Jingjing Li, Zi Huang  
-  *ACM International Conference on Multimedia 2020* — **ZSL**  
-  [paper](https://arxiv.org/pdf/2007.13314.pdf) / [code](https://github.com/uqzhichen/MPGAN)
-
-
 <span class='anchor' id='teachings'></span>
 # 🧑🏻‍🏫 Teachings
 ##  As Instructor
