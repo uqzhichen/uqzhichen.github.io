@@ -97,7 +97,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <br>
      Tianqi Wang, Jingcai Guo, Depeng Li, <strong>Zhi Chen</strong>
      <br>
-     <em>pre-print</em><br>
+     <em>IJCAI 2025</em><br>
      <div><abbr style="background-color:#3279a8"><strong>CL</strong></abbr></div>
      <a href="https://arxiv.org/pdf/2501.15454">arXiv</a>
      <p></p><p></p><p></p>
