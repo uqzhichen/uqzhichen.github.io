@@ -44,7 +44,7 @@ My research centers around developing generalizable and applicable ML/AI approac
 
   
 <span class='anchor' id='publications'></span>
-# 📚 Selected Publications 
+# 📚 Publications 
 
 
 <h3>2025</h3> 
@@ -642,7 +642,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     </tr></tbody></table>
 
 
-<span class='anchor' id='teaching'></span>
+<span class='anchor' id='teachings'></span>
 # 🧑🏻‍🏫 Teachings
 ##  As Instructor
 ### DATA7002 Responsible Data Science (Co-Instructor with Dr. Michael Vincent, Dr. Hamish MacDonald, Dr. Slava Vaisman) (SECaT: 4.28/5.0)
