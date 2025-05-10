@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Zhi Chen, Ph.D."
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "zhichen/zhichen.github.io"
+description              : ""
+repository               : "uqzhichen/zhichen.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
