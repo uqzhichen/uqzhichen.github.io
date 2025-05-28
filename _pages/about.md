@@ -27,19 +27,21 @@ My research centers around developing generalizable and applicable ML/AI approac
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- *2025.04*: &nbsp; One paper on [Continual Learning](https://arxiv.org/pdf/2501.15454) has been accepted to IJCAI 2025!
+- *2025.05*: &nbsp; Serve as Guest Editor for Complex & Intelligent Systems (JCR-Q1) ([Special Issue on Efficient AI for Resource-Constrained and Complex Applications](https://link.springer.com/collections/fcaeibbcig)).
 
-- *2025.04*: &nbsp; One paper on [Continual Text-to-Video Retrieval](https://arxiv.org/pdf/2503.10111) has been accepted to SIGIR 2025!
+- *2025.04*: &nbsp; One paper on [Continual Learning](https://arxiv.org/pdf/2501.15454) has been accepted to IJCAI 2025.
 
-- *2025.04*: &nbsp; I have joined the University of Southern Queensland as a Lecturer (Assistant Professor) after working as a Postdoc at UQ for two years!
+- *2025.04*: &nbsp; One paper on [Continual Text-to-Video Retrieval](https://arxiv.org/pdf/2503.10111) has been accepted to SIGIR 2025.
 
-- *2024.12*: &nbsp; One paper on [Source-free Open-Set Domain Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/34380/36535) has been accepted to AAAI 2025!
+- *2025.04*: &nbsp; I have joined the University of Southern Queensland as a Lecturer (Assistant Professor) after working as a Postdoc at UQ for two years.
 
-- *2024.10*: &nbsp; One paper on [Class-Agnostic Object Detection](https://arxiv.org/pdf/2406.14924) has been accepted to NeurIPS 2024!
+- *2024.12*: &nbsp; One paper on [Source-free Open-Set Domain Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/34380/36535) has been accepted to AAAI 2025.
+
+- *2024.10*: &nbsp; One paper on [Class-Agnostic Object Detection](https://arxiv.org/pdf/2406.14924) has been accepted to NeurIPS 2024.
 
 - *2024.09*: &nbsp; Our [Coarse-to-Fine Prototype Refining Network for Point Cloud Completion and Reconstruction](https://arxiv.org/pdf/2409.08443) for CVPPA@ECCV 2025 challenge won the first place solution! 
 
-- *2024.07*: &nbsp; One paper on [In-the-wild Multimodal Disease Recognition](https://dl.acm.org/doi/10.1145/3664647.3680599) has been accepted to ACM MM 2024!
+- *2024.07*: &nbsp; One paper on [In-the-wild Multimodal Disease Recognition](https://dl.acm.org/doi/10.1145/3664647.3680599) has been accepted to ACM MM 2024.
 
 
   
