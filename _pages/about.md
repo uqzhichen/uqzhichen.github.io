@@ -27,6 +27,8 @@ My research centers around developing generalizable and applicable ML/AI approac
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2025.06*: &nbsp; One paper on [Zero-Shot Learning](https://arxiv.org/abs/2503.10252) has been accepted to ICCV 2025.
+
 - *2025.05*: &nbsp; Serve as Guest Editor for Complex & Intelligent Systems (JCR-Q1) ([Special Issue on Efficient AI for Resource-Constrained and Complex Applications](https://link.springer.com/collections/fcaeibbcig)).
 
 - *2025.04*: &nbsp; One paper on [Continual Learning](https://arxiv.org/pdf/2501.15454) has been accepted to IJCAI 2025.
