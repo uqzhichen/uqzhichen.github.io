@@ -67,7 +67,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <br>
      <strong>Zhi Chen</strong>, Zecheng Zhao, Jingcai Guo, Jingjing Li, Zi Huang 
      <br>
-     <em>pre-print</em><br>
+     <em>ICCV 2025</em><br>
      <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
      <a href="https://arxiv.org/abs/2503.10252">arXiv</a>
      <p></p><p></p><p></p>
