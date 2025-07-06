@@ -28,7 +28,7 @@ My research centers around developing generalizable and applicable ML/AI approac
 # 🔥 News
 
 
-- *2025.06*: &nbsp; One paper on Test-Time Adaptation has been accepted to ACM MM 2025. Paper coming soon.
+- *2025.07*: &nbsp; One paper on Test-Time Adaptation has been accepted to ACM MM 2025. Paper coming soon.
 
 - *2025.06*: &nbsp; One paper on [Zero-Shot Learning](https://arxiv.org/abs/2503.10252) has been accepted to ICCV 2025.
 
