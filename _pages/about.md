@@ -63,6 +63,41 @@ My research centers around developing generalizable and applicable ML/AI approac
 <!-- <table  border="0" style="border: none; border-collapse: collapse; width: 100%; text-align: left;"> -->
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
+    <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="https://uqzhichen.github.io/images/gwfss_sample.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://www.sciencedirect.com/science/article/pii/S2643651525000901">
+     <papertitle>The Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset</papertitle>
+     </a>
+     <br>
+     Zijian Wang, ..., <Strong>Zhi Chen</Strong>, ... etc
+     <br>
+     <em>Plant Phenomics</em><br>
+     <div><abbr style="background-color:#58D68D"><strong>AI for Science</strong></abbr></div>
+     <a href="https://www.sciencedirect.com/science/article/pii/S2643651525000901">Paper</a> /
+    <a href="https://www.global-wheat.com/gwfss.html">Project</a>
+     <p></p><p></p><p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="https://uqzhichen.github.io/images/video_benchmark.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2507.02316">
+     <papertitle>Are Synthetic Videos Useful? A Benchmark for Retrieval-Centric Evaluation of Synthetic Videos</papertitle>
+     </a>
+     <br>
+     Zecheng Zhao, Selena Song, Tong Chen, Zhi Chen, Shazia Sadiq, Yadan Luo
+     <br>
+     <em>ACM MM 2025</em><br>
+     <div><abbr style="background-color:#58D68D"><strong>Video</strong></abbr></div>
+     <a href="https://arxiv.org/pdf/2507.02316">arXiv</a>
+     <p></p><p></p><p></p>
+     </td>
+     </tr>
      <tr>
      <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
      <img src="https://uqzhichen.github.io/images/image.png" width="180" height="100" alt="Paper 1 figure"/>
