@@ -28,6 +28,10 @@ My research centers around developing generalizable and applicable ML/AI approac
 # 🔥 News
 
 
+- *2025.08*: &nbsp; Our [Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset](https://www.sciencedirect.com/science/article/pii/S2643651525000901) has been accepted to Plant Phenomics (JCR Q1, IF 6.4, No.1 Journal for Phenotyping). [Project Page](https://www.global-wheat.com/gwfss.html)
+
+- *2025.08*: &nbsp; our benchmark paper on [video generative models for video retrieval](https://arxiv.org/pdf/2507.02316) has been accepted to ACM MM Dataset Track. 
+
 - *2025.07*: &nbsp; One paper on Test-Time Adaptation has been accepted to ACM MM 2025. Paper coming soon.
 
 - *2025.06*: &nbsp; One paper on [Zero-Shot Learning](https://arxiv.org/abs/2503.10252) has been accepted to ICCV 2025.
