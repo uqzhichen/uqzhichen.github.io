@@ -27,7 +27,7 @@ My research centers around developing generalizable and applicable ML/AI approac
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- *2025.08*: &nbsp; our paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the journal Pattern Recognition (JCR Q1) (Core A*). 
+- *2025.08*: &nbsp; Our paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the journal Pattern Recognition (JCR Q1) (Core A*). 
 
 - *2025.08*: &nbsp; Our [Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset](https://www.sciencedirect.com/science/article/pii/S2643651525000901) has been accepted to Plant Phenomics (JCR Q1, IF 6.4, No.1 Journal for Phenotyping). [Project Page](https://www.global-wheat.com/gwfss.html)
 
@@ -90,9 +90,9 @@ My research centers around developing generalizable and applicable ML/AI approac
      <papertitle>The Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset</papertitle>
      </a>
      <br>
-     Zijian Wang, ..., <Strong>Zhi Chen</Strong>, ... etc
+     Zijian Wang, ..., <Strong>Zhi Chen</Strong>, ... et, al.
      <br>
-     <em>Plant Phenomics</em><br>
+     <em>Plant Phenomics (Q1) (IF: 6.4)</em><br>
      <div><abbr style="background-color:#58D68D"><strong>AI for Science</strong></abbr></div>
      <a href="https://www.sciencedirect.com/science/article/pii/S2643651525000901">Paper</a> /
     <a href="https://www.global-wheat.com/gwfss.html">Project</a>
