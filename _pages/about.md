@@ -27,6 +27,7 @@ My research centers around developing generalizable and applicable ML/AI approac
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2025.08*: &nbsp; our paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the journal Pattern Recognition (JCR Q1) (Core A*). 
 
 - *2025.08*: &nbsp; Our [Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset](https://www.sciencedirect.com/science/article/pii/S2643651525000901) has been accepted to Plant Phenomics (JCR Q1, IF 6.4, No.1 Journal for Phenotyping). [Project Page](https://www.global-wheat.com/gwfss.html)
 
@@ -63,6 +64,23 @@ My research centers around developing generalizable and applicable ML/AI approac
 <!-- <table  border="0" style="border: none; border-collapse: collapse; width: 100%; text-align: left;"> -->
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
+    <tr>
+    <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+    <img src="https://uqzhichen.github.io/images/fastedit.png" width="180" height="100" alt="Paper 1 figure"/>
+    </td>
+    <td style="width:75%;vertical-align: middle;">
+    <a href="https://arxiv.org/pdf/2408.03355">
+    <papertitle>FastEdit: Fast Text-Guided Single-Image Editing via Semantic-Aware Diffusion Fine-Tuning</papertitle>
+    </a>
+    <br>
+    <strong>Zhi Chen</strong>, Zecheng Zhao, Yadan Luo, Yan Li, Xiaohui Tao, Zi Huang
+    <br>
+    <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
+    <div><abbr style="background-color:#58D68D"><strong>Image Editing</strong></abbr></div>
+    <a href="https://arxiv.org/pdf/2408.03355">arXiv</a> / <a href="https://github.com/JasonCodeMaker/FastEdit">code</a>
+    <p></p>
+    </td>
+    </tr>
     <tr>
      <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
      <img src="https://uqzhichen.github.io/images/gwfss_sample.png" width="180" height="100" alt="Paper 1 figure"/>
@@ -286,23 +304,6 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>ACM International Conference on Multimedia in Asia 2024. </em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2408.14723">paper</a> 
-    <p></p>
-    </td>
-    </tr>
-    <tr>
-    <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
-    <img src="https://uqzhichen.github.io/images/fastedit.png" width="180" height="100" alt="Paper 1 figure"/>
-    </td>
-    <td style="width:75%;vertical-align: middle;">
-    <a href="https://arxiv.org/pdf/2408.03355">
-    <papertitle>FastEdit: Fast Text-Guided Single-Image Editing via Semantic-Aware Diffusion Fine-Tuning</papertitle>
-    </a>
-    <br>
-    <strong>Zhi Chen</strong>, Zecheng Zhao, Yadan Luo, Zi Huang
-    <br>
-    <em>pre-print</em><br>
-    <div><abbr style="background-color:#58D68D"><strong>Image Editing</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2408.03355">arXiv</a> / <a href="https://github.com/JasonCodeMaker/FastEdit">code</a>
     <p></p>
     </td>
     </tr>
