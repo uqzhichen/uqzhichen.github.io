@@ -27,7 +27,7 @@ My research centers around developing generalizable and applicable ML/AI approac
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- *2025.10*: &nbsp; Our paper on [Few-Shot Vision-Language Model Adaptation](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5280523) has been accepted to the journal Pattern Recognition (JCR Q1) (Core A*). 
+- *2025.10*: &nbsp; Our paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1) (Core A*). 
 
 - *2025.10*: &nbsp; Our paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the Special Issue: Beneficial Noise Learning in the journal Pattern Recognition (JCR Q1) (Core A*).
 
@@ -68,6 +68,23 @@ My research centers around developing generalizable and applicable ML/AI approac
   <tbody>
     <tr>
     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+    <img src="https://uqzhichen.github.io/images/capel.png" width="180" height="100" alt="Paper 1 figure"/>
+    </td>
+    <td style="width:75%;vertical-align: middle;">
+    <a href="https://arxiv.org/pdf/2510.09867">
+    <papertitle>Cluster-Aware Prompt Ensemble Learning for Few-Shot Vision-Language Model Adaptation</papertitle>
+    </a>
+    <br>
+    <strong>Zhi Chen</strong>, Xin Yu, Xiaohui Tao, Yan Li, Zi Huang
+    <br>
+    <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
+    <div><abbr style="background-color:#58D68D"><strong>VLM</strong></abbr></div>
+    <a href="https://arxiv.org/pdf/2510.09867">Pre-print</a>
+    <p></p>
+    </td>
+    </tr>
+        <tr>
+    <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
     <img src="https://uqzhichen.github.io/images/fastedit.png" width="180" height="100" alt="Paper 1 figure"/>
     </td>
     <td style="width:75%;vertical-align: middle;">
@@ -79,7 +96,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>Image Editing</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2408.03355">arXiv</a> / <a href="https://github.com/JasonCodeMaker/FastEdit">code</a>
+    <a href="https://arxiv.org/pdf/2408.03355">Pre-print</a> / <a href="https://github.com/JasonCodeMaker/FastEdit">code</a>
     <p></p>
     </td>
     </tr>
@@ -195,7 +212,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <papertitle>Physics-Informed Machine Learning Offers Multi-Scale Remote Estimation of Wheat Biomass Dynamics</papertitle>
      </a>
      <br>
-     Qiaomin Chen*, <strong>Zhi Chen</strong>*, et al.
+     Qiaomin Chen*, <strong>Zhi Chen</strong>*, et al. (Co-First Author)
      <br>
      <em>IEEE International Geoscience and Remote Sensing Symposium 2025 (IGARSS)</em><br>
      <div><abbr style="background-color:#fcce03"><strong>AI for Science</strong></abbr></div>
@@ -412,22 +429,6 @@ My research centers around developing generalizable and applicable ML/AI approac
     <div><abbr style="background-color:#fcce03"><strong>DA</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2308.03003">arXiv</a> / <a href="https://github.com/Jo-wang/Cal-SFDA">code</a> 
     <p></p><p></p><p></p>
-    </td>
-    </tr>
-    <tr>
-    <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
-    <img src="https://uqzhichen.github.io/images/apple.png" width="180" height="100" alt="Paper 1 figure"/>
-    </td>
-    <td style="width:75%;vertical-align: middle;">
-    <a href="https://openreview.net/pdf?id=YG01CZDpCq">
-    <papertitle>Don't Paint Everyone with the Same Brush: Adaptive Prompt Prototype Learning for Vision-Language Models</papertitle>
-    </a>
-    <br>
-    <strong>Zhi Chen</strong>, Xin Yu, Zi Huang
-    <br>
-    <em>pre-print</em><br>
-    <a href="https://openreview.net/pdf?id=YG01CZDpCq">arXiv</a>
-    <p></p>
     </td>
     </tr>
     <tr>
