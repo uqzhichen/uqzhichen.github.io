@@ -127,11 +127,28 @@ My research centers around developing generalizable and applicable ML/AI approac
      <papertitle>Are Synthetic Videos Useful? A Benchmark for Retrieval-Centric Evaluation of Synthetic Videos</papertitle>
      </a>
      <br>
-     Zecheng Zhao, Selena Song, Tong Chen, Zhi Chen, Shazia Sadiq, Yadan Luo
+     Zecheng Zhao, Selena Song, Tong Chen, <strong>Zhi Chen</strong>, Shazia Sadiq, Yadan Luo
      <br>
      <em>ACM MM 2025</em><br>
      <div><abbr style="background-color:#58D68D"><strong>Video</strong></abbr></div>
      <a href="https://arxiv.org/pdf/2507.02316">arXiv</a>
+     <p></p><p></p><p></p>
+     </td>
+     </tr>
+         <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="https://uqzhichen.github.io/images/pataug.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://dl.acm.org/doi/pdf/10.1145/3746027.3755740">
+     <papertitle>PatAug: Augmentation of Augmentation for Test-Time Adaptation</papertitle>
+     </a>
+     <br>
+     Xinyao Li, Dan Zhang, Zhekai Du, Lei Zhu, <strong>Zhi Chen</strong>, Jingjing Li
+     <br>
+     <em>ACM MM 2025</em><br>
+     <div><abbr style="background-color:#58D68D"><strong>DA</strong></abbr></div>
+     <a href="https://dl.acm.org/doi/pdf/10.1145/3746027.3755740">Paper</a>
      <p></p><p></p><p></p>
      </td>
      </tr>
