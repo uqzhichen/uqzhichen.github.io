@@ -27,9 +27,11 @@ My research centers around developing generalizable and applicable ML/AI approac
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- *2025.10*: &nbsp; Our paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1) (Core A*). 
+- *2025.10*: &nbsp; My first author paper "Distribution Zero-Shot Learning for Visual recognition" has been accepted to IEEE Transactions on Multimedia (JCR Q1, Core A*, IF:9.7). 
 
-- *2025.10*: &nbsp; Our paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the Special Issue: Beneficial Noise Learning in the journal Pattern Recognition (JCR Q1) (Core A*).
+- *2025.10*: &nbsp; My first author paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1, Core A*, IF:7.6). 
+
+- *2025.10*: &nbsp; My first author paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the Special Issue: Beneficial Noise Learning in the journal Pattern Recognition (JCR Q1) (Core A*).
 
 - *2025.08*: &nbsp; Our [Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset](https://www.sciencedirect.com/science/article/pii/S2643651525000901) has been accepted to Plant Phenomics (JCR Q1, IF 6.4, No.1 Journal for Phenotyping). [Project Page](https://www.global-wheat.com/gwfss.html)
 
@@ -37,7 +39,7 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 - *2025.07*: &nbsp; One paper on Test-Time Adaptation has been accepted to ACM MM 2025. Paper coming soon.
 
-- *2025.06*: &nbsp; One paper on [Zero-Shot Learning](https://arxiv.org/abs/2503.10252) has been accepted to ICCV 2025.
+- *2025.06*: &nbsp; My first author paper on [Zero-Shot Learning](https://arxiv.org/abs/2503.10252) has been accepted to ICCV 2025.
 
 - *2025.05*: &nbsp; Serve as Guest Editor for Complex & Intelligent Systems (JCR-Q1) ([Special Issue on Efficient AI for Resource-Constrained and Complex Applications](https://link.springer.com/collections/fcaeibbcig)).
 
@@ -479,7 +481,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <strong>Zhi Chen</strong>, Yadan Luo, Sen Wang, Jingjing Li, Zi Huang 
     <br>
-    <em>IEEE Transactions on Multimedia (TMM) (Core A*) (IF: 8.182)</em><br>
+    <em>IEEE Transactions on Multimedia (TMM) (JCR Q1, Core A*, IF: 9.7)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
     <a href="https://arxiv.org/abs/2207.01798">paper</a> / <a href="https://github.com/uqzhichen/GSMFlow_TMM">code</a> 
     <p></p><p></p><p></p>
