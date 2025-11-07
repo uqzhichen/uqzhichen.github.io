@@ -27,7 +27,9 @@ My research centers around developing generalizable and applicable ML/AI approac
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- *2025.10*: &nbsp; My first author paper "Distribution Zero-Shot Learning for Visual recognition" has been accepted to IEEE Transactions on Multimedia (JCR Q1, Core A*, IF:9.7). 
+- *2025.11*: &nbsp; Our paper on Diffusion Quantization has been accepted to AAAI 2026, paper coming soon. 
+
+- *2025.10*: &nbsp; My first author paper "Distribution Zero-Shot Learning for Visual recognition" has been accepted to IEEE Transactions on Multimedia (JCR Q1, Core A*, IF:9.7). Paper coming soon.
 
 - *2025.10*: &nbsp; My first author paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1, Core A*, IF:7.6). 
 
