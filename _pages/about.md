@@ -26,18 +26,21 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2025.12*: &nbsp; I gave a talk on AI for Agriculture in the AI4Impact Research Symposium, hosted by UniSQ Business School and SRMIST India.
+
+- *2025.12*: &nbsp; I gave a tutorial on zero-shot learning in [DICTA2025](https://dicta2025.dictaconference.org/workshop_tutorial.html). 
 
 - *2025.11*: &nbsp; Our paper on Diffusion Quantization has been accepted to AAAI 2026, paper coming soon. 
 
-- *2025.10*: &nbsp; My first author paper "Distribution Zero-Shot Learning for Visual recognition" has been accepted to IEEE Transactions on Multimedia (JCR Q1, Core A*, IF:9.7). Paper coming soon.
+- *2025.10*: &nbsp; My first-author paper "Distribution Zero-Shot Learning for Visual recognition" has been accepted to IEEE Transactions on Multimedia (JCR Q1, Core A*, IF:9.7). Paper coming soon.
 
-- *2025.10*: &nbsp; My first author paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1, Core A*, IF:7.6). 
+- *2025.10*: &nbsp; My first-author paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1, Core A*, IF:7.6). 
 
 - *2025.10*: &nbsp; My first author paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the Special Issue: Beneficial Noise Learning in the journal Pattern Recognition (JCR Q1) (Core A*).
 
 - *2025.08*: &nbsp; Our [Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset](https://www.sciencedirect.com/science/article/pii/S2643651525000901) has been accepted to Plant Phenomics (JCR Q1, IF 6.4, No.1 Journal for Phenotyping). [Project Page](https://www.global-wheat.com/gwfss.html)
 
-- *2025.08*: &nbsp; our benchmark paper on [video generative models for video retrieval](https://arxiv.org/pdf/2507.02316) has been accepted to ACM MM Dataset Track. 
+- *2025.08*: &nbsp; Our benchmark on [video generative models for video retrieval](https://arxiv.org/pdf/2507.02316) has been accepted to ACM MM Dataset Track. 
 
 - *2025.07*: &nbsp; One paper on Test-Time Adaptation has been accepted to ACM MM 2025. Paper coming soon.
 
