@@ -26,6 +26,8 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2025.12*：&nbsp; Our dataset paper [PlantSeg](https://arxiv.org/pdf/2409.04038) has been accepted to Scientific Data (Nature Portfolio, JCR Q1, IF: 6.9). 
+
 - *2025.12*: &nbsp; I gave a talk on AI for Agriculture in the AI4Impact Research Symposium, hosted by UniSQ Business School and SRMIST India.
 
 - *2025.12*: &nbsp; I gave a tutorial on zero-shot learning in [DICTA2025](https://dicta2025.dictaconference.org/workshop_tutorial.html). 
@@ -73,6 +75,23 @@ My research centers around developing generalizable and applicable ML/AI approac
 <!-- <table  border="0" style="border: none; border-collapse: collapse; width: 100%; text-align: left;"> -->
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
+    <tr>
+    <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+    <img src="https://uqzhichen.github.io/images/plantseg.png" width="180" height="100" alt="Paper 1 figure"/>
+    </td>
+    <td style="width:75%;vertical-align: middle;">
+    <a href="https://arxiv.org/pdf/2409.04038">
+    <papertitle>PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation</papertitle>
+    </a>
+    <br>
+    Tianqi Wei, <strong>Zhi Chen</strong>, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang
+    <br>
+    <em>Scientific Data (Nature Portfolio)</em><br>
+    <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
+    <a href="https://arxiv.org/pdf/2409.04038">Preprint</a> / <a href="https://github.com/tqwei05/PlantSeg">code</a> / <a href="https://zenodo.org/records/13762907">dataset</a>
+    <p></p>
+    </td>
+    </tr>
     <tr>
     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
     <img src="https://uqzhichen.github.io/images/capel.png" width="180" height="100" alt="Paper 1 figure"/>
@@ -313,23 +332,6 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>2st Place solution to CVPPA@ECCV2024: Detection and Multi-Object Tracking of Sweet Peppers Challenge.</em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2411.06702">paper</a> / <a href="https://cvppa2024.github.io/challenges/">competition</a> 
-    <p></p>
-    </td>
-    </tr>
-    <tr>
-    <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
-    <img src="https://uqzhichen.github.io/images/plantseg.png" width="180" height="100" alt="Paper 1 figure"/>
-    </td>
-    <td style="width:75%;vertical-align: middle;">
-    <a href="https://arxiv.org/pdf/2409.04038">
-    <papertitle>PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation</papertitle>
-    </a>
-    <br>
-    Tianqi Wei, <strong>Zhi Chen</strong>, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang
-    <br>
-    <em>preprint</em><br>
-    <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2409.04038">arXiv</a> / <a href="https://github.com/tqwei05/PlantSeg">code</a> / <a href="https://zenodo.org/records/13762907">dataset</a>
     <p></p>
     </td>
     </tr>
