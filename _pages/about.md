@@ -26,6 +26,10 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2026.02*: &nbsp; One RUIC program project ($100,000) has been granted by Queensland Government and CSIRO.
+
+- *2026.02*: &nbsp; One AEA Ignite Project ($549,886) has been granted by the Department of Education.
+
 - *2025.12*：&nbsp; Our dataset paper [PlantSeg](https://arxiv.org/pdf/2409.04038) has been accepted to Scientific Data (Nature Portfolio, JCR Q1, IF: 6.9). 
 
 - *2025.12*: &nbsp; I gave a talk on AI for Agriculture in the AI4Impact Research Symposium, hosted by UniSQ Business School and SRMIST India.
@@ -62,7 +66,7 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 - *2024.09*: &nbsp; Our [Coarse-to-Fine Prototype Refining Network for Point Cloud Completion and Reconstruction](https://arxiv.org/pdf/2409.08443) for CVPPA@ECCV 2025 challenge won the first place solution! 
 
-- *2024.07*: &nbsp; One paper on [In-the-wild Multimodal Disease Recognition](https://dl.acm.org/doi/10.1145/3664647.3680599) has been accepted to ACM MM 2024.
+- *2024.07*: &nbsp; One paper on [In-the-wild Multimodal Disease Recognition](https://dl.acm.org/doi/10.1145/3664647.3680599) has been accepted to ACM MM 2024. 
 
 
   
