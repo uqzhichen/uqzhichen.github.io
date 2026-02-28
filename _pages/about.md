@@ -26,11 +26,11 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-- *2026.02*: &nbsp; One RUIC program project ($100,000) has been granted by Queensland Government and CSIRO.
+- *2026.02*: &nbsp; One RUIC program project ($100,000) has been granted by the Queensland Government and CSIRO.
 
 - *2026.02*: &nbsp; One AEA Ignite Project ($549,886) has been granted by the Department of Education.
 
-- *2025.12*：&nbsp; Our dataset paper [PlantSeg](https://arxiv.org/pdf/2409.04038) has been accepted to Scientific Data (Nature Portfolio, JCR Q1, IF: 6.9). 
+- *2025.12*：&nbsp; Our dataset paper [PlantSeg](https://www.nature.com/articles/s41597-025-06513-4) has been accepted to Scientific Data (Nature Portfolio, JCR Q1, IF: 6.9). 
 
 - *2025.12*: &nbsp; I gave a talk on AI for Agriculture in the AI4Impact Research Symposium, hosted by UniSQ Business School and SRMIST India.
 
@@ -84,7 +84,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <img src="https://uqzhichen.github.io/images/plantseg.png" width="180" height="100" alt="Paper 1 figure"/>
     </td>
     <td style="width:75%;vertical-align: middle;">
-    <a href="https://arxiv.org/pdf/2409.04038">
+    <a href="https://www.nature.com/articles/s41597-025-06513-4">
     <papertitle>PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation</papertitle>
     </a>
     <br>
@@ -92,7 +92,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>Scientific Data (Nature Portfolio)</em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2409.04038">Preprint</a> / <a href="https://github.com/tqwei05/PlantSeg">code</a> / <a href="https://zenodo.org/records/13762907">dataset</a>
+    <a href="https://www.nature.com/articles/s41597-025-06513-4">Paper</a> / <a href="https://github.com/tqwei05/PlantSeg">code</a> / <a href="https://zenodo.org/records/13762907">dataset</a>
     <p></p>
     </td>
     </tr>
@@ -101,7 +101,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <img src="https://uqzhichen.github.io/images/capel.png" width="180" height="100" alt="Paper 1 figure"/>
     </td>
     <td style="width:75%;vertical-align: middle;">
-    <a href="https://arxiv.org/pdf/2510.09867">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012592">
     <papertitle>Cluster-Aware Prompt Ensemble Learning for Few-Shot Vision-Language Model Adaptation</papertitle>
     </a>
     <br>
@@ -109,7 +109,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>VLM</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2510.09867">Pre-print</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012592">Paper</a>
     <p></p>
     </td>
     </tr>
@@ -118,7 +118,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <img src="https://uqzhichen.github.io/images/fastedit.png" width="180" height="100" alt="Paper 1 figure"/>
     </td>
     <td style="width:75%;vertical-align: middle;">
-    <a href="https://arxiv.org/pdf/2408.03355">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012464">
     <papertitle>FastEdit: Fast Text-Guided Single-Image Editing via Semantic-Aware Diffusion Fine-Tuning</papertitle>
     </a>
     <br>
@@ -126,7 +126,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>Image Editing</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2408.03355">Pre-print</a> / <a href="https://github.com/JasonCodeMaker/FastEdit">code</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012464">Paper</a> / <a href="https://github.com/JasonCodeMaker/FastEdit">code</a>
     <p></p>
     </td>
     </tr>
@@ -187,7 +187,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <img src="https://uqzhichen.github.io/images/image.png" width="180" height="100" alt="Paper 1 figure"/>
      </td>
      <td style="width:75%;vertical-align: middle;">
-     <a href="https://arxiv.org/pdf/2503.10252">
+     <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_SVIP_Semantically_Contextualized_Visual_Patches_for_Zero-Shot_Learning_ICCV_2025_paper.pdf">
      <papertitle>SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning</papertitle>
      </a>
      <br>
@@ -195,7 +195,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <br>
      <em>ICCV 2025</em><br>
      <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-     <a href="https://arxiv.org/abs/2503.10252">arXiv</a>
+     <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_SVIP_Semantically_Contextualized_Visual_Patches_for_Zero-Shot_Learning_ICCV_2025_paper.pdf">Paper</a>
      <p></p><p></p><p></p>
      </td>
      </tr>
