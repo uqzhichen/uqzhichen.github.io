@@ -74,8 +74,61 @@ My research centers around developing generalizable and applicable ML/AI approac
 # 📚 Publications 
 
 
+<h3>2026</h3> 
+<table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="https://uqzhichen.github.io/images/LMMP.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2602.18811">
+     <papertitle>Learning Multi-Modal Prototypes for Cross-Domain Few-Shot Object Detection</papertitle>
+     </a>
+     <br>
+     Wanqi Wang, Jingcai Guo, Yuxiang Cai, <strong>Zhi Chen*</strong>
+     <br>
+     <em>CVPR 2026 Findings (Core A*)</em><br>
+     <a href="https://arxiv.org/pdf/2602.18811">paper</a>
+     <p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="https://uqzhichen.github.io/images/aaai2026.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37841/41803">
+     <papertitle>TR-DQ: Time-Rotation Diffusion Quantization</papertitle>
+     </a>
+     <br>
+     Yihua Shao, et al., <strong>Zhi Chen</strong>, Jingcai Guo
+     <br>
+     <em>The 40th Annual AAAI Conference on Artificial Intelligence AAAI 2026 (Core A*)</em><br>
+     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37841/41803">paper</a>
+     <p></p>
+     </td>
+     </tr>
+    <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="https://uqzhichen.github.io/images/distzsl.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://ieeexplore.ieee.org/abstract/document/11441981/">
+     <papertitle>Distributed Zero-Shot Learning for Visual Recognition</papertitle>
+     </a>
+     <br>
+     <strong>Zhi Chen</strong>, Yadan Luo, Zi Huang, Jingjing Li, Sen Wang, Xin Yu
+     <br>
+     <em>IEEE Transactions on Multimedia (Core A*, IF: 9.7)</em><br>
+     <div><abbr style="background-color:#fcce03"><strong>ZSL</strong></abbr></div>
+     <a href="https://ieeexplore.ieee.org/abstract/document/11441981/">paper</a>
+     <p></p>
+     </td>
+     </tr>
+  </tbody>
+</table>
 <h3>2025</h3> 
-
 <!-- <table  border="0" style="border: none; border-collapse: collapse; width: 100%; text-align: left;"> -->
 <table style="width:100%;border:0px;border-spacing:10px 15px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
