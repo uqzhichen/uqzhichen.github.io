@@ -1,16 +1,13 @@
-# main links links
+# main navigation links
 main:
   - title: "About Me"
-    url: "/#about-me"
-
-  - title: "News"
-    url: "/#-news"
+    url: "/#tab-about"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#tab-publications"
 
-  - title: "Teachings"
-    url: "/#-teachings"
- 
-  - title: "Services"
-    url: "/#-services"
+  - title: "Grants & Awards"
+    url: "/#tab-grants"
+
+  - title: "Teaching & Service"
+    url: "/#tab-teaching"

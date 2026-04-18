@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhi Chen, Ph.D."
-description              : ""
+description              : "Lecturer/Assistant Professor at University of Southern Queensland. Research in zero-shot learning, computer vision, AI for Agriculture and Healthcare."
 repository               : "uqzhichen/zhichen.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhi Chen"
   avatar           : "images/headshot_crop.jpg"
-  bio              : "Lecturer/Assistant Professor"
+  bio              : ""
   location         : "Australia"
   employer         : "University of Southern Queensland"
   pubmed           : 
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  LinkedIn         : "simon-chen-qld" # e.g., "linkedin username"
+  linkedin         : "simon-chen-qld" # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/0000-0002-9385-144X" # e.g., "https://orcid.org/xxxx"
   pinterest        :

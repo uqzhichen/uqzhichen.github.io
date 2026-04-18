@@ -48,7 +48,6 @@
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    
 
     .paper-box-image{
         justify-content: center;
@@ -61,12 +60,12 @@
             object-fit: cover;
         }
     }
-    
+
     .paper-box-text{
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
@@ -74,26 +73,23 @@
             max-width: 40%;
             order: 1;
         }
-        
+
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 
@@ -106,4 +102,568 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* ==========================================================================
+   Reading progress bar — sits in normal flow at top of the masthead (no absolute
+   positioning that could escape the sticky container or shift layout)
+   ========================================================================== */
+#reading-progress-bar {
+    display: block;
+    height: 3px;
+    width: 0%;
+    background: $primary-color;
+    transition: width 0.1s linear;
+    /* no position/top/left — stays in flow as a thin 3px strip */
+}
+
+/* ==========================================================================
+   Back-to-top button
+   ========================================================================== */
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background: $primary-color;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+    transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.2s ease, background 0.2s ease;
+    transform: translateY(10px);
+
+    &.visible {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    &:hover {
+        background: mix(#000, $primary-color, 15%);
+        transform: translateY(-2px);
+    }
+}
+
+/* ==========================================================================
+   Masthead hide-on-scroll & dark mode toggle
+   ========================================================================== */
+.masthead {
+    transition: transform 0.3s ease;
+
+    &--hidden {
+        transform: translateY(-100%);
+    }
+}
+
+/* Dark mode toggle — inside a greedy-nav <li>, so it gets table-cell layout
+   automatically. We only need to style the button itself. */
+.masthead__dark-toggle-item {
+    /* Keep it out of the overflow detection by not letting it shrink */
+    white-space: nowrap;
+}
+
+.dark-mode-toggle {
+    background: none;
+    border: 1px solid $border-color;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 3px 9px;
+    font-size: 0.95rem;
+    line-height: 1;
+    color: $text-color;
+    transition: $global-transition;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    /* Prevent absolute-positioned greedy-nav button from overlapping toggle */
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+        background: $border-color;
+    }
+
+    /* Light mode: show sun; hide moon */
+    .dark-mode-toggle__icon--moon { display: none; }
+    .dark-mode-toggle__icon--sun  { display: inline; }
+
+    &.is-dark {
+        .dark-mode-toggle__icon--sun  { display: none; }
+        .dark-mode-toggle__icon--moon { display: inline; }
+    }
+}
+
+/* ==========================================================================
+   Publication table improvements
+   ========================================================================== */
+/* Year header badges — scoped to publications tab only */
+#tab-publications h3 {
+    display: inline-block;
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
+    padding: 2px 14px;
+    background: $primary-color;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    border-bottom: none;
+    letter-spacing: 0.04em;
+}
+
+/* Publication row hover */
+table tr {
+    transition: background 0.15s ease;
+    &:hover {
+        background: rgba(37, 99, 235, 0.035);
+    }
+}
+
+/* papertitle link style */
+papertitle {
+    font-size: 1em;
+    font-weight: 600;
+    color: $text-color;
+    line-height: 1.4;
+}
+
+a papertitle {
+    color: $link-color;
+    &:hover { color: $link-color-hover; }
+}
+
+/* BibTeX copy button */
+.bibtex-btn {
+    display: inline-block;
+    margin-left: 0.4em;
+    padding: 1px 8px;
+    font-size: 0.72em;
+    font-weight: 500;
+    font-family: $monospace;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: $global-transition;
+    text-decoration: none;
+
+    &:hover {
+        background: $primary-color;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &--copied {
+        background: $success-color;
+        border-color: $success-color;
+        color: #fff;
+    }
+}
+
+/* ==========================================================================
+   Research interest tags
+   ========================================================================== */
+.research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0.75em 0 1.5em;
+
+    .tag {
+        display: inline-block;
+        padding: 4px 14px;
+        border-radius: 20px;
+        font-size: 0.82em;
+        font-weight: 500;
+        background: rgba(37, 99, 235, 0.08);
+        color: $primary-color;
+        border: 1px solid rgba(37, 99, 235, 0.25);
+        transition: $global-transition;
+
+        &:hover {
+            background: $primary-color;
+            color: #fff;
+            border-color: $primary-color;
+        }
+    }
+}
+
+/* ==========================================================================
+   News section — show/hide toggle
+   ========================================================================== */
+.news-expand-btn {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 4px 16px;
+    font-size: 0.85em;
+    font-weight: 500;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: $global-transition;
+    text-decoration: none;
+
+    &:hover {
+        background: $primary-color;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* ==========================================================================
+   Education / Awards timeline
+   ========================================================================== */
+.timeline {
+    margin: 0.5em 0 1.5em;
+    padding: 0;
+    list-style: none;
+    border-left: 2px solid $border-color;
+
+    li {
+        position: relative;
+        padding: 0.5em 0 0.5em 1.5em;
+        margin-bottom: 0;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 0.85em;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: $primary-color;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 2px $primary-color;
+        }
+
+        .timeline-date {
+            font-size: 0.78em;
+            color: #888;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .timeline-title {
+            font-weight: 600;
+            color: $text-color;
+        }
+
+        .timeline-sub {
+            font-size: 0.88em;
+            color: #666;
+        }
+    }
+}
+
+/* ==========================================================================
+   Dark mode
+   ========================================================================== */
+html.dark-mode {
+    --dm-bg:           #0f172a;
+    --dm-surface:      #1e293b;
+    --dm-text:         #e2e8f0;
+    --dm-text-muted:   #94a3b8;
+    --dm-border:       #334155;
+    --dm-link:         #60a5fa;
+    --dm-link-hover:   #93c5fd;
+    --dm-accent:       #3b82f6;
+    --dm-code-bg:      #1e293b;
+
+    background-color: var(--dm-bg);
+
+    body {
+        background-color: var(--dm-bg);
+        color: var(--dm-text);
+    }
+
+    .masthead {
+        background-color: var(--dm-surface);
+        border-bottom-color: var(--dm-border);
+    }
+
+    .sidebar,
+    .profile_box {
+        background-color: var(--dm-bg);
+        color: var(--dm-text);
+    }
+
+    .author__name,
+    .author__bio { color: var(--dm-text); }
+
+    .author__urls a { color: var(--dm-text); }
+    .author__urls   { border-color: var(--dm-border); background: var(--dm-surface); }
+
+    a {
+        color: var(--dm-link);
+        &:hover { color: var(--dm-link-hover); }
+    }
+
+    papertitle { color: var(--dm-text); }
+    a papertitle { color: var(--dm-link); }
+
+    h1, h2, h3, h4, h5, h6 { color: var(--dm-text); }
+
+    #tab-publications h3 {
+        background: var(--dm-accent);
+        color: #fff;
+    }
+
+    table tr:hover { background: rgba(96, 165, 250, 0.06); }
+
+    abbr { color: #111 !important; }
+
+    code, pre {
+        background-color: var(--dm-code-bg);
+        border-color: var(--dm-border);
+        color: var(--dm-text);
+    }
+
+    hr, .page__content h1 {
+        border-color: var(--dm-border);
+    }
+
+    .dark-mode-toggle {
+        border-color: var(--dm-border);
+        color: var(--dm-text);
+        &:hover { background: var(--dm-border); }
+    }
+
+    .research-tags .tag {
+        background: rgba(96, 165, 250, 0.12);
+        color: var(--dm-link);
+        border-color: rgba(96, 165, 250, 0.3);
+        &:hover { background: var(--dm-accent); color: #fff; border-color: var(--dm-accent); }
+    }
+
+    .timeline {
+        border-left-color: var(--dm-border);
+        li::before { background: var(--dm-accent); box-shadow: 0 0 0 2px var(--dm-accent); }
+        .timeline-date  { color: var(--dm-text-muted); }
+        .timeline-title { color: var(--dm-text); }
+        .timeline-sub   { color: var(--dm-text-muted); }
+    }
+
+    #back-to-top {
+        background: var(--dm-accent);
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+    }
+
+    #reading-progress-bar { background: var(--dm-accent); }
+
+    .bibtex-btn {
+        color: var(--dm-link);
+        border-color: var(--dm-link);
+        &:hover { background: var(--dm-accent); color: #fff; border-color: var(--dm-accent); }
+    }
+
+    .news-expand-btn {
+        color: var(--dm-link);
+        border-color: var(--dm-link);
+        &:hover { background: var(--dm-accent); color: #fff; }
+    }
+}
+
+/* ==========================================================================
+   Mobile responsiveness improvements
+   ========================================================================== */
+@media (max-width: 600px) {
+    /* Ensure publication images don't overflow */
+    table td img {
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    /* Stack publication rows vertically on mobile */
+    table tr {
+        display: block;
+        margin-bottom: 1.5em;
+        border-bottom: 1px solid $border-color;
+        td {
+            display: block;
+            width: 100% !important;
+            padding: 0.25em 0;
+            img { max-width: 100%; height: auto !important; }
+        }
+    }
+
+    #back-to-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 38px;
+        height: 38px;
+        font-size: 1.2rem;
+        line-height: 38px;
+    }
+}
+
+/* Smooth hover on nav links */
+.masthead__menu-item a {
+    transition: color 0.15s ease;
+    &:hover { color: $primary-color; }
+}
+
+/* Active nav tab highlight */
+.masthead__menu-item--active > a {
+    color: $primary-color;
+    font-weight: 600;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 2px;
+}
+
+html.dark-mode .masthead__menu-item--active > a {
+    color: var(--dm-link);
+    border-bottom-color: var(--dm-accent);
+}
+
+/* Smooth link underline animation */
+.page__content a {
+    transition: color 0.15s ease, opacity 0.15s ease;
+    &:hover { opacity: 0.82; }
+}
+
+/* ==========================================================================
+   Grant cards
+   ========================================================================== */
+.grant-card {
+    margin: 1.25em 0 1.5em;
+    padding: 1.25em 1.5em;
+    border-left: 4px solid $primary-color;
+    background: rgba(37, 99, 235, 0.03);
+    border-radius: 0 $border-radius $border-radius 0;
+
+    h3 {
+        margin-top: 0.5em;
+        margin-bottom: 0.6em;
+        font-size: 1em;
+        font-weight: 700;
+        color: $text-color;
+    }
+
+    table {
+        margin: 0.5em 0 0.75em;
+        font-size: 0.88em;
+        td { padding: 2px 8px 2px 0; border: none; background: none !important; }
+        tr { background: none !important; &:hover { background: none !important; } }
+    }
+
+    p { font-size: 0.92em; color: lighten($text-color, 10%); margin-bottom: 0.5em; }
+}
+
+.grant-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    margin-bottom: 0.25em;
+}
+
+.grant-amount {
+    font-size: 1.35em;
+    font-weight: 700;
+    color: $primary-color;
+    letter-spacing: -0.01em;
+}
+
+.grant-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: rgba(37, 99, 235, 0.1);
+    color: $primary-color;
+    border: 1px solid rgba(37, 99, 235, 0.25);
+    letter-spacing: 0.02em;
+}
+
+html.dark-mode {
+    .grant-card {
+        background: rgba(59, 130, 246, 0.06);
+        border-left-color: var(--dm-accent);
+        h3 { color: var(--dm-text); }
+        p { color: var(--dm-text-muted); }
+    }
+    .grant-amount { color: var(--dm-link); }
+    .grant-badge {
+        background: rgba(96, 165, 250, 0.12);
+        color: var(--dm-link);
+        border-color: rgba(96, 165, 250, 0.3);
+    }
+}
+
+/* ==========================================================================
+   Content tabs
+   ========================================================================== */
+.tab-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border-bottom: 2px solid $border-color;
+    margin-bottom: 1.75em;
+    margin-top: 0.25em;
+
+    .tab-btn {
+        background: none;
+        border: none;
+        border-bottom: 3px solid transparent;
+        margin-bottom: -2px;
+        padding: 0.55em 1.2em;
+        font-size: 0.92em;
+        font-weight: 500;
+        color: $light-gray;
+        cursor: pointer;
+        transition: color 0.15s ease, border-color 0.15s ease;
+        white-space: nowrap;
+        line-height: 1.6;
+
+        &:hover {
+            color: $primary-color;
+        }
+
+        &.active {
+            color: $primary-color;
+            border-bottom-color: $primary-color;
+            font-weight: 600;
+        }
+    }
+}
+
+.tab-panel {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+html.dark-mode {
+    .tab-bar {
+        border-bottom-color: var(--dm-border);
+
+        .tab-btn {
+            color: var(--dm-text-muted);
+
+            &:hover { color: var(--dm-link); }
+
+            &.active {
+                color: var(--dm-link);
+                border-bottom-color: var(--dm-accent);
+            }
+        }
+    }
 }

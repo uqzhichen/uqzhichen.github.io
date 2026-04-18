@@ -16,7 +16,7 @@ layout: compress
 
     <div id="main" role="main">
       {% include sidebar.html %}
-    
+
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
@@ -27,7 +27,198 @@ layout: compress
       </article>
     </div>
 
+    <!-- Back to top button -->
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</button>
+
     {% include scripts.html %}
+
+    <script>
+      // ── Dark mode toggle ──────────────────────────────────────────────
+      (function() {
+        var toggle = document.getElementById('dark-mode-toggle');
+        var html   = document.documentElement;
+        if (!toggle) return;
+
+        // Initialise icon state from stored preference
+        function syncIcon() {
+          var isDark = html.classList.contains('dark-mode');
+          toggle.classList.toggle('is-dark', isDark);
+        }
+        syncIcon();
+
+        toggle.addEventListener('click', function() {
+          var isDark = html.classList.toggle('dark-mode');
+          localStorage.setItem('darkMode', isDark);
+          syncIcon();
+        });
+      })();
+
+      // ── Hide masthead on scroll-down, show on scroll-up ──────────────
+      (function() {
+        var masthead   = document.getElementById('site-masthead');
+        var lastScroll = 0;
+        if (!masthead) return;
+
+        window.addEventListener('scroll', function() {
+          var current = window.pageYOffset || document.documentElement.scrollTop;
+          if (current <= 60) {
+            masthead.classList.remove('masthead--hidden');
+          } else if (current > lastScroll) {
+            masthead.classList.add('masthead--hidden');
+          } else {
+            masthead.classList.remove('masthead--hidden');
+          }
+          lastScroll = current <= 0 ? 0 : current;
+        }, { passive: true });
+      })();
+
+      // ── Back to top button ────────────────────────────────────────────
+      (function() {
+        var btn = document.getElementById('back-to-top');
+        if (!btn) return;
+
+        window.addEventListener('scroll', function() {
+          btn.classList.toggle('visible', window.pageYOffset > 300);
+        }, { passive: true });
+
+        btn.addEventListener('click', function() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      })();
+
+      // ── Reading progress bar ──────────────────────────────────────────
+      (function() {
+        var bar = document.getElementById('reading-progress-bar');
+        if (!bar) return;
+
+        window.addEventListener('scroll', function() {
+          var docEl  = document.documentElement;
+          var body   = document.body;
+          var scrollTop  = docEl.scrollTop  || body.scrollTop;
+          var scrollHeight = (docEl.scrollHeight || body.scrollHeight) - docEl.clientHeight;
+          var pct = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+          bar.style.width = pct + '%';
+        }, { passive: true });
+      })();
+
+      // ── Content tabs (driven by top nav) ─────────────────────────────
+      (function() {
+        var tabPanels = document.querySelectorAll('.tab-panel');
+        var navItems  = document.querySelectorAll('[data-nav-tab]');
+        if (!tabPanels.length) return;
+
+        // Collect known tab IDs from panel ids
+        var tabIds = Array.from(tabPanels).map(function(p) { return p.id.replace('tab-', ''); });
+        var defaultTab = tabIds[0] || 'about';
+
+        function activateTab(tabId) {
+          // Validate — fall back to first tab if unknown
+          if (tabIds.indexOf(tabId) === -1) tabId = defaultTab;
+
+          // Show/hide panels
+          tabPanels.forEach(function(p) {
+            p.classList.toggle('active', p.id === 'tab-' + tabId);
+          });
+
+          // Highlight active nav item
+          navItems.forEach(function(li) {
+            li.classList.toggle('masthead__menu-item--active', li.dataset.navTab === tabId);
+          });
+        }
+
+        // Activate from URL hash on load
+        var hash = location.hash.replace(/^#tab-/, '');
+        activateTab(hash || defaultTab);
+
+        // Nav link clicks — intercept same-page hash navigation
+        navItems.forEach(function(li) {
+          var a = li.querySelector('a');
+          if (!a) return;
+          a.addEventListener('click', function(e) {
+            var href = a.getAttribute('href') || '';
+            var match = href.match(/#tab-([^&?]+)$/);
+            if (match) {
+              e.preventDefault();
+              var tabId = match[1];
+              activateTab(tabId);
+              history.pushState(null, null, '#tab-' + tabId);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          });
+        });
+
+        // Handle browser back / forward
+        window.addEventListener('hashchange', function() {
+          var h = location.hash.replace(/^#tab-/, '');
+          if (h) activateTab(h);
+        });
+      })();
+
+      // ── BibTeX copy buttons ───────────────────────────────────────────
+      // Reads title, authors, venue, year from the publication row's DOM
+      function copyBibtex(btn) {
+        var row   = btn.closest('tr');
+        if (!row) return;
+
+        var titleEl  = row.querySelector('papertitle');
+        var authorsEl = row.querySelector('td:last-child > br');
+        var venueEl  = row.querySelector('em');
+
+        var title   = titleEl  ? titleEl.textContent.trim()  : 'Unknown Title';
+        var venue   = venueEl  ? venueEl.textContent.trim()  : '';
+
+        // Authors are the text node after the title link, before the <em>
+        var td = row.querySelector('td:last-child');
+        var authors = '';
+        if (td) {
+          var nodes = td.childNodes;
+          for (var i = 0; i < nodes.length; i++) {
+            if (nodes[i].nodeType === 3 && nodes[i].textContent.trim().length > 2) {
+              authors = nodes[i].textContent.trim().replace(/\s+/g, ' ');
+              break;
+            }
+          }
+        }
+
+        // Extract year from the nearest h3 ancestor or sibling
+        var year = '';
+        var h3 = row.closest('table') && row.closest('table').previousElementSibling;
+        if (h3 && h3.tagName === 'H3') year = h3.textContent.trim();
+
+        // Build a key from first author last name + year
+        var keyBase = (authors.split(',')[0].trim().split(' ').pop() || 'Author').toLowerCase();
+        var key = keyBase + (year || '2024');
+
+        var bibtex = '@inproceedings{' + key + ',\n'
+          + '  title     = {' + title + '},\n'
+          + '  author    = {' + (authors || 'Author(s)') + '},\n'
+          + '  booktitle = {' + venue + '},\n'
+          + (year ? '  year      = {' + year + '},\n' : '')
+          + '}';
+
+        navigator.clipboard.writeText(bibtex).then(function() {
+          var orig = btn.textContent;
+          btn.textContent = 'Copied!';
+          btn.classList.add('bibtex-btn--copied');
+          setTimeout(function() {
+            btn.textContent = orig;
+            btn.classList.remove('bibtex-btn--copied');
+          }, 2000);
+        }).catch(function() {
+          // Fallback for older browsers
+          var ta = document.createElement('textarea');
+          ta.value = bibtex;
+          ta.style.position = 'fixed';
+          ta.style.opacity  = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          btn.textContent = 'Copied!';
+          setTimeout(function() { btn.textContent = 'BibTeX'; }, 2000);
+        });
+      }
+    </script>
 
   </body>
 </html>
