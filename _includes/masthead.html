@@ -1,13 +1,23 @@
-<div class="masthead">
+<div class="masthead" id="site-masthead">
+  <!-- Reading progress bar — contained by position:relative on the masthead -->
+  <div id="reading-progress-bar"></div>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" target="_self">Homepage</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign tab_id = link.url | remove: "/#tab-" %}
+            <li class="masthead__menu-item" data-nav-tab="{{ tab_id }}"><a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
           {% endfor %}
+          <!-- Dark mode toggle sits inside the nav list so it stays inline -->
+          <li class="masthead__menu-item masthead__dark-toggle-item">
+            <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+              <span class="dark-mode-toggle__icon dark-mode-toggle__icon--sun">&#9728;</span>
+              <span class="dark-mode-toggle__icon dark-mode-toggle__icon--moon">&#9790;</span>
+            </button>
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

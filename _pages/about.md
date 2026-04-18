@@ -15,6 +15,8 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<!-- ══ TAB 1 — About ════════════════════════════════════════════════ -->
+<div class="tab-panel" id="tab-about" role="tabpanel" markdown="1">
 
 <span class='anchor' id='about-me'></span>
 
@@ -22,19 +24,38 @@ I am a Lecturer/Assistant Professor at the School of Mathematics, Physics and Co
 
 My research centers around developing generalizable and applicable ML/AI approaches. For fundamental research, I mainly explore the field of computer vision, particularly in **zero-shot learning**. For applied AI, I mainly conduct interdisciplinary research on **AI for Agriculture** and **AI for Healthcare**.
 
-🚀 I am now looking for highly motivated Ph.D. students, Master's Students, Research Assistants, and Visiting Scholars working on computer vision and related areas. 
+🚀 I am now looking for highly motivated Ph.D. students, Master's Students, Research Assistants, and Visiting Scholars working on computer vision and related areas.
+
+<div class="research-tags">
+  <span class="tag">Zero-Shot Learning</span>
+  <span class="tag">Computer Vision</span>
+  <span class="tag">Vision-Language Models</span>
+  <span class="tag">AI for Agriculture</span>
+  <span class="tag">AI for Healthcare</span>
+  <span class="tag">Domain Adaptation</span>
+  <span class="tag">Continual Learning</span>
+  <span class="tag">Diffusion Models</span>
+  <span class="tag">Image/Video Generation</span>
+</div>
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+
 - *2026.02*: &nbsp; One RUIC program project ($100,000) has been granted by the Queensland Government and CSIRO.
 
 - *2026.02*: &nbsp; One AEA Ignite Project ($549,886) has been granted by the Department of Education.
+
+- *2026.02*: &nbsp; One [GRDC grant ($250,000)](https://grdc.com.au/grdc-investments/investments/investment?code=USQ2605-002BGX) on Exploring Data Efficient Machine Learning for Australian Grains Disease Recognition has been awarded.
 
 - *2025.12*：&nbsp; Our dataset paper [PlantSeg](https://www.nature.com/articles/s41597-025-06513-4) has been accepted to Scientific Data (Nature Portfolio, JCR Q1, IF: 6.9). 
 
 - *2025.12*: &nbsp; I gave a talk on AI for Agriculture in the AI4Impact Research Symposium, hosted by UniSQ Business School and SRMIST India.
 
-- *2025.12*: &nbsp; I gave a tutorial on zero-shot learning in [DICTA2025](https://dicta2025.dictaconference.org/workshop_tutorial.html). 
+- *2025.12*: &nbsp; I gave a tutorial on zero-shot learning in [DICTA2025](https://dicta2025.dictaconference.org/workshop_tutorial.html).
+
+<details>
+<summary><button class="news-expand-btn">Show all news (16 more) ▼</button></summary>
+<div markdown="1">
 
 - *2025.11*: &nbsp; Our paper on Diffusion Quantization has been accepted to AAAI 2026, paper coming soon. 
 
@@ -64,14 +85,20 @@ My research centers around developing generalizable and applicable ML/AI approac
 
 - *2024.10*: &nbsp; One paper on [Class-Agnostic Object Detection](https://arxiv.org/pdf/2406.14924) has been accepted to NeurIPS 2024.
 
-- *2024.09*: &nbsp; Our [Coarse-to-Fine Prototype Refining Network for Point Cloud Completion and Reconstruction](https://arxiv.org/pdf/2409.08443) for CVPPA@ECCV 2025 challenge won the first place solution! 
+- *2024.09*: &nbsp; Our [Coarse-to-Fine Prototype Refining Network for Point Cloud Completion and Reconstruction](https://arxiv.org/pdf/2409.08443) for CVPPA@ECCV 2024 challenge won the first place solution! 
 
-- *2024.07*: &nbsp; One paper on [In-the-wild Multimodal Disease Recognition](https://dl.acm.org/doi/10.1145/3664647.3680599) has been accepted to ACM MM 2024. 
+- *2024.07*: &nbsp; One paper on [In-the-wild Multimodal Disease Recognition](https://dl.acm.org/doi/10.1145/3664647.3680599) has been accepted to ACM MM 2024.
 
+</div>
+</details>
 
-  
+</div><!-- /tab-about -->
+
+<!-- ══ TAB 2 — Publications ═════════════════════════════════════════ -->
+<div class="tab-panel" id="tab-publications" role="tabpanel" markdown="1">
+
 <span class='anchor' id='publications'></span>
-# 📚 Publications 
+# 📚 Publications
 
 
 <h3>2026</h3> 
@@ -90,6 +117,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <br>
      <em>CVPR 2026 Findings (Core A*)</em><br>
      <a href="https://arxiv.org/pdf/2602.18811">paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
      </tr>
@@ -106,6 +134,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <br>
      <em>The 40th Annual AAAI Conference on Artificial Intelligence AAAI 2026 (Core A*)</em><br>
      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37841/41803">paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
      </tr>
@@ -123,6 +152,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>IEEE Transactions on Multimedia (Core A*, IF: 9.7)</em><br>
      <div><abbr style="background-color:#fcce03"><strong>ZSL</strong></abbr></div>
      <a href="https://ieeexplore.ieee.org/abstract/document/11441981/">paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
      </tr>
@@ -145,7 +175,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>Scientific Data (Nature Portfolio)</em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
-    <a href="https://www.nature.com/articles/s41597-025-06513-4">Paper</a> / <a href="https://github.com/tqwei05/PlantSeg">code</a> / <a href="https://zenodo.org/records/13762907">dataset</a>
+    <a href="https://www.nature.com/articles/s41597-025-06513-4">Paper</a> / <a href="https://github.com/tqwei05/PlantSeg" rel="noopener noreferrer">code</a> / <a href="https://zenodo.org/records/13762907" rel="noopener noreferrer">dataset</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -163,6 +194,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>VLM</strong></abbr></div>
     <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012592">Paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -179,7 +211,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>Image Editing</strong></abbr></div>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012464">Paper</a> / <a href="https://github.com/JasonCodeMaker/FastEdit">code</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012464">Paper</a> / <a href="https://github.com/JasonCodeMaker/FastEdit" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -197,7 +230,8 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>Plant Phenomics (Q1) (IF: 6.4)</em><br>
      <div><abbr style="background-color:#58D68D"><strong>AI for Science</strong></abbr></div>
      <a href="https://www.sciencedirect.com/science/article/pii/S2643651525000901">Paper</a> /
-    <a href="https://www.global-wheat.com/gwfss.html">Project</a>
+    <a href="https://www.global-wheat.com/gwfss.html" rel="noopener noreferrer">Project</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p><p></p><p></p>
      </td>
      </tr>
@@ -215,6 +249,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>ACM MM 2025</em><br>
      <div><abbr style="background-color:#58D68D"><strong>Video</strong></abbr></div>
      <a href="https://arxiv.org/pdf/2507.02316">arXiv</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p><p></p><p></p>
      </td>
      </tr>
@@ -232,6 +267,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>ACM MM 2025</em><br>
      <div><abbr style="background-color:#58D68D"><strong>DA</strong></abbr></div>
      <a href="https://dl.acm.org/doi/pdf/10.1145/3746027.3755740">Paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p><p></p><p></p>
      </td>
      </tr>
@@ -249,6 +285,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>ICCV 2025</em><br>
      <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_SVIP_Semantically_Contextualized_Visual_Patches_for_Zero-Shot_Learning_ICCV_2025_paper.pdf">Paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p><p></p><p></p>
      </td>
      </tr>
@@ -266,6 +303,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>SIGIR 2025 (Core A*)</em><br>
      <div><abbr style="background-color:#3279a8"><strong>CL</strong></abbr></div>
      <a href="https://arxiv.org/pdf/2503.10111">arXiv</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p><p></p><p></p>
      </td>
      </tr>
@@ -283,6 +321,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>IJCAI 2025</em><br>
      <div><abbr style="background-color:#3279a8"><strong>CL</strong></abbr></div>
      <a href="https://arxiv.org/pdf/2501.15454">arXiv</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p><p></p><p></p>
      </td>
      </tr>
@@ -300,6 +339,7 @@ My research centers around developing generalizable and applicable ML/AI approac
      <em>The 39th Annual AAAI Conference on Artificial Intelligence* AAAI 2025 (Core A*)</em><br>
      <div><abbr style="background-color:#fcce03"><strong>DA</strong></abbr></div>
      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34380/36535">paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
      </tr>
@@ -316,7 +356,8 @@ My research centers around developing generalizable and applicable ML/AI approac
      <br>
      <em>IEEE International Geoscience and Remote Sensing Symposium 2025 (IGARSS)</em><br>
      <div><abbr style="background-color:#fcce03"><strong>AI for Science</strong></abbr></div>
-     <a href="">paper</a>
+     <a href="">paper (coming soon)</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
      </tr>
@@ -337,7 +378,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     Jia Syuen Lim, Zhuoxiao Chen, <strong>Zhi Chen</strong>, Mahsa Baktashmotlagh, Xin Yu, Zi Huang, Yadan Luo
     <br>
     <em>NeurIPS 2024</em><br>
-    <a href="https://arxiv.org/pdf/2406.14924">arXiv</a> / <a href="https://github.com/jason-lim26/DiPEx/tree/master">code</a> 
+    <a href="https://arxiv.org/pdf/2406.14924">arXiv</a> / <a href="https://github.com/jason-lim26/DiPEx/tree/master" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -354,7 +396,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>ACM International Conference on Multimedia (MM)* 2024. (Core A*)</em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
-    <a href="https://arxiv.org/abs/2408.03120">arXiv</a> / <a href="https://github.com/tqwei05/MVPDR">code</a> / <a href="https://huggingface.co/datasets/uqtwei2/PlantWild">dataset</a> 
+    <a href="https://arxiv.org/abs/2408.03120">arXiv</a> / <a href="https://github.com/tqwei05/MVPDR" rel="noopener noreferrer">code</a> / <a href="https://huggingface.co/datasets/uqtwei2/PlantWild" rel="noopener noreferrer">dataset</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -371,7 +414,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>1st Place solution to CVPPA@ECCV2024: Shape Completion and Reconstruction of Sweet Peppers Challenge.</em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2409.08443">arXiv</a> / <a href="https://github.com/uqzhichen/CF-PRNet">code</a> / <a href="https://cvppa2024.github.io/challenges/">competition</a> 
+    <a href="https://arxiv.org/pdf/2409.08443">arXiv</a> / <a href="https://github.com/uqzhichen/CF-PRNet" rel="noopener noreferrer">code</a> / <a href="https://cvppa2024.github.io/challenges/" rel="noopener noreferrer">competition</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -388,7 +432,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>2st Place solution to CVPPA@ECCV2024: Detection and Multi-Object Tracking of Sweet Peppers Challenge.</em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2411.06702">paper</a> / <a href="https://cvppa2024.github.io/challenges/">competition</a> 
+    <a href="https://arxiv.org/pdf/2411.06702">paper</a> / <a href="https://cvppa2024.github.io/challenges/" rel="noopener noreferrer">competition</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -405,7 +450,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>ACM International Conference on Multimedia in Asia 2024. </em><br>
     <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2408.14723">paper</a> 
+    <a href="https://arxiv.org/pdf/2408.14723">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -423,6 +469,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>The Pacific-Asia Conference on Knowledge Discovery and Data Mining* (PAKDD) 2024. (Best Student Paper Award)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>RL</strong></abbr></div>
     <a href="https://openreview.net/pdf?id=nbN8Ilbg8c">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -440,6 +487,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>pre-print</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2408.04879">arXiv</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -457,6 +505,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>Diabetes & Metabolic Syndrome: Clinical Research & Reviews.* 2024. (IF:10.0)</em><br>
     <div><abbr style="background-color:#7bd5db"><strong>AI for Science</strong></abbr></div>
     <a href="https://www.sciencedirect.com/science/article/pii/S1871402123002321">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr></tbody>
@@ -476,7 +525,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>ACM International Conference on Multimedia 2023</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2308.00313.pdf">arXiv</a> / <a href="https://github.com/uqzhichen/HASZSL">code</a> 
+    <a href="https://arxiv.org/pdf/2308.00313.pdf">arXiv</a> / <a href="https://github.com/uqzhichen/HASZSL" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -494,6 +544,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>pre-print</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2209.01994">arXiv</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -510,7 +561,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>ACM International Conference on Multimedia 2023</em><br>
     <div><abbr style="background-color:#fcce03"><strong>DA</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2308.03003">arXiv</a> / <a href="https://github.com/Jo-wang/Cal-SFDA">code</a> 
+    <a href="https://arxiv.org/pdf/2308.03003">arXiv</a> / <a href="https://github.com/Jo-wang/Cal-SFDA" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -528,6 +580,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>Australasian Database Conference* (ADC) 2023.</em><br>
     <div><abbr style="background-color:#58D68D"><strong>AI for Transport</strong></abbr></div>
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-47843-7_4">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr></tbody>
@@ -547,7 +600,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>IEEE Transactions on Multimedia (TMM) (JCR Q1, Core A*, IF: 9.7)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://arxiv.org/abs/2207.01798">paper</a> / <a href="https://github.com/uqzhichen/GSMFlow_TMM">code</a> 
+    <a href="https://arxiv.org/abs/2207.01798">paper</a> / <a href="https://github.com/uqzhichen/GSMFlow_TMM" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -564,7 +618,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022. (Core A*)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Su_Distinguishing_Unseen_From_Seen_for_Generalized_Zero-Shot_Learning_CVPR_2022_paper.pdf">Paper</a> /  <a href="https://github.com/TL-UESTC/OOD_Paddle">code</a>  
+    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Su_Distinguishing_Unseen_From_Seen_for_Generalized_Zero-Shot_Learning_CVPR_2022_paper.pdf">Paper</a> / <a href="https://github.com/TL-UESTC/OOD_Paddle" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -582,6 +637,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>ACM International Conference on Multimedia* (MM) 2022. (Core A*)</em><br>
     <div><abbr style="background-color:#fcce03"><strong>DA</strong></abbr></div>
     <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548079">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -599,6 +655,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>Diabetes & Metabolic Syndrome: Clinical Research & Reviews. 2022. (JCR Q1) (IF:10.0) (Co-first Author)</em><br>
     <div><abbr style="background-color:#7bd5db"><strong>AI for Science</strong></abbr></div>
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -616,6 +673,7 @@ My research centers around developing generalizable and applicable ML/AI approac
     <em>Australasian Database Conference* 2022</em><br>
     <div><abbr style="background-color:#7bd5db"><strong>AI for Science</strong></abbr></div>
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-15512-3_12">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr></tbody>
@@ -634,7 +692,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <strong>Zhi Chen</strong>, Yadan Luo, Ruihong Qiu, Sen Wang, Zi Huang, Jingjing Li, Zheng Zhang<br>
     <em>ICCV 2021. (Core A*)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Semantics_Disentangling_for_Generalized_Zero-Shot_Learning_ICCV_2021_paper.pdf">paper</a> / <a href="https://github.com/uqzhichen/SDGZSL">code</a> 
+    <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Semantics_Disentangling_for_Generalized_Zero-Shot_Learning_ICCV_2021_paper.pdf">paper</a> / <a href="https://github.com/uqzhichen/SDGZSL" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -650,7 +709,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <strong>Zhi Chen</strong>, Yadan Luo, Sen Wang, Ruihong Qiu, Jingjing Li, Zi Huang  <br>
     <em>ACM International Conference on Multimedia (MM) 2021. (Core A*)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://arxiv.org/abs/2107.03163">paper</a> / <a href="https://github.com/uqzhichen/GSMFlow">code</a> 
+    <a href="https://arxiv.org/abs/2107.03163">paper</a> / <a href="https://github.com/uqzhichen/GSMFlow" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -666,7 +726,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <strong>Zhi Chen</strong>, Zi Huang, Jingjing Li, Zheng Zhang <br>
     <em>2021 Australasian Database Conference. (Best student paper – Highly Commended)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2101.03292.pdf">arXiv</a> 
+    <a href="https://arxiv.org/pdf/2101.03292.pdf">arXiv</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -683,7 +744,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>ACM International Conference on Multimedia* (MM) 2021. (Core A*)</em><br>
     <div><abbr style="background-color:#fcce03"><strong>DA</strong></abbr></div>
-    <a href="https://dl.acm.org/doi/10.1145/3474085.3475482">paper</a> / <a href="https://github.com/fumyou13/LDBE">code</a> 
+    <a href="https://dl.acm.org/doi/10.1145/3474085.3475482">paper</a> / <a href="https://github.com/fumyou13/LDBE" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -700,7 +762,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>ACM International Conference on Multimedia* (MM) 2021. (Core A*)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>Hashing</strong></abbr></div>
-    <a href="https://dl.acm.org/doi/10.1145/3474085.3475346">paper</a> /<a href="https://github.com/chenyd7/LGCNH">code</a>  
+    <a href="https://dl.acm.org/doi/10.1145/3474085.3475346">paper</a> / <a href="https://github.com/chenyd7/LGCNH" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -717,7 +780,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>ACM International Conference on Multimedia* (MM) 2021. (Core A*)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>Rec</strong></abbr></div>
-    <a href="https://arxiv.org/abs/2107.02390">paper </a> / <a href="https://github.com/RuihongQiu/CausalRec?tab=readme-ov-file">code</a>  
+    <a href="https://arxiv.org/abs/2107.02390">paper</a> / <a href="https://github.com/RuihongQiu/CausalRec?tab=readme-ov-file" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr>
@@ -734,7 +798,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <br>
     <em>Diabetes/Metabolism Research and Reviews. 2021.* (IF: 8.02)</em><br>
     <div><abbr style="background-color:#7bd5db"><strong>AI for Science</strong></abbr></div>
-    <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427">arXiv</a>
+    <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/dmrr.3427">paper</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
     </td>
     </tr></tbody>
@@ -753,7 +818,8 @@ My research centers around developing generalizable and applicable ML/AI approac
     <strong>Zhi Chen</strong>, Jingjing Li, Yadan Luo, Zi Huang, Yang Yang <br>
     <em>The IEEE Winter Conference on Applications of Computer Vision (WACV) 2020. (Core A)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/1909.09822">arXiv</a> / <a href="https://github.com/uqzhichen/CANZSL">code</a>  
+    <a href="https://arxiv.org/pdf/1909.09822">arXiv</a> / <a href="https://github.com/uqzhichen/CANZSL" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr>
@@ -769,42 +835,118 @@ My research centers around developing generalizable and applicable ML/AI approac
     <strong>Zhi Chen</strong>, Sen Wang, Jingjing Li, Zi Huang <br>
     <em>ACM International Conference on Multimedia 2020.* (Core A*)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2007.13314.pdf">paper</a> /  <a href="https://github.com/uqzhichen/MPGAN">code</a>
+    <a href="https://arxiv.org/pdf/2007.13314.pdf">paper</a> / <a href="https://github.com/uqzhichen/MPGAN" rel="noopener noreferrer">code</a>
+    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p><p></p><p></p>
     </td>
     </tr></tbody></table>
 
+</div><!-- /tab-publications -->
+
+<!-- ══ TAB 3 — Grants & Awards ═══════════════════════════════════════ -->
+<div class="tab-panel" id="tab-grants" role="tabpanel" markdown="1">
+
+<span class='anchor' id='grants'></span>
+# 💰 Research Grants
+
+<div class="grant-card" markdown="1">
+<div class="grant-header">
+<span class="grant-amount">$474,886</span>
+<span class="grant-badge">AEA Ignite Project</span>
+</div>
+
+### Construction-AI: AI-Powered Compliance Review for Australian Building Sites
+
+| | |
+|---|---|
+| **Funding Agency** | Department of Education, Queensland Government |
+| **Program** | AEA Ignite Project Grant |
+| **Period** | 2026 |
+| **Role** | Co-Investigator |
+| **Team** | Dr Taotao Cai (Lead), Professor Yan Li, **Dr Zhi Chen**, Dr Wencheng Yang |
+
+Develop a "Construction-AI" system that understands the unique language, regulations, and rules of Australian building sites. The system will help small businesses in the construction sector reduce administrative burdens and improve workplace safety by instantly reviewing documents — such as contracts, safety plans, and compliance forms — for regulatory gaps and potential risks. By automating document compliance review with domain-specific AI, the project aims to reduce manual checking time and lower the risk of on-site accidents linked to overlooked requirements.
+
+</div>
+
+---
+
+<div class="grant-card" markdown="1">
+<div class="grant-header">
+<span class="grant-amount">$100,000</span>
+<span class="grant-badge">RUIC Program</span>
+</div>
+
+### Embodied AI Robots for Interactive K–12 Education
+
+| | |
+|---|---|
+| **Funding Agency** | Queensland Government & CSIRO (RUIC Program) |
+| **Period** | Nov 2025 – Nov 2026 (12 months) |
+| **Role** | Lead Investigator |
+| **Industry Partner** | JR Academy |
+| **Total Project Value** | $166,655 (incl. $66,655 UniSQ in-kind) |
+
+Develop a new generation of educational robots powered by embodied AI to engage and inspire students across K–12 levels. Unlike traditional screen-based tools, these robots provide interactive, multi-sensory experiences — using natural language understanding, gesture-based interaction, and real-time emotional feedback — to make abstract STEM concepts tangible and engaging. The project follows four phases: (1) co-design with educators and students, (2) AI development and robotic integration using the LeRobot platform, (3) pilot deployment in two partner schools, and (4) evaluation and refinement. Special emphasis is placed on inclusivity, ensuring the robots adapt to diverse learning paces, styles, and needs.
+
+**Key Deliverables:** Design specification, embodied AI interaction prototype, classroom deployment toolkit, and evaluation report.
+
+</div>
+
+---
+
+<div class="grant-card" markdown="1">
+<div class="grant-header">
+<span class="grant-amount">$250,000</span>
+<span class="grant-badge">GRDC</span>
+</div>
+
+### [Exploring Data Efficient Machine Learning for Australian Grains Disease Recognition](https://grdc.com.au/grdc-investments/investments/investment?code=USQ2605-002BGX)
+
+| | |
+|---|---|
+| **Funding Agency** | Grains Research and Development Corporation (GRDC) |
+| **Role** | Lead CI |
+| **Investigators** | **Zhi Chen** (Lead CI), Derek Long, Noel Knight |
+
+Develop and deploy deep learning models for automated detection, segmentation, and monitoring of plant diseases and crop health in grain crops. Leveraging large-scale annotated datasets and vision-language models, the project aims to provide growers and agronomists with scalable, real-time AI tools that improve early disease identification, reduce crop losses, and support more informed farm management decisions.
+
+</div>
+
+---
+
+<span class='anchor' id='awards'></span>
+# 🏆 Awards & Honors
+
+- 🏅 **ECR Research Staff Award**, School of MPC, UniSQ (2025) — Acknowledging outstanding research achievements and potential as an early career researcher.
+- 🥇 **1st Place**, CVPPA@ECCV2024 Challenge — Shape Completion and Reconstruction of Sweet Peppers, European Conference on Computer Vision (ECCV) (2024)
+- 🏅 **Outstanding Reviewer**, ACM International Conference on Multimedia (ACM MM) (2024)
+- 🏅 **Best Student Paper Award**, Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) (2024) — with Yi Zhang, Sen Wang, Xuwei Xu, Stano Funiak, Jiajun Liu
+- 🏅 **Dean's Award for Outstanding Higher Degree by Research Theses**, The University of Queensland (UQ) (2023)
+- 🏅 **Best Student Paper Award**, ACM International Conference on Multimedia (ACM MM) (2023) — with Zixin Wang, Yadan Luo, Sen Wang, Zi Huang
+- 🏅 **Best Student Paper (Highly Commended)**, Australasian Database Conference (ADC) (2021) — with Zi Huang, Jingjing Li, Zheng Zhang
+
+</div><!-- /tab-grants -->
+
+<!-- ══ TAB 4 — Teaching & Service ═══════════════════════════════════ -->
+<div class="tab-panel" id="tab-teaching" role="tabpanel" markdown="1">
 
 <span class='anchor' id='teachings'></span>
-# 🧑🏻‍🏫 Teachings
-##  As Instructor
-### DATA7002 Responsible Data Science (Co-Instructor with Dr. Michael Vincent, Dr. Hamish MacDonald, Dr. Slava Vaisman) (SECaT: 4.28/5.0)
-*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2024
-<ul style="margin-top:-14px;">
-  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/DATA7002-63216-7460#course-overview">Course webpage</a></li>
-  <li>Topics Covered: Responsible Machine Learning, Fairness-Aware Machine Learning</li>
-</ul>
+# 🧑🏻‍🏫 Teaching
 
-### Cloud Computing (Co-Instructor with A/Prof. Sen Wang) (SECaT: 4.53/5.0)
-*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2024
-<ul style="margin-top:-14px;">
-  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/INFS3208-62044-7460#course-overview">Course webpage </a></li>
-  <li>Topics Covered: Vector Databases, NoSQL Databases, RDD Computing, Spark Framework</li>
-</ul>
-
-### Advanced Database Systems (Co-Instructor with Prof. Shazia Sadiq and A/Prof. Sen Wang) (SECaT: 4.63/5.0)
-*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2024
-<ul style="margin-top:-14px;">
-  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/INFS3208-62044-7460#course-overview">Course webpage</a> </li>
-  <li>Topics Covered: Column-Oriented Databases, Data Lakes, Data Lakehouses</li>
-</ul>
-
-### DATA7002 Responsible Data Science (Co-Instructor with Dr. Michael Vincent, Dr. Hamish MacDonald, Dr. Slava Vaisman) (SECaT: 4.21/5.0)
-*School of Electrical Engineering and Computer Science, University of Queensland*, 2rd Term 2023
-<ul style="margin-top:-14px;">
-  <li> <a href="https://course-profiles.uq.edu.au/course-profiles/DATA7002-63216-7460#course-overview">Course webpage</a></li>
-  <li>Topics Covered: Responsible Machine Learning, Fairness-Aware Machine Learning</li>
-</ul>
+| Course | Institution | Period | Role | Rating |
+|:---|:---|:---:|:---|:---:|
+| **CSC3600** ICT Professional Project | UniSQ | 2025 T3 | Course Coordinator | 5.0 |
+| **CSC6200** Advanced ICT Professional Project | UniSQ | 2025 T3 | Course Coordinator | 4.3 |
+| **CSC1310** Network 1: Internetworking | UniSQ | 2025 T3 | Course Coordinator | 3.9 |
+| **CSC8510** Internetworking | UniSQ | 2025 T3 | Course Coordinator | — |
+| **CSC8470** Server-side Web Technology | UniSQ | 2025 T2 | Course Coordinator | 4.6 |
+| **CSC1410** Software Engineering Foundations | UniSQ | 2025 T2 | Course Coordinator | 3.8 |
+| **CSC8710** Software Design and Modelling | UniSQ | 2025 T2 | Course Coordinator | — |
+| **DATA7002** Responsible Data Science | UQ | 2024 T2 | Co-Instructor | 4.28 |
+| **INFS3208** Cloud Computing | UQ | 2024 T2 | Co-Instructor | 4.53 |
+| **INFS7450** Advanced Database Systems | UQ | 2024 T2 | Co-Instructor | 4.63 |
+| **DATA7002** Responsible Data Science | UQ | 2023 T2 | Co-Instructor | 4.21 |
 
 <span class='anchor' id='services'></span>
 # 👔 Services
@@ -824,3 +966,5 @@ My research centers around developing generalizable and applicable ML/AI approac
 - IEEE Transactions on Multimedia (TMM) 2022-2023 <br> 
 - IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2023-2024<br>
 - IEEE Transactions on Cognitive and Developmental Systems (TCDS) 2023<br>
+
+</div><!-- /tab-teaching -->

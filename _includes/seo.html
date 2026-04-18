@@ -30,6 +30,7 @@
 {% endif %}
 
 <meta property="og:locale" content="en">
+<meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ site.title }}">
 
@@ -38,8 +39,16 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
-  <meta property="og:description" content="{{ seo_description }}">
+{% assign og_description = seo_description | default: site.description %}
+{% if og_description %}
+  <meta property="og:description" content="{{ og_description }}">
+  <meta name="description" content="{{ og_description }}">
+{% endif %}
+
+{% if site.author.avatar and seo_url %}
+  <meta property="og:image" content="{{ site.author.avatar | prepend: seo_url }}">
+  <meta name="twitter:image" content="{{ site.author.avatar | prepend: seo_url }}">
+  <meta name="twitter:card" content="summary">
 {% endif %}
 
 {% if site.twitter.username %}
