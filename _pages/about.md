@@ -120,6 +120,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
      Wanqi Wang, Jingcai Guo, Yuxiang Cai, <strong>Zhi Chen*</strong>
      <br>
      <em>CVPR 2026 Findings (Core A*)</em><br>
+     <div><abbr style="background-color:#27ae60"><strong>Few-Shot</strong></abbr></div>
      <a href="https://arxiv.org/pdf/2602.18811">paper</a>
      &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
@@ -137,6 +138,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
      Yihua Shao, et al., <strong>Zhi Chen</strong>, Jingcai Guo
      <br>
      <em>The 40th Annual AAAI Conference on Artificial Intelligence AAAI 2026 (Core A*)</em><br>
+     <div><abbr style="background-color:#9b59b6"><strong>Diffusion</strong></abbr></div>
      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37841/41803">paper</a>
      &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
@@ -178,7 +180,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     Tianqi Wei, <strong>Zhi Chen</strong>, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang
     <br>
     <em>Scientific Data (Nature Portfolio)</em><br>
-    <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
     <a href="https://www.nature.com/articles/s41597-025-06513-4">Paper</a> / <a href="https://github.com/tqwei05/PlantSeg" rel="noopener noreferrer">code</a> / <a href="https://zenodo.org/records/13762907" rel="noopener noreferrer">dataset</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -232,7 +234,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
      Zijian Wang, ..., <Strong>Zhi Chen</Strong>, ... et, al.
      <br>
      <em>Plant Phenomics (Q1) (IF: 6.4)</em><br>
-     <div><abbr style="background-color:#58D68D"><strong>AI for Science</strong></abbr></div>
+     <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
      <a href="https://www.sciencedirect.com/science/article/pii/S2643651525000901">Paper</a> /
     <a href="https://www.global-wheat.com/gwfss.html" rel="noopener noreferrer">Project</a>
      &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
@@ -359,7 +361,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
      Qiaomin Chen*, <strong>Zhi Chen</strong>*, et al. (Co-First Author)
      <br>
      <em>IEEE International Geoscience and Remote Sensing Symposium 2025 (IGARSS)</em><br>
-     <div><abbr style="background-color:#fcce03"><strong>AI for Science</strong></abbr></div>
+     <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
      <a href="">paper (coming soon)</a>
      &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
@@ -381,7 +383,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     <br>
     Jia Syuen Lim, Zhuoxiao Chen, <strong>Zhi Chen</strong>, Mahsa Baktashmotlagh, Xin Yu, Zi Huang, Yadan Luo
     <br>
-    <em>NeurIPS 2024</em><br>
+    <em>NeurIPS 2024</em>&nbsp;&nbsp;<abbr title="Object Detection" style="background-color:#e67e22"><strong>Object Detection</strong></abbr><br>
     <a href="https://arxiv.org/pdf/2406.14924">arXiv</a> / <a href="https://github.com/jason-lim26/DiPEx/tree/master" rel="noopener noreferrer">code</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -399,7 +401,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     Tianqi Wei, <strong>Zhi Chen</strong>, Zi Huang, Xin Yu
     <br>
     <em>ACM International Conference on Multimedia (MM)* 2024. (Core A*)</em><br>
-    <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
     <a href="https://arxiv.org/abs/2408.03120">arXiv</a> / <a href="https://github.com/tqwei05/MVPDR" rel="noopener noreferrer">code</a> / <a href="https://huggingface.co/datasets/uqtwei2/PlantWild" rel="noopener noreferrer">dataset</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -417,7 +419,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     <strong>Zhi Chen</strong>, Tianqi Wei, Zecheng Zhao, Jia Syuen Lim, Yadan Luo, Hu Zhang, Xin Yu, Scott Chapman, Zi Huang
     <br>
     <em>1st Place solution to CVPPA@ECCV2024: Shape Completion and Reconstruction of Sweet Peppers Challenge.</em><br>
-    <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2409.08443">arXiv</a> / <a href="https://github.com/uqzhichen/CF-PRNet" rel="noopener noreferrer">code</a> / <a href="https://cvppa2024.github.io/challenges/" rel="noopener noreferrer">competition</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -435,7 +437,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     Jia Syuen Lim, Yadan Luo, <strong>Zhi Chen</strong>, Tianqi Wei, Scott Chapman, Zi Huang
     <br>
     <em>2st Place solution to CVPPA@ECCV2024: Detection and Multi-Object Tracking of Sweet Peppers Challenge.</em><br>
-    <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2411.06702">paper</a> / <a href="https://cvppa2024.github.io/challenges/" rel="noopener noreferrer">competition</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -453,7 +455,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     Tianqi Wei, <strong>Zhi Chen</strong>, Xin Yu, Scott Chapman, Paul Melloy, Zi Huang
     <br>
     <em>ACM International Conference on Multimedia in Asia 2024. </em><br>
-    <div><abbr style="background-color:#db7bc2"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
     <a href="https://arxiv.org/pdf/2408.14723">paper</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -507,7 +509,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     Weihao Wang, Xiaobei Li, Fei Chen, Ran Wei, <strong>Zhi Chen</strong>, Jingjing Li, Jingtao Qiao, Qi Pan, Wenjing Yang, Lixin Guo
     <br>
     <em>Diabetes & Metabolic Syndrome: Clinical Research & Reviews.* 2024. (IF:10.0)</em><br>
-    <div><abbr style="background-color:#7bd5db"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#0891b2"><strong>AI for Healthcare</strong></abbr></div>
     <a href="https://www.sciencedirect.com/science/article/pii/S1871402123002321">paper</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -657,7 +659,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     Weihao Wang, <strong>Zhi Chen</strong>,  Sen Wang, Fei Chen, Mingqun Deng, Qi Pan, Lixin Guo 
     <br>
     <em>Diabetes & Metabolic Syndrome: Clinical Research & Reviews. 2022. (JCR Q1) (IF:10.0) (Co-first Author)</em><br>
-    <div><abbr style="background-color:#7bd5db"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#0891b2"><strong>AI for Healthcare</strong></abbr></div>
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1871402122001709">paper</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
@@ -675,7 +677,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
     Xi Chen, <strong>Zhi Chen</strong>, Zijian Wang, Ruihong Qiu, Yadan Luo
     <br>
     <em>Australasian Database Conference* 2022</em><br>
-    <div><abbr style="background-color:#7bd5db"><strong>AI for Science</strong></abbr></div>
+    <div><abbr style="background-color:#0891b2"><strong>AI for Healthcare</strong></abbr></div>
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-15512-3_12">paper</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
