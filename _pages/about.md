@@ -20,11 +20,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Lecturer/Assistant Professor at the School of Mathematics, Physics and Computing, The University of Southern Queensland (UniSQ), Australia. Previously, I worked as an Associate Lecturer and Postdoctoral Research Fellow in the School of EECS, The University of Queensland (UQ), working with Prof. Zi (Helen) Huang from August 2022 to January 2025. From January 2025 to April 2025, I worked as a research fellow in the ODeSI team of the UQ Centre for Clinical Research (UQ-CCR). I obtained my PhD degree in 2023 from UQ, advised by Prof. Zi (Helen) Huang.
+I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School of Science, Engineering and Digital Technologies, University of Southern Queensland (UniSQ), Australia. I received my Ph.D. from The University of Queensland (UQ) in 2023 — honoured with the **Dean's Award for Outstanding HDR Theses** — under the supervision of Prof. Zi (Helen) Huang. I subsequently held postdoctoral and research fellow positions at UQ before joining UniSQ in 2025.
 
-My research centers around developing generalizable and applicable ML/AI approaches. For fundamental research, I mainly explore the field of computer vision, particularly in **zero-shot learning**. For applied AI, I mainly conduct interdisciplinary research on **AI for Agriculture** and **AI for Healthcare**.
+🔬 My research sits at the frontier of **machine learning** and **computer vision**, driven by a fundamental question: *how can AI reliably recognise and reason about what it has never seen before?* I develop methods in **zero-shot & few-shot learning**, **vision–language models**, **continual learning**, and **generative modelling** — building systems that generalise beyond labelled data and operate robustly in open, ever-changing environments. My work has appeared in top-tier venues including **CVPR**, **ICCV**, **AAAI**, **ACM MM**, **IJCAI**, **NeurIPS**, **PR**, **TMM** and **Nature Portfolio** journals.
 
-🚀 I am now looking for highly motivated Ph.D. students, Master's Students, Research Assistants, and Visiting Scholars working on computer vision and related areas.
+🌾 I lead interdisciplinary AI projects tackling real-world problems, particularly in **AI for Agriculture** — large-scale crop disease recognition, plant phenotyping, and precision farming tools to help safeguard global food security where label scarcity demands the generalisable models I specialise in. Together, these projects have attracted over **$900K** in competitive funding from **GRDC**, **Department of Education**, **CSIRO**, and the **Queensland Government**.
+
+🏅 My research has been recognised with the **Best Student Paper Award at ACM MM 2023**, **Best Student Paper Award at PAKDD 2024**, **1st Place at the CVPPA@ECCV 2024 Challenge**, and the **ECR Research Staff Award at UniSQ 2025**, among others.
+
+🚀 I am actively looking for motivated **Ph.D. students**, **Master's students**, **Research Assistants**, and **Visiting Scholars** who are passionate about computer vision and applied AI. If you are excited about building AI that generalises — and making it count in the real world — I'd love to hear from you!
 
 <div class="research-tags">
   <span class="tag">Zero-Shot Learning</span>
