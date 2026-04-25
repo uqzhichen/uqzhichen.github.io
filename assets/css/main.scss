@@ -1025,4 +1025,23 @@ html.dark-mode {
     .page__content h1 {
         border-bottom-color: var(--dm-border) !important;
     }
+
+    .clustrmaps-footer {
+        border-top-color: var(--dm-border);
+        background: #111827;
+    }
+}
+
+// ── ClustrMaps footer widget ──────────────────────────────────────────────────
+.clustrmaps-footer {
+    text-align: center;
+    padding: 2em 1.5em 2.5em;
+    border-top: 1px solid #e8edf2;
+    background: #fff;
+    margin-top: 1em;
+
+    > div, > script + div {
+        display: inline-block;
+        max-width: 320px;
+    }
 }
