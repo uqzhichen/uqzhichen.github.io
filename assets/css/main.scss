@@ -137,7 +137,7 @@ h1:before, .anchor:before {
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+    box-shadow: 0 4px 12px rgba(5, 150, 105, 0.35);
     transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.2s ease, background 0.2s ease;
     transform: translateY(10px);
 
@@ -225,7 +225,7 @@ h1:before, .anchor:before {
 table tr {
     transition: background 0.15s ease;
     &:hover {
-        background: rgba(37, 99, 235, 0.035);
+        background: rgba(5, 150, 105, 0.035);
     }
 }
 
@@ -287,9 +287,9 @@ a papertitle {
         border-radius: 20px;
         font-size: 0.82em;
         font-weight: 500;
-        background: rgba(37, 99, 235, 0.08);
+        background: rgba(5, 150, 105, 0.08);
         color: $primary-color;
-        border: 1px solid rgba(37, 99, 235, 0.25);
+        border: 1px solid rgba(5, 150, 105, 0.25);
         transition: $global-transition;
 
         &:hover {
@@ -380,9 +380,9 @@ html.dark-mode {
     --dm-text:         #e2e8f0;
     --dm-text-muted:   #94a3b8;
     --dm-border:       #334155;
-    --dm-link:         #60a5fa;
-    --dm-link-hover:   #93c5fd;
-    --dm-accent:       #3b82f6;
+    --dm-link:         #34d399;
+    --dm-link-hover:   #6ee7b7;
+    --dm-accent:       #059669;
     --dm-code-bg:      #1e293b;
 
     background-color: var(--dm-bg);
@@ -424,7 +424,7 @@ html.dark-mode {
         color: #fff;
     }
 
-    table tr:hover { background: rgba(96, 165, 250, 0.06); }
+    table tr:hover { background: rgba(52, 211, 153, 0.06); }
 
     abbr { color: #111 !important; }
 
@@ -445,9 +445,9 @@ html.dark-mode {
     }
 
     .research-tags .tag {
-        background: rgba(96, 165, 250, 0.12);
+        background: rgba(52, 211, 153, 0.12);
         color: var(--dm-link);
-        border-color: rgba(96, 165, 250, 0.3);
+        border-color: rgba(52, 211, 153, 0.3);
         &:hover { background: var(--dm-accent); color: #fff; border-color: var(--dm-accent); }
     }
 
@@ -544,7 +544,7 @@ html.dark-mode .masthead__menu-item--active > a {
     margin: 1.25em 0 1.5em;
     padding: 1.25em 1.5em;
     border-left: 4px solid $primary-color;
-    background: rgba(37, 99, 235, 0.03);
+    background: rgba(5, 150, 105, 0.03);
     border-radius: 0 $border-radius $border-radius 0;
 
     h3 {
@@ -575,7 +575,7 @@ html.dark-mode .masthead__menu-item--active > a {
 .grant-amount {
     font-size: 1.35em;
     font-weight: 700;
-    color: $primary-color;
+    color: #1e3a5f;
     letter-spacing: -0.01em;
 }
 
@@ -585,9 +585,9 @@ html.dark-mode .masthead__menu-item--active > a {
     border-radius: 20px;
     font-size: 0.75em;
     font-weight: 600;
-    background: rgba(37, 99, 235, 0.1);
+    background: rgba(5, 150, 105, 0.1);
     color: $primary-color;
-    border: 1px solid rgba(37, 99, 235, 0.25);
+    border: 1px solid rgba(5, 150, 105, 0.25);
     letter-spacing: 0.02em;
 }
 
@@ -600,9 +600,9 @@ html.dark-mode {
     }
     .grant-amount { color: var(--dm-link); }
     .grant-badge {
-        background: rgba(96, 165, 250, 0.12);
+        background: rgba(52, 211, 153, 0.12);
         color: var(--dm-link);
-        border-color: rgba(96, 165, 250, 0.3);
+        border-color: rgba(52, 211, 153, 0.3);
     }
 }
 
@@ -672,13 +672,13 @@ html.dark-mode {
    Presentation polish
    ══════════════════════════════════════════════════════════════════════════════ */
 
-// ── Section headings — blue-tinted rule ──────────────────────────────────────
+// ── Section headings — navy rule ─────────────────────────────────────────────
 .page__content h1 {
     font-size: 1.35em;
     margin-top: 1.6em;
     margin-bottom: 0.7em;
     padding-bottom: 0.4em;
-    border-bottom: 2px solid rgba(37, 99, 235, 0.15);
+    border-bottom: 2px solid rgba(30, 58, 95, 0.2);
 
     &:first-child { margin-top: 0.3em; }
 }
@@ -692,7 +692,7 @@ details div ul li em:first-child {
     font-size: 0.78em;
     font-weight: 600;
     color: $primary-color;
-    background: rgba(37, 99, 235, 0.07);
+    background: rgba(5, 150, 105, 0.07);
     padding: 1px 7px;
     border-radius: 4px;
     letter-spacing: 0.03em;
@@ -704,7 +704,7 @@ details div ul li em:first-child {
 .research-tags .tag {
     &:hover {
         transform: translateY(-1px);
-        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+        box-shadow: 0 2px 8px rgba(5, 150, 105, 0.2);
     }
 }
 
@@ -714,7 +714,7 @@ details div ul li em:first-child {
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 
     &:hover {
-        box-shadow: 0 6px 24px rgba(37, 99, 235, 0.12), 0 1px 4px rgba(0,0,0,0.05);
+        box-shadow: 0 6px 24px rgba(5, 150, 105, 0.12), 0 1px 4px rgba(0,0,0,0.05);
         transform: translateY(-2px);
     }
 }
@@ -722,20 +722,20 @@ details div ul li em:first-child {
 // ── Teaching table — polished header + zebra + hover ─────────────────────────
 #tab-teaching table {
     thead th {
-        background: rgba(37, 99, 235, 0.05);
+        background: rgba(5, 150, 105, 0.05);
         font-size: 0.76em;
         text-transform: uppercase;
         letter-spacing: 0.06em;
         font-weight: 700;
-        border-bottom: 2px solid rgba(37, 99, 235, 0.18);
+        border-bottom: 2px solid rgba(5, 150, 105, 0.18);
         padding-top: 0.7em;
         padding-bottom: 0.7em;
     }
 
     tbody tr {
         transition: background 0.12s ease;
-        &:nth-child(even) td { background: rgba(37, 99, 235, 0.018); }
-        &:hover td { background: rgba(37, 99, 235, 0.055) !important; }
+        &:nth-child(even) td { background: rgba(5, 150, 105, 0.018); }
+        &:hover td { background: rgba(5, 150, 105, 0.055) !important; }
     }
 }
 
@@ -755,7 +755,7 @@ details div ul li em:first-child {
 
 // ── Sidebar author photo ─────────────────────────────────────────────────────
 .author__avatar img {
-    border: 3px solid rgba(37, 99, 235, 0.14);
+    border: 3px solid rgba(5, 150, 105, 0.14);
     box-shadow: 0 4px 18px rgba(0,0,0,0.09);
     transition: box-shadow 0.2s ease;
 
@@ -775,35 +775,35 @@ details div ul li em:first-child {
 // ── Dark mode additions ──────────────────────────────────────────────────────
 html.dark-mode {
     .page__content h1 {
-        border-bottom-color: rgba(96, 165, 250, 0.2);
+        border-bottom-color: rgba(52, 211, 153, 0.2);
     }
 
     #tab-about ul li em:first-child,
     details div ul li em:first-child {
-        background: rgba(96, 165, 250, 0.1);
+        background: rgba(52, 211, 153, 0.1);
         color: var(--dm-link);
     }
 
     .research-tags .tag:hover {
-        box-shadow: 0 2px 8px rgba(96, 165, 250, 0.25);
+        box-shadow: 0 2px 8px rgba(52, 211, 153, 0.25);
     }
 
     .grant-card {
         box-shadow: 0 1px 4px rgba(0,0,0,0.15), 0 2px 10px rgba(0,0,0,0.1);
         &:hover {
-            box-shadow: 0 6px 24px rgba(96, 165, 250, 0.15), 0 1px 4px rgba(0,0,0,0.2);
+            box-shadow: 0 6px 24px rgba(52, 211, 153, 0.15), 0 1px 4px rgba(0,0,0,0.2);
         }
     }
 
     #tab-teaching table {
         thead th {
-            background: rgba(96, 165, 250, 0.07);
-            border-bottom-color: rgba(96, 165, 250, 0.25);
+            background: rgba(52, 211, 153, 0.07);
+            border-bottom-color: rgba(52, 211, 153, 0.25);
             color: var(--dm-text);
         }
         tbody tr {
-            &:nth-child(even) td { background: rgba(96, 165, 250, 0.03); }
-            &:hover td { background: rgba(96, 165, 250, 0.08) !important; }
+            &:nth-child(even) td { background: rgba(52, 211, 153, 0.03); }
+            &:hover td { background: rgba(52, 211, 153, 0.08) !important; }
         }
     }
 
@@ -813,170 +813,213 @@ html.dark-mode {
     }
 
     .author__avatar img {
-        border-color: rgba(96, 165, 250, 0.25);
+        border-color: rgba(52, 211, 153, 0.25);
         box-shadow: 0 4px 18px rgba(0,0,0,0.3);
     }
 }
 
 /* ══════════════════════════════════════════════════════════════════════════════
-   Aesthetic overhaul — canvas, cards, typography, sidebar
+   Template Redesign — Profile-Top Full-Width Layout
    ══════════════════════════════════════════════════════════════════════════════ */
 
-// ── Soft page canvas ─────────────────────────────────────────────────────────
-body { background: #f1f5f9; }
+// ── Page canvas ───────────────────────────────────────────────────────────────
+body { background: #f5f7fa; }
 
-// ── Masthead — shadow replaces thin border ───────────────────────────────────
+// ── Masthead refinements ──────────────────────────────────────────────────────
 .masthead {
     border-bottom: none;
-    box-shadow: 0 1px 0 #e2e8f0, 0 4px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 0 #e2e8f0, 0 2px 16px rgba(0,0,0,0.05);
+    background: #fff;
 
-    .masthead__inner-wrap { padding: 0.65em 1em; }
+    .masthead__inner-wrap {
+        padding: 0 1.25em;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
 
     .masthead__menu-item a {
         font-weight: 500;
-        letter-spacing: 0.005em;
+        letter-spacing: 0.01em;
+        padding: 0.8em 0.4em;
+        display: inline-block;
     }
 }
 
-// ── Sidebar profile card (desktop only) ─────────────────────────────────────
-.profile_box {
-    @include breakpoint($large) {
-        background: #fff;
-        border: 1px solid #e2e8f0;
-        border-radius: 14px;
-        padding: 1.6em 1.1em 1.25em;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 6px 20px rgba(0,0,0,0.04);
+// ── Profile hero ─────────────────────────────────────────────────────────────
+.profile-hero {
+    background: #fff;
+    border-bottom: 1px solid #e8edf2;
+    padding: 2.5em 1.5em 2.25em;
+
+    &__inner {
+        max-width: 860px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        gap: 2.5em;
+        flex-wrap: wrap;
     }
-}
 
-// ── Avatar — centred, larger, cleaner border ─────────────────────────────────
-.author__avatar {
-    @include breakpoint($large) {
-        text-align: center;
-        margin-bottom: 0.5em;
+    &__photo-col { flex-shrink: 0; }
 
-        img {
-            display: block !important;
-            width: 110px !important;
-            height: 110px !important;
-            min-width: unset !important;
-            max-width: unset !important;
-            margin: 0 auto !important;
-            padding: 0 !important;
-            border: 3px solid #e2e8f0 !important;
-            box-shadow: 0 3px 12px rgba(0,0,0,0.1) !important;
-            object-fit: cover;
-        }
+    &__photo {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #e2e8f0;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.11);
+        display: block;
+        transition: box-shadow 0.2s ease;
+
+        &:hover { box-shadow: 0 6px 28px rgba(0,0,0,0.17); }
     }
-}
 
-// ── Author name — centred, bolder ────────────────────────────────────────────
-.sidebar .author__name {
-    @include breakpoint($large) {
-        text-align: center;
-        font-size: 1.25em;
-        font-weight: 700;
-        letter-spacing: -0.02em;
-        color: #0f172a;
-        margin-top: 0.5em;
-        margin-bottom: 0.15em;
+    &__info-col {
+        flex: 1;
+        min-width: 220px;
+        padding-top: 0.25em;
     }
-}
 
-// ── Author description — centred, muted ──────────────────────────────────────
-.author__bio {
-    @include breakpoint($large) { text-align: center; }
-    font-size: 0.81em !important;
-    color: #64748b;
-    line-height: 1.55 !important;
-}
+    &__name {
+        font-size: 1.75em !important;
+        font-weight: 700 !important;
+        color: #0f172a !important;
+        margin: 0 0 0.2em !important;
+        border: none !important;
+        padding: 0 !important;
+        letter-spacing: -0.025em;
+        line-height: 1.2 !important;
 
-// ── Sidebar links separator ───────────────────────────────────────────────────
-.author__urls-wrapper {
-    @include breakpoint($large) {
-        display: block !important;
-        border-top: 1px solid #f0f4f8;
-        padding-top: 0.8em;
-        margin-top: 0.6em;
+        &:before { display: none !important; }
     }
-}
 
-// ── ClustrMaps visitor widget ─────────────────────────────────────────────────
-.clustrmaps-widget {
-    margin-top: 1em;
-    padding-top: 0.75em;
-    border-top: 1px solid #f0f4f8;
-    text-align: center;
-
-    img { max-width: 100%; border-radius: 6px; }
-}
-
-html.dark-mode .clustrmaps-widget { border-top-color: var(--dm-border); }
-
-// ── Centre the description blurb inside the sidebar links list ───────────────
-.author__urls li:first-child div {
-    @include breakpoint($large) {
-        text-align: center;
-        font-size: 0.95em;
-        color: #475569;
-        line-height: 1.5;
+    &__title {
+        font-size: 1.05em;
+        color: #334155;
+        margin: 0 0 0.2em;
         font-weight: 500;
     }
-}
 
-// ── Content area — white card ────────────────────────────────────────────────
-.page__inner-wrap {
-    background: #fff;
-    border: 1px solid #e2e8f0;
-    border-radius: 14px;
-    padding: 1.75em 2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 6px 20px rgba(0,0,0,0.04);
+    &__location {
+        font-size: 0.9em;
+        color: #64748b;
+        margin: 0 0 1.1em;
 
-    @include breakpoint($large) { padding: 2em 2.5em; }
-}
-
-// ── Override h1 border to use card's own border instead of gray line ─────────
-.page__content h1 {
-    border-bottom-color: #edf0f4 !important;
-}
-
-// ── #main — a little more vertical breathing room ────────────────────────────
-#main { margin-top: 1.5em !important; padding-bottom: 2em; }
-
-// ── Dark mode updates for cards ───────────────────────────────────────────────
-html.dark-mode {
-    body { background: #080f1e; }
-
-    .masthead {
-        box-shadow: 0 1px 0 var(--dm-border), 0 4px 20px rgba(0,0,0,0.3);
+        i { color: $primary-color; margin-right: 0.2em; }
     }
 
-    .profile_box {
-        @include breakpoint($large) {
-            background: var(--dm-surface);
-            border-color: var(--dm-border);
-            box-shadow: 0 1px 4px rgba(0,0,0,0.25), 0 6px 20px rgba(0,0,0,0.2);
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4em;
+        margin-bottom: 1.25em;
+    }
+
+    &__link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3em;
+        padding: 0.28em 0.9em;
+        border: 1.5px solid #d0d8e2;
+        border-radius: 20px;
+        font-size: 0.835em;
+        font-weight: 500;
+        color: #3a4a5c;
+        text-decoration: none !important;
+        background: #fff;
+        transition: all 0.15s ease;
+
+        i { font-size: 0.9em; color: $primary-color; transition: color 0.15s ease; }
+
+        &:hover {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: #fff;
+            text-decoration: none !important;
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(5, 150, 105, 0.25);
+
+            i { color: #fff; }
         }
     }
 
-    .author__avatar img {
-        border-color: var(--dm-border) !important;
+    &__clustrmaps {
+        margin-top: 0.25em;
+        max-width: 280px;
+    }
+}
+
+// ── Override Susy sidebar layout — full-width content ─────────────────────────
+.sidebar { display: none !important; }
+
+.page {
+    float: none !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#main {
+    max-width: 860px !important;
+    margin: 0 auto !important;
+    padding: 2em 1.5em 3.5em !important;
+}
+
+// ── Remove white card on content — open clean layout ─────────────────────────
+.page__inner-wrap {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+// ── Section h1 — cleaner border ───────────────────────────────────────────────
+.page__content h1 {
+    border-bottom-color: rgba(30, 58, 95, 0.18) !important;
+}
+
+// ── Dark mode ─────────────────────────────────────────────────────────────────
+html.dark-mode {
+    body { background: #0c1220; }
+
+    .masthead {
+        background: #111827;
+        box-shadow: 0 1px 0 var(--dm-border), 0 2px 16px rgba(0,0,0,0.35);
     }
 
-    .sidebar .author__name {
-        @include breakpoint($large) { color: var(--dm-text) !important; }
-    }
+    .profile-hero {
+        background: #111827;
+        border-bottom-color: var(--dm-border);
 
-    .author__bio { color: var(--dm-text-muted) !important; }
+        &__name { color: var(--dm-text) !important; }
+        &__title { color: #cbd5e1; }
+        &__location { color: var(--dm-text-muted); i { color: var(--dm-link); } }
 
-    .author__urls-wrapper {
-        @include breakpoint($large) { border-top-color: var(--dm-border); }
-    }
+        &__photo {
+            border-color: var(--dm-border);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+        }
 
-    .page__inner-wrap {
-        background: var(--dm-surface);
-        border-color: var(--dm-border);
-        box-shadow: 0 1px 4px rgba(0,0,0,0.25), 0 6px 20px rgba(0,0,0,0.2);
+        &__link {
+            border-color: var(--dm-border);
+            background: #1e293b;
+            color: var(--dm-text);
+
+            i { color: var(--dm-link); }
+
+            &:hover {
+                background: var(--dm-accent);
+                border-color: var(--dm-accent);
+                color: #fff;
+                box-shadow: 0 3px 10px rgba(52, 211, 153, 0.3);
+
+                i { color: #fff; }
+            }
+        }
     }
 
     .page__content h1 {
