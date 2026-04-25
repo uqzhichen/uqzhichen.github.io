@@ -215,4 +215,13 @@
       {% endif %}
     </div>
   </div>
+
+  {% if site.clustrmaps_id %}
+  <div class="clustrmaps-widget">
+    <script type="text/javascript" id="clustrmaps"
+      src="//cdn.clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&cl=ffffff&w=a&t=tt&co=2563eb&ct=ffffff&cmo=3b82f6&cmn=60a5fa">
+    </script>
+  </div>
+  {% endif %}
+
 </div>

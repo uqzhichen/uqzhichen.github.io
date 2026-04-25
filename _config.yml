@@ -7,9 +7,10 @@
 
 # Site Settings
 title                    : "Zhi Chen, Ph.D."
-description              : "Lecturer/Assistant Professor at University of Southern Queensland. Research in zero-shot learning, computer vision, AI for Agriculture and Healthcare."
+description              : "Lecturer (Assistant Professor) in AI"
 repository               : "uqzhichen/zhichen.github.io"
 google_scholar_stats_use_cdn : true
+clustrmaps_id                :   # your ClustrMaps widget ID, e.g. 1a2b3c4d5e
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

@@ -901,6 +901,18 @@ body { background: #f1f5f9; }
     }
 }
 
+// ── ClustrMaps visitor widget ─────────────────────────────────────────────────
+.clustrmaps-widget {
+    margin-top: 1em;
+    padding-top: 0.75em;
+    border-top: 1px solid #f0f4f8;
+    text-align: center;
+
+    img { max-width: 100%; border-radius: 6px; }
+}
+
+html.dark-mode .clustrmaps-widget { border-top-color: var(--dm-border); }
+
 // ── Centre the description blurb inside the sidebar links list ───────────────
 .author__urls li:first-child div {
     @include breakpoint($large) {
