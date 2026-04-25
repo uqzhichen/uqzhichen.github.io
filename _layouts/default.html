@@ -29,6 +29,14 @@ layout: compress
       </article>
     </div>
 
+    {% if site.clustrmaps_id %}
+    <div class="clustrmaps-footer">
+      <script type="text/javascript" id="clustrmaps"
+        src="//cdn.clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&w=a&t=tt&cl=059669&co=f0fdf9&ct=1e3a5f&cmo=065f46&cmn=6ee7b7">
+      </script>
+    </div>
+    {% endif %}
+
     <!-- Back to top button -->
     <button id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</button>
 
