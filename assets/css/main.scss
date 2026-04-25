@@ -229,6 +229,17 @@ table tr {
     }
 }
 
+/* Publication thumbnail — consistent crop, no distortion */
+#tab-publications table td:first-child img {
+    width: 180px !important;
+    height: 115px !important;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 6px;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
 /* papertitle link style */
 papertitle {
     font-size: 1em;
