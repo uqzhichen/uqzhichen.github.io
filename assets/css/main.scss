@@ -1035,13 +1035,14 @@ html.dark-mode {
 // ── ClustrMaps footer widget ──────────────────────────────────────────────────
 .clustrmaps-footer {
     text-align: center;
-    padding: 2em 1.5em 2.5em;
+    padding: 1.5em 1.5em 2em;
     border-top: 1px solid #e8edf2;
     background: #fff;
     margin-top: 1em;
 
-    > div, > script + div {
+    &__map {
         display: inline-block;
-        max-width: 320px;
+        width: 180px;
+        overflow: hidden;
     }
 }
