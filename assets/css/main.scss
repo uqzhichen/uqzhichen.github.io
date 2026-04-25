@@ -667,3 +667,306 @@ html.dark-mode {
         }
     }
 }
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   Presentation polish
+   ══════════════════════════════════════════════════════════════════════════════ */
+
+// ── Section headings — blue-tinted rule ──────────────────────────────────────
+.page__content h1 {
+    font-size: 1.35em;
+    margin-top: 1.6em;
+    margin-bottom: 0.7em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid rgba(37, 99, 235, 0.15);
+
+    &:first-child { margin-top: 0.3em; }
+}
+
+// ── News — styled date badge on each item ────────────────────────────────────
+#tab-about ul li em:first-child,
+details div ul li em:first-child {
+    display: inline-block;
+    font-style: normal;
+    font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+    font-size: 0.78em;
+    font-weight: 600;
+    color: $primary-color;
+    background: rgba(37, 99, 235, 0.07);
+    padding: 1px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+    margin-right: 0.25em;
+    vertical-align: middle;
+}
+
+// ── Research tags — lift on hover ────────────────────────────────────────────
+.research-tags .tag {
+    &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+    }
+}
+
+// ── Grant cards — depth shadow + lift on hover ───────────────────────────────
+.grant-card {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06), 0 2px 10px rgba(0,0,0,0.04);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+        box-shadow: 0 6px 24px rgba(37, 99, 235, 0.12), 0 1px 4px rgba(0,0,0,0.05);
+        transform: translateY(-2px);
+    }
+}
+
+// ── Teaching table — polished header + zebra + hover ─────────────────────────
+#tab-teaching table {
+    thead th {
+        background: rgba(37, 99, 235, 0.05);
+        font-size: 0.76em;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        font-weight: 700;
+        border-bottom: 2px solid rgba(37, 99, 235, 0.18);
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+    }
+
+    tbody tr {
+        transition: background 0.12s ease;
+        &:nth-child(even) td { background: rgba(37, 99, 235, 0.018); }
+        &:hover td { background: rgba(37, 99, 235, 0.055) !important; }
+    }
+}
+
+// ── Teaching services sub-headings (Conference Service, Journal Editorship) ───
+#tab-teaching h2 {
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $primary-color;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    padding-left: 0.7em;
+    border-left: 3px solid $primary-color;
+    border-bottom: none;
+}
+
+// ── Sidebar author photo ─────────────────────────────────────────────────────
+.author__avatar img {
+    border: 3px solid rgba(37, 99, 235, 0.14);
+    box-shadow: 0 4px 18px rgba(0,0,0,0.09);
+    transition: box-shadow 0.2s ease;
+
+    &:hover { box-shadow: 0 6px 28px rgba(0,0,0,0.15); }
+}
+
+// ── Sidebar author name ──────────────────────────────────────────────────────
+.author__name {
+    letter-spacing: -0.01em;
+}
+
+// ── Sidebar description text ─────────────────────────────────────────────────
+.author__bio {
+    line-height: 1.56 !important;
+}
+
+// ── Dark mode additions ──────────────────────────────────────────────────────
+html.dark-mode {
+    .page__content h1 {
+        border-bottom-color: rgba(96, 165, 250, 0.2);
+    }
+
+    #tab-about ul li em:first-child,
+    details div ul li em:first-child {
+        background: rgba(96, 165, 250, 0.1);
+        color: var(--dm-link);
+    }
+
+    .research-tags .tag:hover {
+        box-shadow: 0 2px 8px rgba(96, 165, 250, 0.25);
+    }
+
+    .grant-card {
+        box-shadow: 0 1px 4px rgba(0,0,0,0.15), 0 2px 10px rgba(0,0,0,0.1);
+        &:hover {
+            box-shadow: 0 6px 24px rgba(96, 165, 250, 0.15), 0 1px 4px rgba(0,0,0,0.2);
+        }
+    }
+
+    #tab-teaching table {
+        thead th {
+            background: rgba(96, 165, 250, 0.07);
+            border-bottom-color: rgba(96, 165, 250, 0.25);
+            color: var(--dm-text);
+        }
+        tbody tr {
+            &:nth-child(even) td { background: rgba(96, 165, 250, 0.03); }
+            &:hover td { background: rgba(96, 165, 250, 0.08) !important; }
+        }
+    }
+
+    #tab-teaching h2 {
+        color: var(--dm-link);
+        border-left-color: var(--dm-accent);
+    }
+
+    .author__avatar img {
+        border-color: rgba(96, 165, 250, 0.25);
+        box-shadow: 0 4px 18px rgba(0,0,0,0.3);
+    }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   Aesthetic overhaul — canvas, cards, typography, sidebar
+   ══════════════════════════════════════════════════════════════════════════════ */
+
+// ── Soft page canvas ─────────────────────────────────────────────────────────
+body { background: #f1f5f9; }
+
+// ── Masthead — shadow replaces thin border ───────────────────────────────────
+.masthead {
+    border-bottom: none;
+    box-shadow: 0 1px 0 #e2e8f0, 0 4px 20px rgba(0,0,0,0.05);
+
+    .masthead__inner-wrap { padding: 0.65em 1em; }
+
+    .masthead__menu-item a {
+        font-weight: 500;
+        letter-spacing: 0.005em;
+    }
+}
+
+// ── Sidebar profile card (desktop only) ─────────────────────────────────────
+.profile_box {
+    @include breakpoint($large) {
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 14px;
+        padding: 1.6em 1.1em 1.25em;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 6px 20px rgba(0,0,0,0.04);
+    }
+}
+
+// ── Avatar — centred, larger, cleaner border ─────────────────────────────────
+.author__avatar {
+    @include breakpoint($large) {
+        text-align: center;
+        margin-bottom: 0.5em;
+
+        img {
+            display: block !important;
+            width: 110px !important;
+            height: 110px !important;
+            min-width: unset !important;
+            max-width: unset !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            border: 3px solid #e2e8f0 !important;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1) !important;
+            object-fit: cover;
+        }
+    }
+}
+
+// ── Author name — centred, bolder ────────────────────────────────────────────
+.sidebar .author__name {
+    @include breakpoint($large) {
+        text-align: center;
+        font-size: 1.25em;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #0f172a;
+        margin-top: 0.5em;
+        margin-bottom: 0.15em;
+    }
+}
+
+// ── Author description — centred, muted ──────────────────────────────────────
+.author__bio {
+    @include breakpoint($large) { text-align: center; }
+    font-size: 0.81em !important;
+    color: #64748b;
+    line-height: 1.55 !important;
+}
+
+// ── Sidebar links separator ───────────────────────────────────────────────────
+.author__urls-wrapper {
+    @include breakpoint($large) {
+        display: block !important;
+        border-top: 1px solid #f0f4f8;
+        padding-top: 0.8em;
+        margin-top: 0.6em;
+    }
+}
+
+// ── Centre the description blurb inside the sidebar links list ───────────────
+.author__urls li:first-child div {
+    @include breakpoint($large) {
+        text-align: center;
+        font-size: 0.8em;
+        color: #64748b;
+        line-height: 1.5;
+    }
+}
+
+// ── Content area — white card ────────────────────────────────────────────────
+.page__inner-wrap {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 1.75em 2em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 6px 20px rgba(0,0,0,0.04);
+
+    @include breakpoint($large) { padding: 2em 2.5em; }
+}
+
+// ── Override h1 border to use card's own border instead of gray line ─────────
+.page__content h1 {
+    border-bottom-color: #edf0f4 !important;
+}
+
+// ── #main — a little more vertical breathing room ────────────────────────────
+#main { margin-top: 1.5em !important; padding-bottom: 2em; }
+
+// ── Dark mode updates for cards ───────────────────────────────────────────────
+html.dark-mode {
+    body { background: #080f1e; }
+
+    .masthead {
+        box-shadow: 0 1px 0 var(--dm-border), 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .profile_box {
+        @include breakpoint($large) {
+            background: var(--dm-surface);
+            border-color: var(--dm-border);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.25), 0 6px 20px rgba(0,0,0,0.2);
+        }
+    }
+
+    .author__avatar img {
+        border-color: var(--dm-border) !important;
+    }
+
+    .sidebar .author__name {
+        @include breakpoint($large) { color: var(--dm-text) !important; }
+    }
+
+    .author__bio { color: var(--dm-text-muted) !important; }
+
+    .author__urls-wrapper {
+        @include breakpoint($large) { border-top-color: var(--dm-border); }
+    }
+
+    .page__inner-wrap {
+        background: var(--dm-surface);
+        border-color: var(--dm-border);
+        box-shadow: 0 1px 4px rgba(0,0,0,0.25), 0 6px 20px rgba(0,0,0,0.2);
+    }
+
+    .page__content h1 {
+        border-bottom-color: var(--dm-border) !important;
+    }
+}
