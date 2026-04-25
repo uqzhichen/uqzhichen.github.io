@@ -1,0 +1,57 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<div class="profile-hero">
+  <div class="profile-hero__inner">
+
+    <div class="profile-hero__photo-col">
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" class="profile-hero__photo">
+    </div>
+
+    <div class="profile-hero__info-col">
+      <h1 class="profile-hero__name">{{ author.name }}</h1>
+      {% if site.description %}<p class="profile-hero__title">{{ site.description }}</p>{% endif %}
+      {% if author.location %}<p class="profile-hero__location"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ author.location }}</p>{% endif %}
+
+      <nav class="profile-hero__links" aria-label="Contact and profile links">
+        {% if author.email %}
+          <a href="mailto:{{ author.email }}" class="profile-hero__link" target="_self"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
+        {% endif %}
+        {% if author.googlescholar %}
+          <a href="{{ author.googlescholar }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Scholar</a>
+        {% endif %}
+        {% if author.linkedin %}
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        {% endif %}
+        {% if author.orcid %}
+          <a href="{{ author.orcid }}" class="profile-hero__link" rel="noopener noreferrer"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a>
+        {% endif %}
+        {% if author.github %}
+          <a href="https://github.com/{{ author.github }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
+        {% endif %}
+        {% if author.twitter %}
+          <a href="https://twitter.com/{{ author.twitter }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a>
+        {% endif %}
+        {% if author.researchgate %}
+          <a href="{{ author.researchgate }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a>
+        {% endif %}
+        {% if author.dblp %}
+          <a href="{{ author.dblp }}" class="profile-hero__link" rel="noopener noreferrer"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> DBLP</a>
+        {% endif %}
+        {% if author.pubmed %}
+          <a href="{{ author.pubmed }}" class="profile-hero__link" rel="noopener noreferrer"><i class="ai ai-pubmed-square ai-fw" aria-hidden="true"></i> PubMed</a>
+        {% endif %}
+      </nav>
+
+      {% if site.clustrmaps_id %}
+      <div class="profile-hero__clustrmaps">
+        <script type="text/javascript" id="clustrmaps"
+          src="//cdn.clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&w=a&t=tt&cl=059669&co=f0fdf9&ct=1e3a5f&cmo=065f46&cmn=6ee7b7">
+        </script>
+      </div>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
