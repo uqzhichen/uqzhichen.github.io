@@ -917,9 +917,10 @@ html.dark-mode .clustrmaps-widget { border-top-color: var(--dm-border); }
 .author__urls li:first-child div {
     @include breakpoint($large) {
         text-align: center;
-        font-size: 0.8em;
-        color: #64748b;
+        font-size: 0.95em;
+        color: #475569;
         line-height: 1.5;
+        font-weight: 500;
     }
 }
 
