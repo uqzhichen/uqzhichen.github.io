@@ -20,8 +20,6 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School of Science, Engineering and Digital Technologies, University of Southern Queensland (UniSQ), Australia. I received my Ph.D. from The University of Queensland (UQ) in 2023 — honoured with the **Dean's Award for Outstanding HDR Theses** — under the supervision of Prof. Zi (Helen) Huang. I subsequently held postdoctoral and research fellow positions at UQ before joining UniSQ in 2025.
-
 🔬 My research sits at the frontier of **machine learning** and **computer vision**, driven by a fundamental question: *how can AI reliably recognise and reason about what it has never seen before?* I develop methods in **zero-shot & few-shot learning**, **vision–language models**, **continual learning**, and **generative modelling** — building systems that generalise beyond labelled data and operate robustly in open, ever-changing environments. My work has appeared in top-tier venues including **CVPR**, **ICCV**, **AAAI**, **ACM MM**, **IJCAI**, **NeurIPS**, **PR**, **TMM** and **Nature Portfolio** journals.
 
 🌾 I lead interdisciplinary AI projects tackling real-world problems, particularly in **AI for Agriculture** — large-scale crop disease recognition, plant phenotyping, and precision farming tools to help safeguard global food security where label scarcity demands the generalisable models I specialise in. Together, these projects have attracted over **$900K** in competitive funding from **GRDC**, **Department of Education**, **CSIRO**, and the **Queensland Government**.
@@ -58,7 +56,7 @@ I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School o
 - *2025.12*: &nbsp; I gave a tutorial on zero-shot learning in [DICTA2025](https://dicta2025.dictaconference.org/workshop_tutorial.html).
 
 <details>
-<summary><button class="news-expand-btn">Show all news (16 more) ▼</button></summary>
+<summary class="news-expand-btn" data-closed-label="Show all news (16 more) ▼" data-open-label="Hide all news ▲">Show all news (16 more) ▼</summary>
 <div markdown="1">
 
 - *2025.11*: &nbsp; Our paper on Diffusion Quantization has been accepted to AAAI 2026, paper coming soon. 

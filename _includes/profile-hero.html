@@ -5,45 +5,54 @@
 <div class="profile-hero">
   <div class="profile-hero__inner">
 
-    <div class="profile-hero__photo-col">
+    <div class="profile-hero__status" aria-label="Research areas">
+      <span>Machine Learning</span>
+      <span>Computer Vision</span>
+      <span>Vision-Language Models</span>
+      <span>AI for Agriculture</span>
+    </div>
+
+    <div class="profile-hero__portrait-card">
       <img src="{{ author.avatar }}" alt="{{ author.name }}" class="profile-hero__photo">
     </div>
 
-    <div class="profile-hero__info-col">
-      <h1 class="profile-hero__name">{{ author.name }}</h1>
+    <div class="profile-hero__copy">
+      <h1 id="profile-hero-name" class="profile-hero__name">{{ author.name }}</h1>
       {% if site.description %}<p class="profile-hero__title">{{ site.description }}</p>{% endif %}
       {% if author.location %}<p class="profile-hero__location"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ author.location }}</p>{% endif %}
 
+      <p class="profile-hero__section-label">About</p>
+      <p class="profile-hero__intro">I am a Lecturer (Assistant Professor) in Artificial Intelligence at the School of Science, Engineering and Digital Technologies, University of Southern Queensland (UniSQ), Australia. I received my Ph.D. from The University of Queensland (UQ) in 2023 &mdash; honoured with the <strong>Dean's Award for Outstanding HDR Theses</strong> &mdash; under the supervision of Prof. Zi (Helen) Huang. I subsequently held postdoctoral and research fellow positions at UQ before joining UniSQ in 2025.</p>
+
       <nav class="profile-hero__links" aria-label="Contact and profile links">
         {% if author.email %}
-          <a href="mailto:{{ author.email }}" class="profile-hero__link" target="_self"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
+          <a href="mailto:{{ author.email }}" class="profile-hero__link" target="_self" aria-label="Email" title="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span>Email</span></a>
         {% endif %}
         {% if author.googlescholar %}
-          <a href="{{ author.googlescholar }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Scholar</a>
+          <a href="{{ author.googlescholar }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i><span>Scholar</span></a>
         {% endif %}
         {% if author.linkedin %}
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
         {% endif %}
         {% if author.orcid %}
-          <a href="{{ author.orcid }}" class="profile-hero__link" rel="noopener noreferrer"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a>
+          <a href="{{ author.orcid }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i><span>ORCID</span></a>
         {% endif %}
         {% if author.github %}
-          <a href="https://github.com/{{ author.github }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
+          <a href="https://github.com/{{ author.github }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span>GitHub</span></a>
         {% endif %}
         {% if author.twitter %}
-          <a href="https://twitter.com/{{ author.twitter }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a>
+          <a href="https://twitter.com/{{ author.twitter }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="Twitter" title="Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
         {% endif %}
         {% if author.researchgate %}
-          <a href="{{ author.researchgate }}" class="profile-hero__link" rel="noopener noreferrer"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a>
+          <a href="{{ author.researchgate }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate" title="ResearchGate"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a>
         {% endif %}
         {% if author.dblp %}
-          <a href="{{ author.dblp }}" class="profile-hero__link" rel="noopener noreferrer"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> DBLP</a>
+          <a href="{{ author.dblp }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="DBLP" title="DBLP"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i><span>DBLP</span></a>
         {% endif %}
         {% if author.pubmed %}
-          <a href="{{ author.pubmed }}" class="profile-hero__link" rel="noopener noreferrer"><i class="ai ai-pubmed-square ai-fw" aria-hidden="true"></i> PubMed</a>
+          <a href="{{ author.pubmed }}" class="profile-hero__link" target="_blank" rel="noopener noreferrer" aria-label="PubMed" title="PubMed"><i class="ai ai-pubmed-square ai-fw" aria-hidden="true"></i><span>PubMed</span></a>
         {% endif %}
       </nav>
-
     </div>
 
   </div>

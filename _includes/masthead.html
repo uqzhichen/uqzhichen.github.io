@@ -1,26 +1,27 @@
 <div class="masthead" id="site-masthead">
-  <!-- Reading progress bar — contained by position:relative on the masthead -->
   <div id="reading-progress-bar"></div>
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" target="_self">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            {% assign tab_id = link.url | remove: "/#tab-" %}
-            <li class="masthead__menu-item" data-nav-tab="{{ tab_id }}"><a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
-          {% endfor %}
-          <!-- Dark mode toggle sits inside the nav list so it stays inline -->
-          <li class="masthead__menu-item masthead__dark-toggle-item">
-            <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-              <span class="dark-mode-toggle__icon dark-mode-toggle__icon--sun">&#9728;</span>
-              <span class="dark-mode-toggle__icon dark-mode-toggle__icon--moon">&#9790;</span>
-            </button>
-          </li>
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+    {% assign nav_author = site.author %}
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a class="site-nav__brand" href="/#tab-about" target="_self">
+        <span class="site-nav__brand-mark">ZC</span>
+        <span class="site-nav__brand-copy">
+          <span class="site-nav__brand-name">{{ nav_author.name }}</span>
+          {% if site.description %}<span class="site-nav__brand-title">{{ site.description }}</span>{% endif %}
+        </span>
+      </a>
+
+      <ul class="visible-links site-nav__links">
+        {% for link in site.data.navigation.main %}
+          {% assign tab_id = link.url | remove: "/#tab-" %}
+          <li class="masthead__menu-item" data-nav-tab="{{ tab_id }}"><a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="dark-mode-toggle__icon dark-mode-toggle__icon--sun">&#9728;</span>
+        <span class="dark-mode-toggle__icon dark-mode-toggle__icon--moon">&#9790;</span>
+      </button>
+    </nav>
   </div>
 </div>

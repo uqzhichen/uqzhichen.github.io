@@ -32,7 +32,7 @@ layout: compress
     {% if site.clustrmaps_id %}
     <div class="clustrmaps-footer">
       <div class="clustrmaps-footer__map" data-clustrmaps-widget>
-        <script type="text/javascript" id="clustrmaps"
+        <script type="text/javascript" id="clustrmaps" async defer
           src="https://cdn.clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&w=180&t=tt&cl=059669&co=f0fdf9&ct=1e3a5f&cmo=065f46&cmn=6ee7b7">
         </script>
         <div class="clustrmaps-footer__fallback" data-clustrmaps-fallback hidden>
@@ -116,36 +116,54 @@ layout: compress
         }, { passive: true });
       })();
 
-      // ── Content tabs (driven by top nav) ─────────────────────────────
+      // ── Anchored section navigation ──────────────────────────────────
       (function() {
-        var tabPanels = document.querySelectorAll('.tab-panel');
-        var navItems  = document.querySelectorAll('[data-nav-tab]');
-        if (!tabPanels.length) return;
+        var sections = Array.prototype.slice.call(document.querySelectorAll('.tab-panel'));
+        var navItems = Array.prototype.slice.call(document.querySelectorAll('[data-nav-tab]'));
+        if (!sections.length) return;
 
-        // Collect known tab IDs from panel ids
-        var tabIds = Array.from(tabPanels).map(function(p) { return p.id.replace('tab-', ''); });
-        var defaultTab = tabIds[0] || 'about';
+        var sectionIds = sections.map(function(section) { return section.id.replace('tab-', ''); });
+        var defaultId = sectionIds[0] || 'about';
+        sections.forEach(function(section) {
+          section.classList.add('active');
+          section.removeAttribute('hidden');
+        });
 
-        function activateTab(tabId) {
-          // Validate — fall back to first tab if unknown
-          if (tabIds.indexOf(tabId) === -1) tabId = defaultTab;
-
-          // Show/hide panels
-          tabPanels.forEach(function(p) {
-            p.classList.toggle('active', p.id === 'tab-' + tabId);
-          });
-
-          // Highlight active nav item
-          navItems.forEach(function(li) {
-            li.classList.toggle('masthead__menu-item--active', li.dataset.navTab === tabId);
+        function setActive(tabId) {
+          if (sectionIds.indexOf(tabId) === -1) tabId = defaultId;
+          navItems.forEach(function(item) {
+            var active = item.dataset.navTab === tabId;
+            item.classList.toggle('masthead__menu-item--active', active);
+            var link = item.querySelector('a');
+            if (link) {
+              if (active) link.setAttribute('aria-current', 'page');
+              else link.removeAttribute('aria-current');
+            }
           });
         }
 
-        // Activate from URL hash on load
-        var hash = location.hash.replace(/^#tab-/, '');
-        activateTab(hash || defaultTab);
+        function scrollToSection(tabId, replaceHash, instant) {
+          if (sectionIds.indexOf(tabId) === -1) tabId = defaultId;
+          var target = document.getElementById('tab-' + tabId);
+          if (!target) return;
 
-        // Nav link clicks — intercept same-page hash navigation
+          setActive(tabId);
+          var masthead = document.getElementById('site-masthead');
+          var offset = masthead ? masthead.offsetHeight + 18 : 0;
+          var top = Math.max(0, target.offsetTop - offset);
+          if (instant) {
+            window.scrollTo(0, top);
+            document.documentElement.scrollTop = top;
+            document.body.scrollTop = top;
+          } else {
+            window.scrollTo({ top: top, behavior: 'smooth' });
+          }
+
+          var nextHash = '#tab-' + tabId;
+          if (replaceHash) history.replaceState(null, null, nextHash);
+          else history.pushState(null, null, nextHash);
+        }
+
         navItems.forEach(function(li) {
           var a = li.querySelector('a');
           if (!a) return;
@@ -154,18 +172,87 @@ layout: compress
             var match = href.match(/#tab-([^&?]+)$/);
             if (match) {
               e.preventDefault();
-              var tabId = match[1];
-              activateTab(tabId);
-              history.pushState(null, null, '#tab-' + tabId);
-              window.scrollTo({ top: 0, behavior: 'smooth' });
+              scrollToSection(match[1], false, true);
             }
           });
         });
 
-        // Handle browser back / forward
+        if ('IntersectionObserver' in window) {
+          var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+              if (entry.isIntersecting) setActive(entry.target.id.replace('tab-', ''));
+            });
+          }, { rootMargin: '-35% 0px -55% 0px', threshold: 0.01 });
+
+          sections.forEach(function(section) { observer.observe(section); });
+        }
+
+        var initial = location.hash.replace(/^#tab-/, '');
+        setActive(initial || defaultId);
+        if (location.hash.indexOf('#tab-') === 0) {
+          scrollToSection(initial, true, true);
+          window.setTimeout(function() { scrollToSection(initial, true, true); }, 80);
+          window.setTimeout(function() { scrollToSection(initial, true, true); }, 450);
+          window.setTimeout(function() { scrollToSection(initial, true, true); }, 1400);
+          var hashScrollAttempts = 0;
+          var hashScrollTimer = window.setInterval(function() {
+            var target = document.getElementById('tab-' + initial);
+            var masthead = document.getElementById('site-masthead');
+            var offset = masthead ? masthead.offsetHeight + 18 : 0;
+            hashScrollAttempts += 1;
+            scrollToSection(initial, true, true);
+            if (!target || Math.abs(target.getBoundingClientRect().top - offset) < 8 || hashScrollAttempts >= 24) {
+              window.clearInterval(hashScrollTimer);
+            }
+          }, 250);
+          window.addEventListener('load', function() { scrollToSection(initial, true, true); }, { once: true });
+        }
+
         window.addEventListener('hashchange', function() {
-          var h = location.hash.replace(/^#tab-/, '');
-          if (h) activateTab(h);
+          var hash = location.hash.replace(/^#tab-/, '');
+          if (hash) scrollToSection(hash, true, true);
+        });
+      })();
+
+      // ── News expander ────────────────────────────────────────────────
+      (function() {
+        document.querySelectorAll('.news-expand-btn').forEach(function(control) {
+          var details = control.closest('details');
+          if (!details) return;
+
+          function syncLabel() {
+            var openLabel = control.getAttribute('data-open-label') || 'Hide all news ▲';
+            var closedLabel = control.getAttribute('data-closed-label') || 'Show all news (16 more) ▼';
+            control.textContent = details.open ? openLabel : closedLabel;
+            control.setAttribute('aria-expanded', details.open ? 'true' : 'false');
+          }
+
+          var tagName = control.tagName.toLowerCase();
+          var isSummary = tagName === 'summary';
+          if (tagName === 'button') control.setAttribute('type', 'button');
+          control.setAttribute('aria-expanded', details.open ? 'true' : 'false');
+
+          if (!isSummary) {
+            control.addEventListener('click', function(event) {
+              event.preventDefault();
+              event.stopPropagation();
+              details.open = !details.open;
+              syncLabel();
+            });
+            control.addEventListener('keydown', function(event) {
+              if (event.key !== 'Enter' && event.key !== ' ') return;
+              event.preventDefault();
+              details.open = !details.open;
+              syncLabel();
+            });
+          } else {
+            control.addEventListener('click', function() {
+              window.setTimeout(syncLabel, 0);
+            });
+          }
+
+          details.addEventListener('toggle', syncLabel);
+          syncLabel();
         });
       })();
 
