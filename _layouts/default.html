@@ -31,10 +31,13 @@ layout: compress
 
     {% if site.clustrmaps_id %}
     <div class="clustrmaps-footer">
-      <div class="clustrmaps-footer__map">
+      <div class="clustrmaps-footer__map" data-clustrmaps-widget>
         <script type="text/javascript" id="clustrmaps"
-          src="//cdn.clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&w=180&t=tt&cl=059669&co=f0fdf9&ct=1e3a5f&cmo=065f46&cmn=6ee7b7">
+          src="https://cdn.clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&w=180&t=tt&cl=059669&co=f0fdf9&ct=1e3a5f&cmo=065f46&cmn=6ee7b7">
         </script>
+        <div class="clustrmaps-footer__fallback" data-clustrmaps-fallback hidden>
+          Visitor map temporarily unavailable.
+        </div>
       </div>
     </div>
     {% endif %}
@@ -164,6 +167,29 @@ layout: compress
           var h = location.hash.replace(/^#tab-/, '');
           if (h) activateTab(h);
         });
+      })();
+
+      // ── ClustrMaps fallback ──────────────────────────────────────────
+      (function() {
+        var widget = document.querySelector('[data-clustrmaps-widget]');
+        if (!widget) return;
+
+        var fallback = widget.querySelector('[data-clustrmaps-fallback]');
+        if (!fallback) return;
+
+        function hasRenderedMap() {
+          var children = Array.prototype.slice.call(widget.children);
+          return children.some(function(child) {
+            if (child === fallback || child.tagName === 'SCRIPT') return false;
+            return child.offsetHeight > 0 || !!child.querySelector('a, canvas, iframe, img, svg');
+          });
+        }
+
+        window.setTimeout(function() {
+          if (!hasRenderedMap()) {
+            fallback.hidden = false;
+          }
+        }, 2500);
       })();
 
       // ── BibTeX copy buttons ───────────────────────────────────────────

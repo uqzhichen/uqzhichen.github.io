@@ -1040,6 +1040,12 @@ html.dark-mode {
     .clustrmaps-footer {
         border-top-color: var(--dm-border);
         background: #111827;
+
+        &__fallback {
+            background: #1e293b;
+            border-color: var(--dm-border);
+            color: var(--dm-muted);
+        }
     }
 }
 
@@ -1055,5 +1061,15 @@ html.dark-mode {
         display: inline-block;
         width: 180px;
         overflow: hidden;
+    }
+
+    &__fallback {
+        border: 1px solid #d8e2ea;
+        border-radius: 8px;
+        color: #64748b;
+        font-size: 0.78em;
+        line-height: 1.35;
+        padding: 0.85em;
+        width: 180px;
     }
 }
