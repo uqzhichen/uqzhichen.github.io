@@ -957,18 +957,29 @@ Develop and deploy deep learning models for automated detection, segmentation, a
 
 ##  Conference Service
 
-- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-2024 <br>
-- IEEE/CVF International Conference on Computer Vision (ICCV) 2023 <br>
-- European Conference on Computer Vision (ECCV) 2022, 2024 <br>
-- ACM International Conference on Multimedia (MM) 2021-2024 (Outstanding Reviewer @ 2024) <br>
-- AAAI Conf. on Artificial Intelligence (AAAI) 2022-2024 <br>
-- IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023 <br>
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022-present <br>
+- IEEE/CVF International Conference on Computer Vision (ICCV) 2023-present <br>
+- European Conference on Computer Vision (ECCV) 2022-present <br>
+- ACM International Conference on Multimedia (MM) 2021-present (Outstanding Reviewer @ 2024) <br>
+- AAAI Conf. on Artificial Intelligence (AAAI) 2022-present <br>
+- Conference on Neural Information Processing Systems (NeurIPS) 2025-present <br>
+- IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023-present <br>
 
 ##  Journal Editorship
-- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2024 <br>
-- International Journal of Computer Vision (IJCV) 2024 <br>
-- IEEE Transactions on Multimedia (TMM) 2022-2023 <br> 
-- IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2023-2024<br>
-- IEEE Transactions on Cognitive and Developmental Systems (TCDS) 2023<br>
+- Associate Editor, Complex & Intelligent Systems <br>
+- Associate Editor, Edge Intelligence and Systems <br>
+
+##  Journal Reviewer Service
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2024-present <br>
+- International Journal of Computer Vision (IJCV) 2024-present <br>
+- IEEE Transactions on Multimedia (TMM) 2022-present <br>
+- IEEE Transactions on Image Processing (TIP) 2023-present <br>
+- IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2023-present <br>
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2024-present <br>
+- Neural Networks 2024-present <br>
+- Pattern Recognition (PR) 2025-present <br>
+- Expert Systems with Applications (ESWA) 2025-present <br>
+- IEEE Transactions on Cognitive and Developmental Systems (TCDS) 2025-present <br>
+- ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM) 2025-present <br>
 
 </div><!-- /tab-teaching -->
