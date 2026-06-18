@@ -43,6 +43,10 @@ redirect_from:
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.06*: &nbsp; Three papers have been accepted to ECCV 2026.
+
+- *2026.03*: &nbsp; One paper has been accepted to CVPR 2026.
+
 - *2026.02*: &nbsp; One RUIC program project ($100,000) has been granted by the Queensland Government and CSIRO.
 
 - *2026.02*: &nbsp; One AEA Ignite Project ($549,886) has been granted by the Department of Education.
