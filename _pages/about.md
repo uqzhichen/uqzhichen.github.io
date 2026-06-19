@@ -67,7 +67,7 @@ redirect_from:
 
 - *2025.10*: &nbsp; My first-author paper "Distribution Zero-Shot Learning for Visual recognition" has been accepted to IEEE Transactions on Multimedia (JCR Q1, Core A*, IF:9.7). Paper coming soon.
 
-- *2025.10*: &nbsp; My first-author paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1, Core A*, IF:7.6). 
+- *2025.10*: &nbsp; My first-author paper on [Few-Shot Vision-Language Model Adaptation](https://arxiv.org/pdf/2510.09867) has been accepted to the journal Pattern Recognition (JCR Q1, Core A*, IF: 9.1).
 
 - *2025.10*: &nbsp; My first author paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the Special Issue: Beneficial Noise Learning in the journal Pattern Recognition (JCR Q1) (Core A*).
 
@@ -199,7 +199,7 @@ redirect_from:
     <br>
     <strong>Zhi Chen</strong>, Xin Yu, Xiaohui Tao, Yan Li, Zi Huang
     <br>
-    <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
+    <em>Pattern Recognition (PR) (Core A*) (IF: 9.1)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>VLM</strong></abbr></div>
     <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012592">Paper</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
@@ -217,7 +217,7 @@ redirect_from:
     <br>
     <strong>Zhi Chen</strong>, Zecheng Zhao, Yadan Luo, Yan Li, Xiaohui Tao, Zi Huang
     <br>
-    <em>Pattern Recognition (PR) (Core A*) (IF: 7.6)</em><br>
+    <em>Pattern Recognition (PR) (Core A*) (IF: 9.1)</em><br>
     <div><abbr style="background-color:#58D68D"><strong>Image Editing</strong></abbr></div>
     <a href="https://www.sciencedirect.com/science/article/pii/S0031320325012464">Paper</a> / <a href="https://github.com/JasonCodeMaker/FastEdit" rel="noopener noreferrer">code</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
