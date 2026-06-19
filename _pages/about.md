@@ -53,7 +53,7 @@ redirect_from:
 
 - *2026.02*: &nbsp; One [GRDC grant ($250,000)](https://grdc.com.au/grdc-investments/investments/investment?code=USQ2605-002BGX) on Exploring Data Efficient Machine Learning for Australian Grains Disease Recognition has been awarded.
 
-- *2025.12*：&nbsp; Our dataset paper [PlantSeg](https://www.nature.com/articles/s41597-025-06513-4) has been accepted to Scientific Data (Nature Portfolio, JCR Q1, IF: 6.9). 
+- *2025.12*：&nbsp; Our dataset paper [PlantSeg](https://www.nature.com/articles/s41597-025-06513-4) has been accepted to Scientific Data (Nature Portfolio, JCR Q1, IF: 8.7).
 
 - *2025.12*: &nbsp; I gave a talk on AI for Agriculture in the AI4Impact Research Symposium, hosted by UniSQ Business School and SRMIST India.
 
@@ -71,7 +71,7 @@ redirect_from:
 
 - *2025.10*: &nbsp; My first author paper on [Single-Image Editing](https://arxiv.org/pdf/2408.03355) has been accepted to the Special Issue: Beneficial Noise Learning in the journal Pattern Recognition (JCR Q1) (Core A*).
 
-- *2025.08*: &nbsp; Our [Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset](https://www.sciencedirect.com/science/article/pii/S2643651525000901) has been accepted to Plant Phenomics (JCR Q1, IF 6.4, No.1 Journal for Phenotyping). [Project Page](https://www.global-wheat.com/gwfss.html)
+- *2025.08*: &nbsp; Our [Global Wheat Full Semantic Organ Segmentation (GWFSS) Dataset](https://www.sciencedirect.com/science/article/pii/S2643651525000901) has been accepted to Plant Phenomics (JCR Q1, IF: 8.2, No.1 Journal for Phenotyping). [Project Page](https://www.global-wheat.com/gwfss.html)
 
 - *2025.08*: &nbsp; Our benchmark on [video generative models for video retrieval](https://arxiv.org/pdf/2507.02316) has been accepted to ACM MM Dataset Track. 
 
@@ -235,7 +235,7 @@ redirect_from:
      <br>
      Zijian Wang, ..., <Strong>Zhi Chen</Strong>, ... et, al.
      <br>
-     <em>Plant Phenomics (Q1) (IF: 6.4)</em><br>
+     <em>Plant Phenomics (Q1) (IF: 8.2)</em><br>
      <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
      <a href="https://www.sciencedirect.com/science/article/pii/S2643651525000901">Paper</a> /
     <a href="https://www.global-wheat.com/gwfss.html" rel="noopener noreferrer">Project</a>
