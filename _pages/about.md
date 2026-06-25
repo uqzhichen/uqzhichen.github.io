@@ -150,6 +150,42 @@ redirect_from:
      </tr>
      <tr>
      <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="images/clse.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2606.24165">
+     <papertitle>Spectral Evolution-Guided Token Pruning in Multimodal Large Language Models</papertitle>
+     </a>
+     <br>
+     Bin Chen, Yuxiang Cai, Yadan Luo, Yi Zhang, Jianwei Yin, <strong>Zhi Chen</strong>
+     <br>
+     <em>European Conference on Computer Vision (ECCV) 2026 (Core A*)</em><br>
+     <div><abbr style="background-color:#58D68D"><strong>VLM</strong></abbr></div>
+     <a href="https://arxiv.org/pdf/2606.24165">arXiv</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
+     <p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="images/priortr.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2606.24156">
+     <papertitle>Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction</papertitle>
+     </a>
+     <br>
+     Zengjie Chen, Yuxiang Cai, Jingcai Guo, Taotao Cai, Jianwei Yin, <strong>Zhi Chen</strong>
+     <br>
+     <em>European Conference on Computer Vision (ECCV) 2026 (Core A*)</em><br>
+     <div><abbr style="background-color:#58D68D"><strong>VLM</strong></abbr></div>
+     <a href="https://arxiv.org/pdf/2606.24156">arXiv</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
+     <p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
      <img src="https://uqzhichen.github.io/images/aaai2026.png" width="180" height="100" alt="Paper 1 figure"/>
      </td>
      <td style="width:75%;vertical-align: middle;">
