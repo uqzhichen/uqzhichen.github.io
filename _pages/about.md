@@ -43,6 +43,8 @@ redirect_from:
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.06*: &nbsp; Our survey paper [On the Element-Wise Representation and Reasoning in Zero-Shot Image Recognition](https://arxiv.org/pdf/2408.04879) has been accepted for publication in Edge Intelligence and Systems.
+
 - *2026.06*: &nbsp; Three papers have been accepted to ECCV 2026.
 
 - *2026.03*: &nbsp; One paper has been accepted to CVPR 2026.
@@ -130,6 +132,24 @@ redirect_from:
      </tr>
      <tr>
      <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="images/plantmicro.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2606.22497v1">
+     <papertitle>Benchmarking Vision-Language Models for Microscopic Plant Image Understanding</papertitle>
+     </a>
+     <br>
+     Tianqi Wei, Xin Yu, <strong>Zhi Chen</strong>, Scott Chapman, Zi Huang
+     <br>
+     <em>European Conference on Computer Vision (ECCV) 2026 (Core A*)</em><br>
+     <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
+     <a href="https://arxiv.org/pdf/2606.22497v1">arXiv</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
+     <p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
      <img src="https://uqzhichen.github.io/images/aaai2026.png" width="180" height="100" alt="Paper 1 figure"/>
      </td>
      <td style="width:75%;vertical-align: middle;">
@@ -160,6 +180,24 @@ redirect_from:
      <em>IEEE Transactions on Multimedia (Core A*, IF: 9.7)</em><br>
      <div><abbr style="background-color:#fcce03"><strong>ZSL</strong></abbr></div>
      <a href="https://ieeexplore.ieee.org/abstract/document/11441981/">paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
+    <p></p>
+    </td>
+     </tr>
+    <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="https://uqzhichen.github.io/images/survey2.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2408.04879">
+     <papertitle>On the Element-Wise Representation and Reasoning in Zero-Shot Image Recognition: A Systematic Survey</papertitle>
+     </a>
+     <br>
+     Jingcai Guo, Zhijie Rao, <strong>Zhi Chen</strong>, Jingren Zhou, Dacheng Tao, Song Guo
+     <br>
+     <em>Edge Intelligence and Systems (EIS)</em><br>
+     <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
+     <a href="https://arxiv.org/pdf/2408.04879">arXiv</a>
      &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
@@ -479,24 +517,6 @@ redirect_from:
     <a href="https://openreview.net/pdf?id=nbN8Ilbg8c">paper</a>
     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
     <p></p>
-    </td>
-    </tr>
-    <tr>
-    <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
-    <img src="https://uqzhichen.github.io/images/survey2.png" width="180" height="100" alt="Paper 1 figure"/>
-    </td>
-    <td style="width:75%;vertical-align: middle;">
-    <a href="https://arxiv.org/pdf/2408.04879">
-    <papertitle>On the Element-Wise Representation and Reasoning in Zero-Shot Image Recognition: A Systematic Survey</papertitle>
-    </a>
-    <br>
-    Jingcai Guo, Zhijie Rao, <strong>Zhi Chen</strong>, Song Guo, Jingren Zhou, Dacheng Tao 
-    <br>
-    <em>pre-print</em><br>
-    <div><abbr style="background-color:#58D68D"><strong>ZSL</strong></abbr></div>
-    <a href="https://arxiv.org/pdf/2408.04879">arXiv</a>
-    &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
-    <p></p><p></p><p></p>
     </td>
     </tr>
     <tr>
