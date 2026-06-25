@@ -2666,7 +2666,7 @@ details div ul li em:first-child {
     background: transparent;
     border: 0;
     border-radius: 0;
-    flex: 0 0 190px;
+    flex: 0 0 220px;
     min-height: 0;
     overflow: visible;
 }
@@ -2677,7 +2677,7 @@ details div ul li em:first-child {
 
 #tab-publications td:first-child img,
 #tab-publications table td:first-child img {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
     background: var(--vh-panel);
     border: 1px solid var(--vh-line) !important;
     border-radius: 0 !important;
@@ -2685,7 +2685,7 @@ details div ul li em:first-child {
     display: block;
     height: auto !important;
     max-height: none !important;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     width: 100% !important;
 }
@@ -3009,7 +3009,7 @@ html.dark-mode #tab-teaching table {
     }
 
     #tab-publications table:first-of-type tr:first-child td:first-child img {
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 16 / 9;
         min-height: 0;
     }
 
@@ -3128,12 +3128,12 @@ summary.news-expand-btn::-webkit-details-marker {
 
 #tab-publications table:first-of-type tr:first-child td:first-child,
 #tab-publications table:first-of-type tr:first-child td[style]:first-child {
-    flex: 0 0 190px;
+    flex: 0 0 220px;
 }
 
 #tab-publications table:first-of-type tr:first-child td:first-child img,
 #tab-publications table:first-of-type tr:first-child td[style]:first-child img {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
     height: auto !important;
     min-height: 0;
 }
@@ -3158,7 +3158,7 @@ html.dark-mode #tab-publications table:first-of-type tr:first-child {
     #tab-publications td:first-child,
     #tab-publications table:first-of-type tr:first-child td:first-child,
     #tab-publications table:first-of-type tr:first-child td[style]:first-child {
-        flex: 0 0 190px;
+        flex: 0 0 200px;
         width: auto;
     }
 
