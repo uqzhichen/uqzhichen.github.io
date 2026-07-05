@@ -43,6 +43,8 @@ redirect_from:
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.06*: &nbsp; Our paper [Synthesizing crop modelling and deep learning for remote estimation of wheat biomass dynamics from multispectral and weather observations](https://doi.org/10.1016/j.aiia.2026.06.007) has been accepted for publication in Artificial Intelligence in Agriculture (IF: 16.1).
+
 - *2026.06*: &nbsp; Our survey paper [On the Element-Wise Representation and Reasoning in Zero-Shot Image Recognition](https://arxiv.org/pdf/2408.04879) has been accepted for publication in Edge Intelligence and Systems.
 
 - *2026.06*: &nbsp; Three papers have been accepted to ECCV 2026.
@@ -198,6 +200,24 @@ redirect_from:
      <em>The 40th Annual AAAI Conference on Artificial Intelligence AAAI 2026 (Core A*)</em><br>
      <div><abbr style="background-color:#9b59b6"><strong>Diffusion</strong></abbr></div>
      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37841/41803">paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
+     <p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="images/specweanet.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://doi.org/10.1016/j.aiia.2026.06.007">
+     <papertitle>Synthesizing crop modelling and deep learning for remote estimation of wheat biomass dynamics from multispectral and weather observations</papertitle>
+     </a>
+     <br>
+     Qiaomin Chen*, <strong>Zhi Chen*</strong>, Pengcheng Hu, Bangyou Zheng, Daniel T.L. Smith, Javier Fernandez, Ismail I. Garba, Scott C. Chapman
+     <br>
+     <em>Artificial Intelligence in Agriculture (2026, IF: 16.1)</em><br>
+     <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
+     <a href="https://doi.org/10.1016/j.aiia.2026.06.007">paper</a>
      &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
