@@ -43,6 +43,8 @@ redirect_from:
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.07*: &nbsp; One paper, "Continual Video-MLLM Adaptation over Evolving Domains", has been accepted to the ACM Multimedia 2026 Main Track.
+
 - *2026.06*: &nbsp; Our paper [Synthesizing crop modelling and deep learning for remote estimation of wheat biomass dynamics from multispectral and weather observations](https://doi.org/10.1016/j.aiia.2026.06.007) has been accepted for publication in Artificial Intelligence in Agriculture (IF: 16.1).
 
 - *2026.06*: &nbsp; Our survey paper [On the Element-Wise Representation and Reasoning in Zero-Shot Image Recognition](https://arxiv.org/pdf/2408.04879) has been accepted for publication in Edge Intelligence and Systems.
