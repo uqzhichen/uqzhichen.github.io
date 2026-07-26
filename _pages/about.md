@@ -190,6 +190,24 @@ redirect_from:
      </tr>
      <tr>
      <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="images/daer.png" width="180" height="100" alt="Paper 1 figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2607.18716">
+     <papertitle>Continual Video-MLLM Adaptation over Evolving Domains</papertitle>
+     </a>
+     <br>
+     Rui Cheng, Meixing Shi, Yuxiang Cai*, Jingcai Guo, Jianwei Yin, <strong>Zhi Chen*</strong>
+     <br>
+     <em>ACM Multimedia 2026 (ACM MM 2026, Core A*)</em><br>
+     <div><abbr style="background-color:#58D68D"><strong>VLM</strong></abbr></div>
+     <a href="https://arxiv.org/pdf/2607.18716">arXiv</a> / <a href="https://github.com/ChengRui310/DAER" rel="noopener noreferrer">code</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
+     <p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
      <img src="https://uqzhichen.github.io/images/aaai2026.png" width="180" height="100" alt="Paper 1 figure"/>
      </td>
      <td style="width:75%;vertical-align: middle;">
