@@ -2347,7 +2347,7 @@ a:hover {
 }
 
 .profile-hero__photo {
-    aspect-ratio: 1;
+    aspect-ratio: 4 / 5;
     border: 1px solid var(--vh-line-strong);
     border-radius: 2px;
     display: block;
@@ -3184,13 +3184,14 @@ html.dark-mode #tab-publications table:first-of-type tr:first-child {
 .profile-hero__inner {
     align-items: start;
     column-gap: 3rem;
-    grid-template-columns: 180px minmax(0, 1fr);
+    grid-template-columns: 198px minmax(0, 1fr);
 }
 
 .profile-hero__portrait-card {
-    align-self: end;
-    margin-bottom: 1.2rem;
+    align-self: start;
+    margin-bottom: 0;
     margin-top: 0;
+    width: max-content;
 }
 
 .profile-hero__portrait-card::after {
@@ -3201,7 +3202,9 @@ html.dark-mode #tab-publications table:first-of-type tr:first-child {
 }
 
 .profile-hero__photo {
-    width: 180px;
+    height: 292px;
+    object-position: center center;
+    width: 198px;
 }
 
 .profile-hero__copy {
@@ -3255,11 +3258,12 @@ html.dark-mode #tab-publications table:first-of-type tr:first-child {
     }
 
     .profile-hero__portrait-card {
-        margin-bottom: 1.2rem;
+        margin-bottom: 0;
         margin-top: 0;
     }
 
     .profile-hero__photo {
+        height: 225px;
         width: 150px;
     }
 
@@ -3279,6 +3283,7 @@ html.dark-mode #tab-publications table:first-of-type tr:first-child {
     }
 
     .profile-hero__photo {
+        height: 210px;
         width: 168px;
     }
 
