@@ -43,6 +43,8 @@ redirect_from:
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.08*: &nbsp; I was invited to serve as a judge for the 2026 Premier's Coding Challenge, organised by the Queensland Government Department of Education.
+
 - *2026.07*: &nbsp; One paper, "Continual Video-MLLM Adaptation over Evolving Domains", has been accepted to the ACM Multimedia 2026 Main Track.
 
 - *2026.06*: &nbsp; Our paper [Synthesizing crop modelling and deep learning for remote estimation of wheat biomass dynamics from multispectral and weather observations](https://doi.org/10.1016/j.aiia.2026.06.007) has been accepted for publication in Artificial Intelligence in Agriculture (IF: 16.1).
@@ -1064,6 +1066,9 @@ Develop and deploy deep learning models for automated detection, segmentation, a
 - AAAI Conf. on Artificial Intelligence (AAAI) 2022-present <br>
 - Conference on Neural Information Processing Systems (NeurIPS) 2025-present <br>
 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023-present <br>
+
+##  Community & Outreach Service
+- Judge, 2026 Premier's Coding Challenge, Queensland Government Department of Education <br>
 
 ##  Journal Editorship
 - Associate Editor, Complex & Intelligent Systems <br>
