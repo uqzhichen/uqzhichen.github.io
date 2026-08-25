@@ -43,6 +43,8 @@ redirect_from:
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.08*: &nbsp; I was interviewed by ABC Southern Queensland about the Western Downs Digital Park data centre and regional digital infrastructure.
+
 - *2026.08*: &nbsp; I was invited to serve as a judge for the 2026 Premier's Coding Challenge, organised by the Queensland Government Department of Education.
 
 - *2026.07*: &nbsp; One paper, "Continual Video-MLLM Adaptation over Evolving Domains", has been accepted to the ACM Multimedia 2026 Main Track.
@@ -1068,6 +1070,7 @@ Develop and deploy deep learning models for automated detection, segmentation, a
 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023-present <br>
 
 ##  Community & Outreach Service
+- Media interview, ABC Southern Queensland, on the Western Downs Digital Park data centre (2026) <br>
 - Judge, 2026 Premier's Coding Challenge, Queensland Government Department of Education <br>
 
 ##  Journal Editorship
