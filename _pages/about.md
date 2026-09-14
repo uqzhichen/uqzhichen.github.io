@@ -43,6 +43,8 @@ redirect_from:
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.09*: &nbsp; Our paper [StomataSeg: Semi-Supervised Instance Segmentation for Sorghum Stomatal Components](https://arxiv.org/pdf/2602.00703) has been accepted for publication in Computers and Electronics in Agriculture.
+
 - *2026.08*: &nbsp; I was interviewed by ABC Southern Queensland about the Western Downs Digital Park data centre and regional digital infrastructure.
 
 - *2026.08*: &nbsp; I was invited to serve as a judge for the 2026 Premier's Coding Challenge, organised by the Queensland Government Department of Education.
@@ -242,6 +244,24 @@ redirect_from:
      <em>Artificial Intelligence in Agriculture (2026, IF: 16.1)</em><br>
      <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
      <a href="https://doi.org/10.1016/j.aiia.2026.06.007">paper</a>
+     &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
+     <p></p>
+     </td>
+     </tr>
+     <tr>
+     <td style="width: 25%; vertical-align: middle;padding-bottom: 20px;">
+     <img src="images/stomataseg.png" width="180" height="100" alt="Paper figure"/>
+     </td>
+     <td style="width:75%;vertical-align: middle;">
+     <a href="https://arxiv.org/pdf/2602.00703">
+     <papertitle>StomataSeg: Semi-Supervised Instance Segmentation for Sorghum Stomatal Components</papertitle>
+     </a>
+     <br>
+     Zhongtian Huang, <strong>Zhi Chen*</strong>, Zi Huang, Xin Yu, Daniel Smith, Chaitanya Purushothama, Erik Van Oosterom, Alex Wu, William Salter, Yan Li, Scott Chapman
+     <br>
+     <em>Computers and Electronics in Agriculture (2026)</em><br>
+     <div><abbr style="background-color:#16a34a"><strong>AI for Agriculture</strong></abbr></div>
+     <a href="https://arxiv.org/pdf/2602.00703">arXiv</a> / <a href="https://github.com/Davidhzt/StomataSeg_full" rel="noopener noreferrer">code</a> / <a href="https://zenodo.org/records/18216859" rel="noopener noreferrer">dataset</a>
      &nbsp;<button class="bibtex-btn" onclick="copyBibtex(this)">BibTeX</button>
      <p></p>
      </td>
