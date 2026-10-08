@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shapley Lab — build the prediction</title>
+<meta name="description" content="A hands-on Shapley experiment. Add or remove a lesion and a background, observe score changes, and compare all inclusion orders with two or three features.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23192531'/%3E%3Ctext x='16' y='24' text-anchor='middle' font-family='Georgia' font-size='27' fill='white'%3Eφ%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header><div class="brand"><span class="brand-mark" aria-hidden="true">φ</span><div><h1>Shapley lab</h1><p>Add a feature. Change the order. See what changes.</p></div></div><div class="header-actions"><button id="reset" class="quiet">Reset lab</button><button id="fullscreen" class="quiet">Full screen</button></div></header>
+<div class="mode-bar"><div class="mode-switch" role="group" aria-label="Number of features"><button data-mode="2" aria-pressed="false">2 features</button><button data-mode="3" aria-pressed="true">3 features</button></div><p id="mode-explanation">3 features → 6 inclusion orders. Same rule: average each column.</p><div class="playback"><button id="play-orders" class="primary">Run remaining orders</button><span id="play-status">Or build any order yourself.</span></div></div>
+<main class="workbench">
+<section class="feature-shelf" id="shelf" aria-labelledby="features-heading"><div class="section-label">FEATURES</div><h2 id="features-heading">Pick up a feature</h2><p class="hint">Click to add or remove.<br> Or drag into the input.</p><div id="feature-buttons"></div><div class="reference-note"><span>REFERENCE</span><strong>0.12</strong><p>No features present.<br>Our starting score.</p></div></section>
+<section class="experiment" aria-labelledby="experiment-heading"><div class="panel-heading"><div><div class="section-label">LIVE EXPERIMENT</div><h2 id="experiment-heading">Build the input</h2></div><span class="input-coordinate" id="input-coordinate">(L, B) = (0, 0)</span></div>
+<div class="experiment-stage" id="drop-zone" aria-label="Drop features here to add them to the model input"><div class="input-canvas"><div id="input-features" class="input-features"></div><p id="input-label">Reference input</p><span class="drop-caption">Drop features here</span></div><div class="score-panel"><span class="score-label">MODEL SCORE</span><strong id="current-score">0.12</strong><div class="score-meter" role="img" id="score-meter" aria-label="Model score 0.12 on a scale of 0 to 1"><span id="score-fill"></span></div><div class="meter-scale"><span>0</span><span>1</span></div></div></div>
+<div class="change-strip" id="last-change" aria-live="polite"><span>Start with either feature.</span><strong>What will it add?</strong></div>
+<div class="route-heading"><h3>This attempt</h3><span id="route-mode">Ready to record</span></div><div class="route" id="route"></div>
+<div class="experiment-actions"><button id="new-order" class="primary">New order</button><button id="undo" class="quiet" disabled>Undo</button><span id="attempt-hint">Choose L or B first.</span></div>
+<div class="scorebook"><div class="scorebook-heading" id="scorebook-heading"></div><div class="model-scores" id="model-scores"></div></div>
+</section>
+<aside class="results" aria-labelledby="results-heading"><div class="panel-heading"><div><div class="section-label">YOUR OBSERVATIONS</div><h2 id="results-heading">Compare the orders</h2></div><span class="count" id="order-count">0 / 2</span></div><p class="hint">Each completed order is recorded once.</p><table><thead id="ledger-heading"></thead><tbody id="order-ledger"></tbody></table><div class="coverage" aria-hidden="true"><span id="coverage-fill"></span></div><div class="averages" id="averages"></div><div id="sum-check"></div><p class="scope-note" id="scope-note">Explaining the input with both features: <strong>0.92</strong>, compared with the reference: <strong>0.12</strong>.</p></aside>
+</main>
+<footer><span>Constructed model scores · Absent features use reference values · Model-score units</span><span><kbd>L</kbd> / <kbd>B</kbd> / <kbd>T</kbd> toggle · <kbd>N</kbd> new order · <kbd>Z</kbd> undo · <kbd>F</kbd> full screen</span></footer>
+</div><div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<script src="lab-model.js"></script><script src="app.js"></script>
+</body></html>

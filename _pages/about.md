@@ -1062,6 +1062,8 @@ Develop and deploy deep learning models for automated detection, segmentation, a
 <span class='anchor' id='teachings'></span>
 # 🧑🏻‍🏫 Teaching
 
+**Interactive classroom demo:** [Shapley lab]({{ '/shapley/' | relative_url }}) — Explore how feature contributions change with inclusion order, and calculate Shapley values with two or three features.
+
 | Course | Institution | Period | Role | Rating |
 |:---|:---|:---:|:---|:---:|
 | **CSC3600** ICT Professional Project | UniSQ | 2025 T3 | Course Coordinator | 5.0 |
